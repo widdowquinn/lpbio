@@ -63,6 +63,21 @@ def test_create_run_job():
     shutil.which(pysge.QSUB_DEFAULT) is None,
     reason="qsub executable ({}) could not be found".format(pysge.QSUB_DEFAULT),
 )
+def test_create_run_job_badname():
+    """Create and run a Job using SGE-like scheduler
+    
+    This job has undesirable characters in the name
+    """
+    job = pysge.Job(
+        name="test run job #|!;,.?", command="echo {}".format(time.asctime())
+    )
+    pysge.build_and_submit_jobs(job)
+
+
+@pytest.mark.skipif(
+    shutil.which(pysge.QSUB_DEFAULT) is None,
+    reason="qsub executable ({}) could not be found".format(pysge.QSUB_DEFAULT),
+)
 def test_create_run_jobgroup():
     """Create and run JobGroup with SGE-like scheduler"""
     args = {"arg1": ["a", "b", "c"]}

@@ -2,6 +2,7 @@
 """Job class for SGE-like scheduler interactions"""
 
 import os
+import shlex
 import time
 
 # Base unit of time (s) to wait between polling SGE
@@ -18,7 +19,7 @@ class Job:
         - command        String, the valid shell command to run the job
         - queue          String, the SGE queue under which the job shall run
         """
-        self.name = name  # Unique name for the job
+        self.name = shlex.quote(name.replace(" ", "_"))  # Unique name for the job
         self.queue = queue  # The SGE queue to run the job under
         self.command = command  # Command line to run for this job
         self.script = command
