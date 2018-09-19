@@ -55,7 +55,10 @@ def test_create_jobgroup_dependencies():
 )
 def test_create_run_job():
     """Create and run Job with SGE-like scheduler"""
-    job = pysge.Job(name="test_run_job", command="echo {} (test_create_run_job)".format(time.asctime()))
+    job = pysge.Job(
+        name="test_run_job",
+        command="echo {} (test_create_run_job)".format(time.asctime()),
+    )
     pysge.build_and_submit_jobs(job)
 
 
