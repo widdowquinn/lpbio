@@ -88,9 +88,9 @@ def test_create_run_job_dependencies():
         for i in range(3)
     ]
     for depjob in depjobs:
-        pass
-        #job.add_dependency(depjob)
-    pysge.build_and_submit_jobs(job)
+        job.add_dependency(depjob)
+    pysge.build_and_submit_jobs([job] + depjobs)
+
 
 @pytest.mark.skip(reason="debugging dependency problems on cluster")
 @pytest.mark.skipif(
