@@ -47,11 +47,13 @@ import os
 import shutil
 import subprocess
 
-from .Job import Job            # noqa: F401
+from .Job import Job  # noqa: F401
 from .JobGroup import JobGroup
 
 # Default location for qsub executable
-QSUB_DEFAULT = "qsub"
+QSUB_DEFAULT = shutil.which("qsub")
+if QSUB_DEFAULT is None:
+    QSUB_DEFAULT = "qsub"
 
 
 class PySGEException(Exception):
@@ -161,7 +163,7 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
         if sgeargs is not None:
             qsubcmd = "%s %s" % (qsubcmd, sgeargs)
         os.system(qsubcmd)
-        #subprocess.run(qsubcmd)
+        # subprocess.run(qsubcmd)
         job.submitted = True  # Set the job's submitted flag to True
 
 
