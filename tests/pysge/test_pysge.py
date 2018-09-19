@@ -57,7 +57,7 @@ def test_create_run_job():
     """Create and run Job with SGE-like scheduler"""
     job = pysge.Job(
         name="test_run_job",
-        command="echo {} \(test_create_run_job\)".format(time.asctime()),
+        command="echo {} \\(test_create_run_job\\)".format(time.asctime()),
     )
     pysge.build_and_submit_jobs(job)
 
@@ -73,7 +73,7 @@ def test_create_run_job_badname():
     """
     job = pysge.Job(
         name="test run job #|!;,.?",
-        command="echo This was a bad name! \(test_create_run_job_badname\)",
+        command="echo This was a bad name! \\(test_create_run_job_badname\\)",
     )
     pysge.build_and_submit_jobs(job)
 
@@ -87,7 +87,7 @@ def test_create_run_jobgroup():
     args = {"arg1": ["a", "b", "c"]}
     jobgroup = pysge.JobGroup(
         name="test_run_jobgroup",
-        command="echo $arg1 \(test_create_run_jobgroup\)",
+        command="echo $arg1 \\(test_create_run_jobgroup\\)",
         arguments=args,
     )
     pysge.build_and_submit_jobs(jobgroup)
@@ -101,7 +101,7 @@ def test_create_run_job_dependencies():
     """Create and run Job with dependencies for SGE-like scheduler"""
     job = pysge.Job(
         name="test_run_job_dependencies",
-        command="echo {} \(test_create_run_job_dependencies\)".format(time.asctime()),
+        command="echo {} \\(test_create_run_job_dependencies\\)".format(time.asctime()),
     )
     depjobs = [
         pysge.Job(
@@ -124,7 +124,7 @@ def test_create_run_jobgroup_dependencies():
     args = {"arg1": ["a", "b", "c"]}
     jobgroup = pysge.JobGroup(
         name="test_run_jobgroup_dependencies",
-        command="echo $arg1 \(test_create_run_jobgroup_dependencies\)",
+        command="echo $arg1 \\(test_create_run_jobgroup_dependencies\\)",
         arguments=args,
     )
     depjobs = [
