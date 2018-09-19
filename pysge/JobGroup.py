@@ -35,7 +35,7 @@ class JobGroup:
         """
         self.name = shlex.quote(name.replace(" ", "_"))  # Set JobQueue name
         self.queue = queue  # Set SGE queue to request
-        self.command = shlex.quote(command)  # Set command string
+        self.command = command  # Set command string
         self.dependencies = []  # Create empty list for dependencies
         self.submitted = False  # Set submitted Boolean
         self.finished = False

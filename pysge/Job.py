@@ -21,7 +21,7 @@ class Job:
         """
         self.name = shlex.quote(name.replace(" ", "_"))  # Unique name for the job
         self.queue = queue  # The SGE queue to run the job under
-        self.command = shlex.quote(command)  # Command line to run for this job
+        self.command = command  # Command line to run for this job
         self.script = command
         self.scriptPath = None  # Will hold path to the script file
         self.dependencies = []  # List of jobs to be completed first
