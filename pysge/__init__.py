@@ -160,7 +160,8 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
         qsubcmd = "%s -V %s %s" % (QSUB_DEFAULT, args, job.scriptpath)
         if sgeargs is not None:
             qsubcmd = "%s %s" % (qsubcmd, sgeargs)
-        subprocess.run(qsubcmd)
+        os.system(qsubcmd)
+        #subprocess.run(qsubcmd)
         job.submitted = True  # Set the job's submitted flag to True
 
 
