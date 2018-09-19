@@ -2,6 +2,7 @@
 """JobGroup class for SGE-like scheduler interactions"""
 
 import os
+import shlex
 import time
 
 # Base unit of time (s) to wait between polling SGE
@@ -32,9 +33,9 @@ class JobGroup:
         arguments='{'fooargs': ['1','2','3','4'],
                     'barargs': ['a','b','c','d']}
         """
-        self.name = name  # Set JobQueue name
+        self.name = shlex.quote(name.replace(" ", "_"))  # Set JobQueue name
         self.queue = queue  # Set SGE queue to request
-        self.command = command  # Set command string
+        self.command = shlex.quote(command)  # Set command string
         self.dependencies = []  # Create empty list for dependencies
         self.submitted = False  # Set submitted Boolean
         self.finished = False
