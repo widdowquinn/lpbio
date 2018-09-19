@@ -65,11 +65,12 @@ def test_create_run_job():
 )
 def test_create_run_job_badname():
     """Create and run a Job using SGE-like scheduler
-    
+
     This job has undesirable characters in the name
     """
     job = pysge.Job(
-        name="test run job #|!;,.?", command="echo {}".format(time.asctime())
+        name="test run job #|!;,.?",
+        command="echo This was a bad name! (test_create_run_job_badname)",
     )
     pysge.build_and_submit_jobs(job)
 
