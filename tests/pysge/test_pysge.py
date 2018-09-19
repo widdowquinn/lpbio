@@ -83,7 +83,8 @@ def test_create_run_job_dependencies():
     )
     depjobs = [
         pysge.Job(
-            name="dependency {}".format(i), command="echo {}".format(time.asctime())
+            name="testjob_dependency_{}".format(i),
+            command="echo {}".format(time.asctime()),
         )
         for i in range(3)
     ]
@@ -105,7 +106,8 @@ def test_create_run_jobgroup_dependencies():
     )
     depjobs = [
         pysge.Job(
-            name="dependency {}".format(i), command="echo {}".format(time.asctime())
+            name="testjobgroup_dependency_{}".format(i),
+            command="echo {}".format(time.asctime()),
         )
         for i in range(3)
     ]
