@@ -93,7 +93,6 @@ def test_create_run_job_dependencies():
     pysge.build_and_submit_jobs([job] + depjobs)
 
 
-@pytest.mark.skip(reason="debugging dependency problems on cluster")
 @pytest.mark.skipif(
     shutil.which(pysge.QSUB_DEFAULT) is None,
     reason="qsub executable ({}) could not be found".format(pysge.QSUB_DEFAULT),
@@ -113,4 +112,4 @@ def test_create_run_jobgroup_dependencies():
     ]
     for depjob in depjobs:
         jobgroup.add_dependency(depjob)
-    pysge.build_and_submit_jobs(jobgroup)
+    pysge.build_and_submit_jobs([jobgroup] + depjobs)
