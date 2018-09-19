@@ -72,7 +72,6 @@ def test_create_run_jobgroup():
     pysge.build_and_submit_jobs(jobgroup)
 
 
-@pytest.mark.skip(reason="make single job calls work, first")
 @pytest.mark.skipif(
     shutil.which(pysge.QSUB_DEFAULT) is None,
     reason="qsub executable ({}) could not be found".format(pysge.QSUB_DEFAULT),
@@ -93,7 +92,6 @@ def test_create_run_job_dependencies():
     pysge.build_and_submit_jobs(job)
 
 
-@pytest.mark.skip(reason="make single job calls work, first")
 @pytest.mark.skipif(
     shutil.which(pysge.QSUB_DEFAULT) is None,
     reason="qsub executable ({}) could not be found".format(pysge.QSUB_DEFAULT),
