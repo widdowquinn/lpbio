@@ -87,7 +87,7 @@ def test_create_run_jobgroup():
     args = {"arg1": ["a", "b", "c"]}
     jobgroup = pysge.JobGroup(
         name="test_run_jobgroup",
-        command="echo $arg1 \(test_create_run_jobgroup)\",
+        command="echo $arg1 \(test_create_run_jobgroup\)",
         arguments=args,
     )
     pysge.build_and_submit_jobs(jobgroup)
