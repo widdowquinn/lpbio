@@ -43,7 +43,7 @@ setup(
     platforms="Posix; MacOS X",
     url="http://widdowquinn.github.io/lpbio/",  # project home page
     download_url="https://github.com/widdowquinn/lpbio/releases",
-    scripts=[],
+    scripts=[os.path.join("bin", "bulk_prokka")],
     packages=["lpbio"],
     package_data={},
     include_package_date=True,

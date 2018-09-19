@@ -4,6 +4,9 @@ stdout/
 stderr/
 output/
 
+# Test output
+tests/bulk_prokka/output
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
