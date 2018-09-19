@@ -127,9 +127,6 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
     - root_dir      Path to output directory
     - jobs          Iterable of Job objects
     """
-    # Raise error if qsub is not present
-    if shutil.which(QSUB_DEFAULT) is None:
-        raise PySGEException("qsub not found")
     # Loop over each job, constructing SGE command-line based on job settings
     for job in jobs:
         job.out = os.path.join(root_dir, "stdout")
