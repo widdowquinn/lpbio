@@ -31,7 +31,7 @@ if sys.version_info <= (3, 0):
     sys.exit(1)
 
 setup(
-    name="pyani",
+    name="lpbio",
     version=version,
     author="Leighton Pritchard",
     author_email="leighton.pritchard@hutton.ac.uk",
