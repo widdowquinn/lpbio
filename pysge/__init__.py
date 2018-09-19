@@ -146,7 +146,7 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
 
         # If the job is actually a JobGroup, add the task numbering argument
         if isinstance(job, JobGroup):
-            args += "-t 1:{} ".format(shlex.quote(job.tasks))
+            args += shlex.quote("-t 1:{} ".format(job.tasks))
 
         # If there are dependencies for this job, hold the job until they are
         # complete
@@ -161,6 +161,7 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
         if sgeargs is not None:
             qsubcmd = "{} {}".format(qsubcmd, shlex.quote(sgeargs))
         safecmd = shlex.split(qsubcmd)
+        print(safecmd)
         subprocess.run(safecmd)
         job.submitted = True  # Set the job's submitted flag to True
 
