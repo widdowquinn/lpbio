@@ -87,8 +87,8 @@ def test_create_run_job_dependencies():
         )
         for i in range(3)
     ]
-    # for depjob in depjobs:
-    #    job.add_dependency(depjob)
+    for depjob in depjobs:
+        job.add_dependency(depjob)
     pysge.build_and_submit_jobs(job)
 
 
@@ -108,6 +108,6 @@ def test_create_run_jobgroup_dependencies():
         )
         for i in range(3)
     ]
-    # for depjob in depjobs:
-    #    jobgroup.add_dependency(depjob)
+    for depjob in depjobs:
+        jobgroup.add_dependency(depjob)
     pysge.build_and_submit_jobs(jobgroup)

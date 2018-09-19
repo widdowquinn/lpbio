@@ -32,22 +32,22 @@ class JobGroup:
         arguments='{'fooargs': ['1','2','3','4'],
                     'barargs': ['a','b','c','d']}
         """
-        self.name = name               # Set JobQueue name
-        self.queue = queue             # Set SGE queue to request
-        self.command = command         # Set command string
-        self.dependencies = []         # Create empty list for dependencies
-        self.submitted = False          # Set submitted Boolean
+        self.name = name  # Set JobQueue name
+        self.queue = queue  # Set SGE queue to request
+        self.command = command  # Set command string
+        self.dependencies = []  # Create empty list for dependencies
+        self.submitted = False  # Set submitted Boolean
         self.finished = False
         if arguments is not None:
             self.arguments = arguments  # Dictionary of arguments for command
         else:
             self.arguments = {}
-        self.generate_script()         # Make SGE script for sweep/array
+        self.generate_script()  # Make SGE script for sweep/array
 
     def generate_script(self):
         """Create the SGE script that will run the jobs in the JobGroup."""
-        self.script = ""        # Holds the script string
-        total = 1               # total number of jobs in this group
+        self.script = ""  # Holds the script string
+        total = 1  # total number of jobs in this group
 
         # for now, SGE_TASK_ID becomes TASK_ID, but we base it at zero
         self.script += """let "TASK_ID=$SGE_TASK_ID - 1"\n"""
@@ -56,7 +56,7 @@ class JobGroup:
         for key in sorted(self.arguments.keys()):
             # The keys are sorted for py3.5 compatibility with tests
             values = self.arguments[key]
-            line = ("%s_ARRAY=( " % (key))
+            line = "%s_ARRAY=( " % (key)
             for value in values:
                 line += value
                 line += " "
