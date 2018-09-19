@@ -1,5 +1,8 @@
 # Test and temp directories for development
 jobs/
+stdout/
+stderr/
+output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
