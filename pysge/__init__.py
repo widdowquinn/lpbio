@@ -44,11 +44,22 @@ operation of the code.
 """
 
 import os
+import shutil
+import subprocess
 
+from .Job import Job            # noqa: F401
 from .JobGroup import JobGroup
 
 # Default location for qsub executable
 QSUB_DEFAULT = "qsub"
+
+
+class PySGEException(Exception):
+    """General exception for pysge."""
+
+    def __init__(self, msg="Error in pysge module"):
+        """Instantiate class."""
+        Exception.__init__(self, msg)
 
 
 def build_directories(root_dir):
@@ -114,6 +125,9 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
     - root_dir      Path to output directory
     - jobs          Iterable of Job objects
     """
+    # Raise error if qsub is not present
+    if shutil.which(QSUB_DEFAULT) is None:
+        raise PySGEException("qsub not found")
     # Loop over each job, constructing SGE command-line based on job settings
     for job in jobs:
         job.out = os.path.join(root_dir, "stdout")
@@ -146,7 +160,7 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
         qsubcmd = "%s -V %s %s" % (QSUB_DEFAULT, args, job.scriptpath)
         if sgeargs is not None:
             qsubcmd = "%s %s" % (qsubcmd, sgeargs)
-        os.system(qsubcmd)  # Run the command
+        subprocess.run(qsubcmd)
         job.submitted = True  # Set the job's submitted flag to True
 
 
