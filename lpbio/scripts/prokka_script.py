@@ -50,7 +50,7 @@ import time
 import pysge
 
 from .. import __version__
-from .logger import build_logger, last_exception
+from .logger import build_logger
 from .parsers.prokka_parser import parse_cmdline
 
 
@@ -196,11 +196,11 @@ def run_main(argv=None, logger=None):
     # Submit commands to scheduler
     logger.info("Submitting prokka command-lines to %s scheduler", args.scheduler)
     if args.scheduler == "multiprocessing":
-        results = run_multiprocessing(cmdlist, args, logger)
+        run_multiprocessing(cmdlist, args, logger)
         # To extract more information on each run, use
         # [result.get() for result in results]
     if args.scheduler == "SGE":
-        results = run_sge(cmdlist, args, logger)
+        run_sge(cmdlist, args, logger)
     logger.info("Submission complete")
 
     # Report on clean exit
