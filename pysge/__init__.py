@@ -135,9 +135,9 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
 
         # Add the job name, current working directory, and SGE stdout/stderr
         # directories to the SGE command line
-        args = " -N %s " % (job.name)
-        args += " -cwd "
-        args += " -o %s -e %s " % (job.out, job.err)
+        args = " -N {} -cwd -o {} -e {} ".format(
+            shlex.quote(job.name), shlex.quote(job.out), shlex.quote(job.err)
+        )
 
         # If a queue is specified, add this to the SGE command line
         # LP: This has an undeclared variable, not sure why - delete?
@@ -146,21 +146,22 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
 
         # If the job is actually a JobGroup, add the task numbering argument
         if isinstance(job, JobGroup):
-            args += "-t 1:%d " % (job.tasks)
+            args += "-t 1:{} ".format(shlex.quote(job.tasks))
 
         # If there are dependencies for this job, hold the job until they are
         # complete
         if len(job.dependencies) > 0:
             args += "-hold_jid "
-            for dep in job.dependencies:
-                args += dep.name + ","
-            args = args[:-1]
+            args += ','.join[shlex.quote(dep.name) for dep in job.dependencies]
 
         # Build the qsub SGE commandline (passing local environment)
-        qsubcmd = "%s -V %s %s" % (QSUB_DEFAULT, args, job.scriptpath)
+        qsubcmd = "{} -V {} {}".format(
+            shlex.quote(QSUB_DEFAULT), shlex.quote(args), shlex.quote(job.scriptpath)
+        )
         if sgeargs is not None:
-            qsubcmd = "%s %s" % (qsubcmd, sgeargs)
-        subprocess.run(shlex.split(shlex.quote(qsubcmd)))
+            qsubcmd = "{} {}".format(qsubcmd, shlex.quote(sgeargs))
+        safecmd = shlex.split(qsubcmd)
+        subprocess.run(safecmd)
         job.submitted = True  # Set the job's submitted flag to True
 
 
