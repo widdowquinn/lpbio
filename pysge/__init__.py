@@ -130,13 +130,13 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
     """
     # Loop over each job, constructing SGE command-line based on job settings
     for job in jobs:
-        job.out = os.path.join(root_dir, "stdout")
-        job.err = os.path.join(root_dir, "stderr")
+        job.out = shlex.quote(os.path.join(root_dir, "stdout"))
+        job.err = shlex.quote(os.path.join(root_dir, "stderr"))
 
         # Add the job name, current working directory, and SGE stdout/stderr
         # directories to the SGE command line
         args = " -N {} -cwd -o {} -e {} ".format(
-            shlex.quote(job.name), shlex.quote(job.out), shlex.quote(job.err)
+            shlex.quote(job.name), job.out, job.err
         )
 
         # If a queue is specified, add this to the SGE command line
@@ -146,20 +146,20 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
 
         # If the job is actually a JobGroup, add the task numbering argument
         if isinstance(job, JobGroup):
-            args += shlex.quote("-t 1:{} ".format(job.tasks))
+            args += "-t 1:{} ".format(shlex.quote(str(job.tasks)))
 
         # If there are dependencies for this job, hold the job until they are
         # complete
         if len(job.dependencies) > 0:
-            args += "-hold_jid "
-            args += ",".join([shlex.quote(dep.name) for dep in job.dependencies])
+            args += "-hold_jid {}".format(
+                ",".join([shlex.quote(dep.name) for dep in job.dependencies])
+            )
 
         # Build the qsub SGE commandline (passing local environment)
         qsubcmd = "{} -V {} {}".format(QSUB_DEFAULT, args, shlex.quote(job.scriptpath))
         if sgeargs is not None:
             qsubcmd = "{} {}".format(qsubcmd, shlex.quote(sgeargs))
         safecmd = shlex.split(qsubcmd)
-        print(safecmd)
         subprocess.run(safecmd)
         job.submitted = True  # Set the job's submitted flag to True
 
