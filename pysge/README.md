@@ -26,7 +26,7 @@ my_job = pysge.Job(name="My_Job", command="echo My Job")
 pysge.build_and_submit_jobs(my_job)
 ```
 
-> **NOTE:** jobs are provided to the scheduler by writing them to a jobfile script which has the name of the `Job` object. Therefore to be safe you should avoid passing jobs with identical names, or names containing spaces or other characters that might be problematic for the filesystem. The module will attempt to fix "bad" names, but will not make job names unique. 
+> **NOTE:** jobs are provided to the scheduler by writing them to a jobfile script which has the name of the `Job` object. Therefore to be safe you should avoid passing jobs with identical names, or names containing spaces or other characters that might be problematic for the filesystem. The module will attempt to fix "bad" names, but will not make job names unique.
 
 ### Submit multiple single jobs
 

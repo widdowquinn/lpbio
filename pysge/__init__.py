@@ -152,7 +152,7 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
         # complete
         if len(job.dependencies) > 0:
             args += "-hold_jid "
-            args += ','.join[shlex.quote(dep.name) for dep in job.dependencies]
+            args += ",".join([shlex.quote(dep.name) for dep in job.dependencies])
 
         # Build the qsub SGE commandline (passing local environment)
         qsubcmd = "{} -V {} {}".format(
