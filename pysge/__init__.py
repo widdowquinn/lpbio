@@ -155,9 +155,7 @@ def submit_safe_jobs(root_dir, jobs, sgeargs=None):
             args += ",".join([shlex.quote(dep.name) for dep in job.dependencies])
 
         # Build the qsub SGE commandline (passing local environment)
-        qsubcmd = "{} -V {} {}".format(
-            shlex.quote(QSUB_DEFAULT), shlex.quote(args), shlex.quote(job.scriptpath)
-        )
+        qsubcmd = "{} -V {} {}".format(QSUB_DEFAULT, args, shlex.quote(job.scriptpath))
         if sgeargs is not None:
             qsubcmd = "{} {}".format(qsubcmd, shlex.quote(sgeargs))
         safecmd = shlex.split(qsubcmd)
