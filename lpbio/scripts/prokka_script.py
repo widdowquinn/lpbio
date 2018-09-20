@@ -39,6 +39,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 """
 
+import csv
 import multiprocessing
 import os
 import shlex
@@ -79,25 +80,100 @@ def identify_inputs(args, logger):
     return infiles
 
 
-def build_prokka_cmd(
-    fname, indir, outdir, prokka_exe, locustag=None, prefix=None, logger=None
-):
+def load_bulk_prokka_config(fname, logger=None):
+    """Load bulk_prokka config file into dictionary keyed by filestem"""
+    if not os.path.isfile(fname):
+        logger.error("Config file %s does not exist; ignoring --config option", fname)
+        return None
+
+    # Load config data as a dict of dicts:
+    #  top-level: keyed by filestem
+    #  inner-level: keyed by header
+    with open(fname, "r") as cfh:
+        confreader = csv.reader(cfh, delimiter="\t")
+        headers = dict([(val, idx) for idx, val in enumerate(next(confreader, None))])
+        if "filestem" not in headers:  # Exit if no filestem defined in file
+            logger.error(
+                "Config file %s lacks 'filestem' header; ignoring --config option",
+                fname,
+            )
+            return None
+        print("Headers: ", headers)
+        confdata = {}  # dict of dicts with config data
+        for row in confreader:
+            rowdata = {
+                header: row[idx]
+                for (header, idx) in headers.items()
+                if header != "filestem"
+            }
+            filestem = row[headers["filestem"]]
+            if not filestem:
+                logger.warning("Skipping row with no filestem:\n\t%s", row)
+            else:
+                confdata[filestem] = rowdata
+    return confdata
+
+
+def add_prokka_arg(cmd, key, val):
+    """Add the corresponding prokka argument for key to cmd and return"""
+    argdict = {
+        "prefix": "--prefix",
+        "locustag": "--locustag",
+        "increment": "--increment",
+        "centre": "--centre",
+        "accver": "--accver",
+        "kingdom": "--kingdom",
+        "genus": "--genus",
+        "species": "--species",
+        "strain": "--strain",
+        "plasmid": "--plasmid",
+        "gcode": "--gcode",
+        "gram": "--gram",
+    }
+    try:
+        cmd = " ".join([cmd, argdict[key], shlex.quote(val)])
+    except KeyError:
+        logger.warning("Cannot process argument %s (skipping)", key)
+    return cmd
+
+
+def build_prokka_cmd(fname, args, config=None, logger=None):
     """Construct a prokka command-line from the arguments"""
-    stem = os.path.splitext(fname)[0]
-    fpath = os.path.join(indir, fname)
-    if locustag is None:
-        logger.debug("No locus tag provided for %s: using %s", fpath, stem)
-        locustag = stem
-    if prefix is None:
-        logger.debug("No prefix provided for %s: using %s", fpath, stem)
-        prefix = stem
-    cmd = "{} --locustag {} --outdir {} --prefix {} {}".format(
-        shlex.quote(prokka_exe),
-        shlex.quote(locustag),
-        shlex.quote(os.path.join(outdir, stem)),
-        shlex.quote(prefix),
-        shlex.quote(fpath),
+    stem = shlex.quote(os.path.splitext(fname)[0])
+    fpath = os.path.join(args.indir, fname)
+
+    cmd = "{} --mincontiglen {} --outdir {}".format(
+        shlex.quote(args.prokka_exe),
+        shlex.quote(str(args.mincontiglen)),
+        shlex.quote(os.path.join(args.outdir, stem)),
     )
+
+    # Process config info
+    if config is None:
+        if stem not in config:
+            logger.warning(
+                "Attempted to process filestem %s, but not found in config file (skipping)",
+                stem,
+            )
+        else:
+            for key in config[stem]:
+                cmd = add_prokka_arg(cmd, key, config[key])
+
+    # Add locustag and prefix
+    logger.debug("No locus tag provided for %s: using %s", fpath, stem)
+    locustag = stem
+    logger.debug("No prefix provided for %s: using %s", fpath, stem)
+    prefix = stem
+    cmd = " ".join([cmd, "--prefix", prefix, "--locustag", locustag])
+
+    if args.compliant:  # Force Genbankk/ENA/DDJB compliance
+        cmd = " ".join([cmd, "--compliant"])
+
+    if args.metagenome:  # Improve gene prediction for fragmented genomes
+        cmd = " ".join([cmd, "--metagenome"])
+
+    # Add path to input file
+    cmd = " ".join([cmd, shlex.quote(fpath)])
     logger.info("\t%s", cmd)
     return cmd
 
@@ -177,19 +253,17 @@ def run_main(argv=None, logger=None):
             )
             shutil.rmtree(args.outdir)
 
+    # If necessary, load config data for bulk_prokka
+    if args.config is not None:
+        config_data = load_bulk_prokka_config(args.config, logger)
+    else:
+        config_data = None
+
     # Create list of prokka commands
     cmdlist = []
     for fname in infiles:
         cmdlist.append(
-            build_prokka_cmd(
-                fname=fname,
-                indir=args.indir,
-                outdir=args.outdir,
-                prokka_exe=args.prokka_exe,
-                locustag=args.locustag,
-                prefix=args.prefix,
-                logger=logger,
-            )
+            build_prokka_cmd(fname=fname, args=args, config=config_data, logger=logger)
         )
     logger.info("Compiled %d prokka command-lines", len(cmdlist))
 

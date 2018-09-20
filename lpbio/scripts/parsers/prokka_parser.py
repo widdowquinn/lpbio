@@ -96,6 +96,13 @@ def parse_cmdline(argv=None):
 
     # Prokka-specific arguments
     parser.add_argument(
+        "--config",
+        action="store",
+        dest="config",
+        default=None,
+        help="path to config file for bulk_prokka run"
+    )
+    parser.add_argument(
         "--prokka_exe",
         action="store",
         dest="prokka_exe",
@@ -103,18 +110,25 @@ def parse_cmdline(argv=None):
         help="path to prokka executable",
     )
     parser.add_argument(
-        "--locustag",
-        action="store",
-        dest="locustag",
-        default=None,
-        help="locus tag to use for predicted CDS",
+        "--compliant",
+        action="store_true",
+        dest="compliant",
+        default=False,
+        help="Force Genbank/ENA/DDJB compliance",
     )
     parser.add_argument(
-        "--prefix",
+        "--metagenome",
+        action="store_true",
+        dest="metagenome",
+        default=False,
+        help="Improve gene prediction for fragmented genomes",
+    )
+    parser.add_argument(
+        "--mincontiglen",
         action="store",
-        dest="prefix",
-        default=None,
-        help="prefix string for output files",
+        dest="mincontiglen",
+        default=200,
+        help="Improve gene prediction for fragmented genomes",
     )
 
     # Scheduler arguments

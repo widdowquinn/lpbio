@@ -1,0 +1,4 @@
+filestem	prefix	locustag	increment	centre	accver	kingdom	genus	species	strain	plasmid	gcode	gram
+GCF_000183385.1_ASM18338v1_genomic	GCF_000183385	GCF_000183385	1	NCBI	1	Bacteria	Mycoplasma	bovis	PG45		11	neg
+GCF_000219375.1_ASM21937v1_genomic	GCF_000219375	GCF_000219375	5	BGI	1	Bacteria	Mycoplasma	bovis	Hubei-1		11	neg
+GCF_000270525.1_ASM27052v1_genomic	GCF_000270525	GCF_000270525	10	JHI	1	Bacteria	Mycoplasma	bovis	HB0801		11	neg
