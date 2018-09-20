@@ -35,10 +35,10 @@ $ pip install -e .
 
 ### Tests
 
-Tests are intended to be run with `pytest` from the repository root:
+Tests are intended to be run with `pytest` from the repository root (using `coverage` and `pytest-cov`):
 
 ```bash
 $ pwd
 lpbio/
-$ pytest
+$ pytest --cov
 ```
