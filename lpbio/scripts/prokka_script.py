@@ -98,7 +98,6 @@ def load_bulk_prokka_config(fname, logger=None):
                 fname,
             )
             return None
-        print("Headers: ", headers)
         confdata = {}  # dict of dicts with config data
         for row in confreader:
             rowdata = {
@@ -130,10 +129,11 @@ def add_prokka_arg(cmd, key, val):
         "gcode": "--gcode",
         "gram": "--gram",
     }
-    try:
-        cmd = " ".join([cmd, argdict[key], shlex.quote(val)])
-    except KeyError:
-        logger.warning("Cannot process argument %s (skipping)", key)
+    if val:
+        try:
+            cmd = " ".join([cmd, argdict[key], shlex.quote(val)])
+        except KeyError:
+            logger.warning("Cannot process argument %s (skipping)", key)
     return cmd
 
 
@@ -149,7 +149,7 @@ def build_prokka_cmd(fname, args, config=None, logger=None):
     )
 
     # Process config info
-    if config is None:
+    if config is not None:
         if stem not in config:
             logger.warning(
                 "Attempted to process filestem %s, but not found in config file (skipping)",
@@ -157,14 +157,7 @@ def build_prokka_cmd(fname, args, config=None, logger=None):
             )
         else:
             for key in config[stem]:
-                cmd = add_prokka_arg(cmd, key, config[key])
-
-    # Add locustag and prefix
-    logger.debug("No locus tag provided for %s: using %s", fpath, stem)
-    locustag = stem
-    logger.debug("No prefix provided for %s: using %s", fpath, stem)
-    prefix = stem
-    cmd = " ".join([cmd, "--prefix", prefix, "--locustag", locustag])
+                cmd = add_prokka_arg(cmd, key, config[stem][key])
 
     if args.compliant:  # Force Genbankk/ENA/DDJB compliance
         cmd = " ".join([cmd, "--compliant"])
@@ -255,7 +248,9 @@ def run_main(argv=None, logger=None):
 
     # If necessary, load config data for bulk_prokka
     if args.config is not None:
+        logger.info("Processing prokka config file %s", args.config)
         config_data = load_bulk_prokka_config(args.config, logger)
+        logger.info("Read %d rows from config file", len(config_data))
     else:
         config_data = None
 

@@ -59,7 +59,9 @@ def build_logger(name, args):
     logger = logging.getLogger("{}: {}".format(name, time.asctime))
     logger.setLevel(logging.DEBUG)
     err_handler = logging.StreamHandler(sys.stderr)
-    err_formatter = logging.Formatter("%(levelname)s: %(message)s")
+    err_formatter = logging.Formatter(
+        "[%(asctime)s] %(levelname)s: %(message)s", "%H:%M:%S"
+    )
     err_handler.setFormatter(err_formatter)
 
     # Verbose output?
