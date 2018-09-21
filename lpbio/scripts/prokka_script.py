@@ -113,7 +113,7 @@ def load_bulk_prokka_config(fname, logger=None):
     return confdata
 
 
-def add_prokka_arg(cmd, key, val):
+def add_prokka_arg(cmd, key, val, logger=None):
     """Add the corresponding prokka argument for key to cmd and return"""
     argdict = {
         "prefix": "--prefix",
@@ -157,7 +157,7 @@ def build_prokka_cmd(fname, args, config=None, logger=None):
             )
         else:
             for key in config[stem]:
-                cmd = add_prokka_arg(cmd, key, config[stem][key])
+                cmd = add_prokka_arg(cmd, key, config[stem][key], logger)
 
     if args.compliant:  # Force Genbankk/ENA/DDJB compliance
         cmd = " ".join([cmd, "--compliant"])
@@ -206,13 +206,17 @@ def run_sge(cmdlist, args, logger):
 
 
 def run_main(argv=None, logger=None):
-    """Run main process for bulk_prokka script"""
+    """Run main process (i.e. catch command-line) for bulk_prokka script"""
     # If no arguments are passed, parse the command-line
     if argv is None:
         args = parse_cmdline()
     else:
         args = parse_cmdline(argv)
+    return run_prokka(args, logger)
 
+
+def run_prokka(args, logger=None):
+    """Run bulk_prokka script"""
     # Set up logging
     time0 = time.time()
     if logger is None:
