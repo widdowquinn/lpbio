@@ -9,6 +9,7 @@ output/
 
 # Test output
 tests/bulk_prokka/output
+tests/swarm/output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
