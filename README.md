@@ -22,6 +22,7 @@ When installed, the `lpbio` package provides the following scripts, available at
 The `lpbio` package provides the following modules for use in Python applications and scripts
 
 - `pysge`: a module that writes job files compatible with SGE-like schedulers, and runs them.
+- `swarm`: a module for interacting with the [`Swarm`](https://github.com/torognes/swarm) clustering tool and its output.
 
 ## Development notes
 
