@@ -6,14 +6,15 @@ try:
 except ImportError:
     pass
 
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+import setuptools
 
 import os
 import sys
 import re
+
+# Get long description from README.md
+with open("README.md", "r") as dfh:
+    long_description = dfh.read()
 
 # parse version from package/module without importing or
 # evaluating the code
@@ -30,21 +31,21 @@ if sys.version_info <= (3, 0):
     sys.stderr.write("ERROR: lpbio requires Python 3 " + "or above...exiting.\n")
     sys.exit(1)
 
-setup(
+setuptools.setup(
     name="lpbio",
     version=version,
     author="Leighton Pritchard",
     author_email="leighton.pritchard@hutton.ac.uk",
-    description="".join(
-        ["lpbio provides scripts and modules for computational biology"]
-    ),
+    description="lpbio provides scripts and modules for computational biology",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     license="MIT",
     keywords="genome bioinformatics sequence",
     platforms="Posix; MacOS X",
     url="http://widdowquinn.github.io/lpbio/",  # project home page
     download_url="https://github.com/widdowquinn/lpbio/releases",
     scripts=[os.path.join("bin", "bulk_prokka")],
-    packages=["lpbio"],
+    packages=setuptools.find_packages(),
     package_data={},
     include_package_date=True,
     install_requires=[],

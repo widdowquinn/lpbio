@@ -7,6 +7,8 @@ r"^__version__ = '(?P<version>[^']+)'$" for setup.py
 """
 __version__ = "0.1.0-alpha"
 
+name = "lpbio"
+
 import os
 import shlex
 
