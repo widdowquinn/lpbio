@@ -86,10 +86,24 @@ class SwarmCluster(object):
         if parent:
             self._parent = parent
 
+    def __len__(self):
+        """Returns the number of amplicons in the cluster"""
+        return len(self._amplicons)
+
     @property
     def amplicons(self):
         """The amplicons in a swarm cluster"""
         return self._amplicons
+
+    @property
+    def abundance(self):
+        """Returns the total abundance of all amplicons in the cluster"""
+        return sum(self.abundances)
+
+    @property
+    def abundances(self):
+        """Returns a list of abundance of each amplicons in the cluster"""
+        return [int(amp.split("_")[-1]) for amp in self._amplicons]
 
 
 class SwarmResult(object):
@@ -109,6 +123,21 @@ class SwarmResult(object):
         these_amplicons = {c.amplicons for c in self._clusters}
         other_amplicons = {c.amplicons for c in other._clusters}
         return these_amplicons == other_amplicons
+
+    def __len__(self):
+        """Returns the number of swarms in the result"""
+        return len(self._clusters)
+
+    def __str__(self):
+        """Return human-readable representation of the SwarmResult"""
+        outstr = "\n".join(
+            ["SwarmResult: {}".format(self.name), "\tSwarms: {}".format(len(self))]
+        )
+        swarmstr = []
+        for idx, swarm in enumerate(self._clusters):
+            swarmstr.append("\t\tSwarm {}, size: {}".format(idx, len(swarm)))
+        swarmstr = "\n".join(swarmstr)
+        return "\n".join([outstr + swarmstr])
 
     @property
     def swarms(self):
