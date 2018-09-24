@@ -4,10 +4,11 @@ Scripts, tools and modules for computational biology
 
 <!-- TOC -->
 
-- [Scripts](#scripts)
-- [Modules](#modules)
-- [Development notes](#development-notes)
-    - [Tests](#tests)
+- [`lpbio`](#lpbio)
+    - [Scripts](#scripts)
+    - [Modules](#modules)
+    - [Development notes](#development-notes)
+        - [Tests](#tests)
 
 <!-- /TOC -->
 
@@ -15,7 +16,7 @@ Scripts, tools and modules for computational biology
 
 When installed, the `lpbio` package provides the following scripts, available at the command-line:
 
-- `bulk_prokka`: for application of `prokka` [https://github.com/tseemann/prokka](https://github.com/tseemann/prokka) to a directory of input bacterial genome assemblies, taking advantage of local schedulers.
+- `bulk_prokka`: for application of [`prokka`](https://github.com/tseemann/prokka) to a directory of input bacterial genome assemblies, taking advantage of local schedulers.
 
 ## Modules
 
@@ -36,7 +37,7 @@ $ pip install -e .
 
 ### Tests
 
-Tests are intended to be run with `pytest` from the repository root (using `coverage` and `pytest-cov`):
+Tests are intended to be run with `pytest` from the repository root (coverage can be measured using `coverage` and `pytest-cov`):
 
 ```bash
 $ pwd
