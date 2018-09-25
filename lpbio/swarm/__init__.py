@@ -139,6 +139,10 @@ class SwarmResult(object):
         swarmstr = "\n".join(swarmstr)
         return "\n".join([outstr + swarmstr])
 
+    def __getitem__(self, item):
+        """Return swarm clusters like a list"""
+        return self._clusters[item]
+
     @property
     def swarms(self):
         """The clusters produced by a swarm run"""
