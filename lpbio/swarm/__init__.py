@@ -90,6 +90,10 @@ class SwarmCluster(object):
         """Returns the number of amplicons in the cluster"""
         return len(self._amplicons)
 
+    def __getitem__(self, item):
+        """Return sequence IDs from the swarm like a list"""
+        return self._amplicons[item]
+
     @property
     def amplicons(self):
         """The amplicons in a swarm cluster"""
