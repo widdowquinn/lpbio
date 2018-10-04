@@ -44,7 +44,8 @@ setuptools.setup(
     platforms="Posix; MacOS X",
     url="http://widdowquinn.github.io/lpbio/",  # project home page
     download_url="https://github.com/widdowquinn/lpbio/releases",
-    scripts=[os.path.join("bin", "bulk_prokka")],
+    scripts=[os.path.join("bin", "bulk_prokka"),
+             os.path.join("bin", "climb_setup")],
     packages=setuptools.find_packages(),
     package_data={},
     include_package_date=True,
