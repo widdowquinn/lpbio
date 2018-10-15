@@ -10,9 +10,9 @@ DISC_FEATURE_COUNT:sig_peptide_aa: 72 present
 DISC_FEATURE_COUNT:tmRNA: 1 present
 DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
 FEATURE_LOCATION_CONFLICT:1718 features have inconsistent gene locations.
-SUSPECT_PRODUCT_NAMES:6 product_names contain suspect phrase or characters
+SUSPECT_PRODUCT_NAMES:5 product_names contain suspect phrase or characters
 	May contain database identifier more appropriate in note; remove from product name
-		6 features contains three or more numbers together that may be identifiers more appropriate in note
+		5 features contains three or more numbers together that may be identifiers more appropriate in note
 DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
 ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
 SHORT_PROT_SEQUENCES:215 protein sequences are shorter than 50 aa.
@@ -43,7 +43,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Chromosomal replication initiator protein DnaA	GCF_000183385_1:9-941	GCF_000183385_00001
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA polymerase III subunit beta	GCF_000183385_1:1543-2361	GCF_000183385_00002
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Beta sliding clamp	GCF_000183385_1:1543-2361	GCF_000183385_00002
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:2509-2652	GCF_000183385_00003
@@ -55,7 +55,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:3169-3306	GCF_000183385_00007
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Tropinesterase	GCF_000183385_1:3382-3666	GCF_000183385_00008
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:3382-3666	GCF_000183385_00008
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:3700-3888	GCF_000183385_00009
@@ -85,10 +85,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Lipoate--protein ligase 2	GCF_000183385_1:c8063-7437	GCF_000183385_00017
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c8754-8335	GCF_000183385_00018
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Protein ADP-ribosyltransferase	GCF_000183385_1:c8754-8335	GCF_000183385_00018
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c8988-8773	GCF_000183385_00019
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Protein ADP-ribosyltransferase	GCF_000183385_1:c8988-8773	GCF_000183385_00019
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Glycine cleavage system H-like protein	GCF_000183385_1:c9334-9047	GCF_000183385_00020
@@ -97,13 +97,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c9662-9318	GCF_000183385_00021
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Limonene 1,2-monooxygenase	GCF_000183385_1:c10319-9774	GCF_000183385_00022
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c10319-9774	GCF_000183385_00022
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c10804-10574	GCF_000183385_00023
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:c10804-10574	GCF_000183385_00023
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c11929-10814	GCF_000183385_00024
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:c11929-10814	GCF_000183385_00024
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:12338-12724	GCF_000183385_00025
@@ -169,13 +169,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Pseudouridine kinase	GCF_000183385_1:c24977-24381	GCF_000183385_00045
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Pseudouridine kinase	GCF_000183385_1:c25280-25080	GCF_000183385_00046
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c25280-25080	GCF_000183385_00046
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphatase YwpJ	GCF_000183385_1:25444-25668	GCF_000183385_00047
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:25444-25668	GCF_000183385_00047
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphatase YwpJ	GCF_000183385_1:25948-26274	GCF_000183385_00048
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:25948-26274	GCF_000183385_00048
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:26308-27177	GCF_000183385_00049
@@ -187,7 +187,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:27538-27993	GCF_000183385_00051
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ABC transporter ATP-binding protein NatA	GCF_000183385_1:28344-29306	GCF_000183385_00052
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Vitamin B12 import ATP-binding protein BtuD	GCF_000183385_1:28344-29306	GCF_000183385_00052
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:29413-29760	GCF_000183385_00053
@@ -205,7 +205,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:31149-31580	GCF_000183385_00057
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Oligopeptide transport ATP-binding protein OppF	GCF_000183385_1:c32986-31742	GCF_000183385_00058
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Vitamin B12 import ATP-binding protein BtuD	GCF_000183385_1:c32986-31742	GCF_000183385_00058
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c33212-32979	GCF_000183385_00059
@@ -220,7 +220,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c34598-34458	GCF_000183385_00062
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Putative peptide transport permease protein	GCF_000183385_1:c34875-34606	GCF_000183385_00063
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c34875-34606	GCF_000183385_00063
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:34895-35122	GCF_000183385_00064
@@ -319,13 +319,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:51470-51592	GCF_000183385_00095
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:51602-52720	GCF_000183385_00096
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:51602-52720	GCF_000183385_00096
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Cysteine--tRNA ligase	GCF_000183385_1:52940-53422	GCF_000183385_00097
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Isoleucine--tRNA ligase	GCF_000183385_1:53669-54103	GCF_000183385_00098
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:53669-54103	GCF_000183385_00098
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Putative TrmH family tRNA/rRNA methyltransferase	GCF_000183385_1:54228-54695	GCF_000183385_00099
@@ -370,16 +370,16 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribosome-recycling factor	GCF_000183385_1:61278-61829	GCF_000183385_00112
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:62838-63035	GCF_000183385_00115
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:62838-63035	GCF_000183385_00115
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:63141-63329	GCF_000183385_00116
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:63141-63329	GCF_000183385_00116
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:63351-63776	GCF_000183385_00117
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:63351-63776	GCF_000183385_00117
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:63888-64118	GCF_000183385_00118
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase IS1634	GCF_000183385_1:63888-64118	GCF_000183385_00118
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c64896-64600	GCF_000183385_00119
@@ -445,7 +445,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Lipoate-protein ligase LplJ	GCF_000183385_1:77414-78118	GCF_000183385_00139
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system	GCF_000183385_1:78398-78811	GCF_000183385_00140
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase	GCF_000183385_1:78398-78811	GCF_000183385_00140
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:78812-79219	GCF_000183385_00141
@@ -538,7 +538,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:95429-95683	GCF_000183385_00172
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Nicotinate-nucleotide adenylyltransferase	GCF_000183385_1:96031-97116	GCF_000183385_00173
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	nicotinate-nucleotide adenylyltransferase	GCF_000183385_1:96031-97116	GCF_000183385_00173
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribosomal large subunit pseudouridine synthase B	GCF_000183385_1:97113-97880	GCF_000183385_00174
@@ -562,7 +562,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Fructose-bisphosphate aldolase	GCF_000183385_1:99469-99921	GCF_000183385_00180
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Fructose-bisphosphate aldolase	GCF_000183385_1:100066-100230	GCF_000183385_00181
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:100066-100230	GCF_000183385_00181
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:100310-100591	GCF_000183385_00182
@@ -601,7 +601,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	tRNA (cytidine(34)-2'-O)-methyltransferase	GCF_000183385_1:105306-105515	GCF_000183385_00193
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	tRNA (guanosine(18)-2'-O)-methyltransferase	GCF_000183385_1:105512-106243	GCF_000183385_00194
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	23S rRNA (guanosine-2'-O-)-methyltransferase RlmB	GCF_000183385_1:105512-106243	GCF_000183385_00194
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:106253-106486	GCF_000183385_00195
@@ -610,7 +610,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribosome biogenesis GTPase A	GCF_000183385_1:106537-106983	GCF_000183385_00196
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribosome biogenesis GTPase A	GCF_000183385_1:107008-107313	GCF_000183385_00197
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:107008-107313	GCF_000183385_00197
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:107461-107619	GCF_000183385_00198
@@ -622,7 +622,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	HPr kinase/phosphorylase	GCF_000183385_1:108109-108864	GCF_000183385_00200
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Prolipoprotein diacylglyceryl transferase	GCF_000183385_1:109217-109336	GCF_000183385_00201
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:109217-109336	GCF_000183385_00201
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:109601-109780	GCF_000183385_00202
@@ -643,7 +643,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Pyruvate dehydrogenase E1 component subunit alpha	GCF_000183385_1:112176-112343	GCF_000183385_00207
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha	GCF_000183385_1:112446-112562	GCF_000183385_00208
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Pyruvate dehydrogenase E1 component subunit alpha	GCF_000183385_1:112446-112562	GCF_000183385_00208
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Pyruvate dehydrogenase E1 component subunit beta	GCF_000183385_1:112908-113075	GCF_000183385_00209
@@ -658,7 +658,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:114248-114400	GCF_000183385_00212
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	GCF_000183385_1:114701-114901	GCF_000183385_00213
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:114701-114901	GCF_000183385_00213
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:114984-115133	GCF_000183385_00214
@@ -673,7 +673,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	50S ribosomal protein L28	GCF_000183385_1:116779-116985	GCF_000183385_00217
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Isonitrile hydratase	GCF_000183385_1:c117585-117040	GCF_000183385_00218
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c117585-117040	GCF_000183385_00218
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c117859-117716	GCF_000183385_00219
@@ -694,13 +694,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:120505-120822	GCF_000183385_00224
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Oligopeptide transport system permease protein OppB	GCF_000183385_1:121937-122254	GCF_000183385_00225
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:121937-122254	GCF_000183385_00225
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c122526-122197	GCF_000183385_00226
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Dipeptide transport system permease protein DppB	GCF_000183385_1:122567-122773	GCF_000183385_00227
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:122567-122773	GCF_000183385_00227
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:122792-123058	GCF_000183385_00228
@@ -712,7 +712,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:124075-124215	GCF_000183385_00230
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Putrescine export system ATP-binding protein SapD	GCF_000183385_1:124341-124691	GCF_000183385_00231
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:124341-124691	GCF_000183385_00231
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Oligopeptide transport ATP-binding protein OppD	GCF_000183385_1:124854-125204	GCF_000183385_00232
@@ -724,7 +724,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Oligopeptide transport ATP-binding protein OppF	GCF_000183385_1:125479-125889	GCF_000183385_00234
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Oligopeptide transport ATP-binding protein OppF	GCF_000183385_1:126097-127809	GCF_000183385_00235
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Vitamin B12 import ATP-binding protein BtuD	GCF_000183385_1:126097-127809	GCF_000183385_00235
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:127894-128874	GCF_000183385_00236
@@ -757,13 +757,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Putative sugar phosphate isomerase YwlF	GCF_000183385_1:c133245-132799	GCF_000183385_00245
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Lactococcin-G-processing and transport ATP-binding protein LagD	GCF_000183385_1:133401-134021	GCF_000183385_00246
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:133401-134021	GCF_000183385_00246
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:134307-134480	GCF_000183385_00247
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Microcin-J25 export ATP-binding/permease protein McjD	GCF_000183385_1:134649-135458	GCF_000183385_00248
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:134649-135458	GCF_000183385_00248
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:135580-135822	GCF_000183385_00249
@@ -772,7 +772,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Endoribonuclease YbeY	GCF_000183385_1:135851-136309	GCF_000183385_00250
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Cytidine deaminase	GCF_000183385_1:136453-136707	GCF_000183385_00251
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:136453-136707	GCF_000183385_00251
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	GTPase Era	GCF_000183385_1:136719-137591	GCF_000183385_00252
@@ -895,7 +895,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c156698-156420	GCF_000183385_00291
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:157051-157647	GCF_000183385_00292
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMmy1	GCF_000183385_1:157051-157647	GCF_000183385_00292
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:157750-158193	GCF_000183385_00293
@@ -907,10 +907,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c158918-158724	GCF_000183385_00295
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:159490-160605	GCF_000183385_00296
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:159490-160605	GCF_000183385_00296
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:160615-160845	GCF_000183385_00297
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:160615-160845	GCF_000183385_00297
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c161679-160891	GCF_000183385_00298
@@ -1009,7 +1009,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:186160-186282	GCF_000183385_00330
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:186292-187410	GCF_000183385_00331
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:186292-187410	GCF_000183385_00331
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c187909-187694	GCF_000183385_00332
@@ -1066,7 +1066,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c195667-195395	GCF_000183385_00349
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Trigger factor	GCF_000183385_1:c196108-195725	GCF_000183385_00350
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c196108-195725	GCF_000183385_00350
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Trigger factor	GCF_000183385_1:c196708-196247	GCF_000183385_00351
@@ -1117,25 +1117,25 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c208092-207940	GCF_000183385_00366
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c208638-208282	GCF_000183385_00367
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c208638-208282	GCF_000183385_00367
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c208987-208757	GCF_000183385_00368
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:c208987-208757	GCF_000183385_00368
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c209155-208997	GCF_000183385_00369
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c210111-209161	GCF_000183385_00370
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:c210111-209161	GCF_000183385_00370
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c210591-210403	GCF_000183385_00371
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c210591-210403	GCF_000183385_00371
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c211880-210885	GCF_000183385_00372
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Chromosome-partitioning ATPase Soj	GCF_000183385_1:213200-213385	GCF_000183385_00373
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Iron-sulfur cluster carrier protein	GCF_000183385_1:213200-213385	GCF_000183385_00373
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:213512-213718	GCF_000183385_00374
@@ -1174,16 +1174,16 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c222128-221823	GCF_000183385_00385
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c223382-222264	GCF_000183385_00386
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:c223382-222264	GCF_000183385_00386
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c223514-223392	GCF_000183385_00387
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:223752-224867	GCF_000183385_00388
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:223752-224867	GCF_000183385_00388
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:224877-225107	GCF_000183385_00389
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:224877-225107	GCF_000183385_00389
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c225974-225843	GCF_000183385_00390
@@ -1222,7 +1222,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c230793-230350	GCF_000183385_00401
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c231492-230896	GCF_000183385_00402
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMmy1	GCF_000183385_1:c231492-230896	GCF_000183385_00402
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c231977-231756	GCF_000183385_00403
@@ -1312,7 +1312,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c248159-247665	GCF_000183385_00431
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c248310-248104	GCF_000183385_00432
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c248310-248104	GCF_000183385_00432
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c249705-249199	GCF_000183385_00433
@@ -1321,7 +1321,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:249875-250087	GCF_000183385_00434
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Cytosol aminopeptidase	GCF_000183385_1:250218-251279	GCF_000183385_00435
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	cytosol aminopeptidase	GCF_000183385_1:250218-251279	GCF_000183385_00435
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	cytosol aminopeptidase	GCF_000183385_1:251349-251579	GCF_000183385_00436
@@ -1393,7 +1393,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c263785-263384	GCF_000183385_00459
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Glutamate--tRNA ligase	GCF_000183385_1:c264033-263782	GCF_000183385_00460
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c264033-263782	GCF_000183385_00460
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:264215-264355	GCF_000183385_00461
@@ -1417,13 +1417,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:267221-267493	GCF_000183385_00467
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative CtpA-like serine protease	GCF_000183385_1:267520-269451	GCF_000183385_00468
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:267520-269451	GCF_000183385_00468
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:269460-269648	GCF_000183385_00469
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	5-formyltetrahydrofolate cyclo-ligase	GCF_000183385_1:269703-270014	GCF_000183385_00470
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:269703-270014	GCF_000183385_00470
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c270718-270389	GCF_000183385_00471
@@ -1438,7 +1438,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:273428-273832	GCF_000183385_00474
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative type I restriction enzymeP M protein	GCF_000183385_1:274037-274978	GCF_000183385_00475
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:274037-274978	GCF_000183385_00475
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:275405-275587	GCF_000183385_00476
@@ -1450,13 +1450,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:276267-276749	GCF_000183385_00478
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Type I restriction enzyme EcoR124II R protein	GCF_000183385_1:276920-277444	GCF_000183385_00479
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:276920-277444	GCF_000183385_00479
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:277523-277684	GCF_000183385_00480
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Type-1 restriction enzyme R protein	GCF_000183385_1:278048-278458	GCF_000183385_00481
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:278048-278458	GCF_000183385_00481
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:278888-279001	GCF_000183385_00482
@@ -1486,7 +1486,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c282015-281755	GCF_000183385_00490
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c283441-282371	GCF_000183385_00491
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS3 family transposase ISMmy2	GCF_000183385_1:c283441-282371	GCF_000183385_00491
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c283594-283451	GCF_000183385_00492
@@ -1561,10 +1561,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Putative aminopeptidase YsdC	GCF_000183385_1:299800-300477	GCF_000183385_00515
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c300828-300529	GCF_000183385_00516
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	2',3'-cyclic-nucleotide 2'-phosphodiesterase	GCF_000183385_1:c300828-300529	GCF_000183385_00516
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c301341-301117	GCF_000183385_00517
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	2',3'-cyclic-nucleotide 2'-phosphodiesterase	GCF_000183385_1:c301341-301117	GCF_000183385_00517
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Protein RecA	GCF_000183385_1:c302419-301532	GCF_000183385_00518
@@ -1582,10 +1582,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	50S ribosomal protein L3	GCF_000183385_1:304323-304691	GCF_000183385_00522
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	50S ribosomal protein L3	GCF_000183385_1:304803-305153	GCF_000183385_00523
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:304803-305153	GCF_000183385_00523
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	50S ribosomal protein L4	GCF_000183385_1:305153-305695	GCF_000183385_00524
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:305153-305695	GCF_000183385_00524
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c305943-305791	GCF_000183385_00525
@@ -1600,7 +1600,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	50S ribosomal protein L2	GCF_000183385_1:306592-307392	GCF_000183385_00528
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	30S ribosomal protein S19	GCF_000183385_1:307479-307583	GCF_000183385_00529
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:307479-307583	GCF_000183385_00529
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	50S ribosomal protein L22	GCF_000183385_1:307760-308104	GCF_000183385_00530
@@ -1654,10 +1654,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c313554-313333	GCF_000183385_00546
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphatase YwpJ	GCF_000183385_1:313695-314345	GCF_000183385_00547
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:313695-314345	GCF_000183385_00547
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Glucose-1-phosphatase	GCF_000183385_1:c315090-314782	GCF_000183385_00548
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c315090-314782	GCF_000183385_00548
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c315651-315103	GCF_000183385_00549
@@ -1720,10 +1720,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c335476-334898	GCF_000183385_00572
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Triosephosphate isomerase	GCF_000183385_1:335628-336131	GCF_000183385_00573
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:335628-336131	GCF_000183385_00573
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Triosephosphate isomerase	GCF_000183385_1:336213-336377	GCF_000183385_00574
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:336213-336377	GCF_000183385_00574
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Deoxyribose-phosphate aldolase 1	GCF_000183385_1:c337090-336422	GCF_000183385_00575
@@ -1744,7 +1744,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:339806-339985	GCF_000183385_00580
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Sugar phosphatase YidA	GCF_000183385_1:340028-340225	GCF_000183385_00581
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:340028-340225	GCF_000183385_00581
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	GTPase Obg	GCF_000183385_1:340337-341521	GCF_000183385_00582
@@ -1765,7 +1765,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c344042-343746	GCF_000183385_00587
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	L-arabinose transport system permease protein AraP	GCF_000183385_1:c344862-344437	GCF_000183385_00588
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c344862-344437	GCF_000183385_00588
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c345354-345097	GCF_000183385_00589
@@ -1810,7 +1810,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c351863-351420	GCF_000183385_00602
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c352562-351966	GCF_000183385_00603
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMmy1	GCF_000183385_1:c352562-351966	GCF_000183385_00603
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:352968-353138	GCF_000183385_00604
@@ -1831,7 +1831,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative endonuclease 4	GCF_000183385_1:c358043-357270	GCF_000183385_00609
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	HMP-PP phosphatase	GCF_000183385_1:c358881-358087	GCF_000183385_00610
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c358881-358087	GCF_000183385_00610
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c359181-359050	GCF_000183385_00611
@@ -1864,7 +1864,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative propionate kinase	GCF_000183385_1:c364620-363994	GCF_000183385_00620
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative propionate kinase	GCF_000183385_1:c365196-364975	GCF_000183385_00621
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Acetate kinase	GCF_000183385_1:c365196-364975	GCF_000183385_00621
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphate acetyltransferase	GCF_000183385_1:c366190-365216	GCF_000183385_00622
@@ -1873,7 +1873,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:366521-366643	GCF_000183385_00623
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:366653-367771	GCF_000183385_00624
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:366653-367771	GCF_000183385_00624
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GCF_000183385_1:368041-368277	GCF_000183385_00625
@@ -1897,7 +1897,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Arginine--tRNA ligase	GCF_000183385_1:371043-371555	GCF_000183385_00631
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Arginine--tRNA ligase	GCF_000183385_1:371733-371882	GCF_000183385_00632
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:371733-371882	GCF_000183385_00632
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Arginine--tRNA ligase	GCF_000183385_1:372057-372533	GCF_000183385_00633
@@ -1909,7 +1909,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:373132-373242	GCF_000183385_00635
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Poly-beta-1,6-N-acetyl-D-glucosamine synthase	GCF_000183385_1:c374090-373338	GCF_000183385_00636
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c374090-373338	GCF_000183385_00636
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c374597-374376	GCF_000183385_00637
@@ -1918,7 +1918,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c375053-374610	GCF_000183385_00638
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c375752-375156	GCF_000183385_00639
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMmy1	GCF_000183385_1:c375752-375156	GCF_000183385_00639
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c376381-376073	GCF_000183385_00640
@@ -2026,7 +2026,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:392050-392244	GCF_000183385_00674
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Glutathione transport system permease protein GsiD	GCF_000183385_1:c392816-392160	GCF_000183385_00675
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c392816-392160	GCF_000183385_00675
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c392999-392880	GCF_000183385_00676
@@ -2056,7 +2056,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphoglucomutase	GCF_000183385_1:396702-397559	GCF_000183385_00684
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphoglucomutase	GCF_000183385_1:397806-398147	GCF_000183385_00685
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:397806-398147	GCF_000183385_00685
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c398760-398299	GCF_000183385_00686
@@ -2080,7 +2080,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c401201-400821	GCF_000183385_00692
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative ABC transporter ATP-binding protein YxlF	GCF_000183385_1:c401883-401179	GCF_000183385_00693
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative ABC transporter ATP-binding protein YadG	GCF_000183385_1:c401883-401179	GCF_000183385_00693
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c402443-401952	GCF_000183385_00694
@@ -2095,7 +2095,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c403748-403410	GCF_000183385_00697
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Calcium-transporting ATPase	GCF_000183385_1:c404885-404565	GCF_000183385_00698
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Potassium-transporting ATPase ATP-binding subunit	GCF_000183385_1:c404885-404565	GCF_000183385_00698
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Calcium-transporting ATPase	GCF_000183385_1:c405182-405000	GCF_000183385_00699
@@ -2122,7 +2122,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:409606-409728	GCF_000183385_00708
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:409738-410856	GCF_000183385_00709
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:409738-410856	GCF_000183385_00709
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c412040-411450	GCF_000183385_00710
@@ -2155,7 +2155,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphopentomutase	GCF_000183385_1:c417905-417672	GCF_000183385_00719
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphopentomutase	GCF_000183385_1:c418175-418032	GCF_000183385_00720
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c418175-418032	GCF_000183385_00720
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c418809-418504	GCF_000183385_00721
@@ -2179,7 +2179,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:423525-423911	GCF_000183385_00727
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Membrane-associated lipoprotein	GCF_000183385_1:424091-425410	GCF_000183385_00728
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:424091-425410	GCF_000183385_00728
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Membrane-associated lipoprotein	GCF_000183385_1:425423-426109	GCF_000183385_00729
@@ -2299,7 +2299,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA helicase II	GCF_000183385_1:c449417-448926	GCF_000183385_00767
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ATP-dependent DNA helicase PcrA	GCF_000183385_1:c450074-449520	GCF_000183385_00768
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ATP-dependent DNA helicase Rep	GCF_000183385_1:c450074-449520	GCF_000183385_00768
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ATP-dependent DNA helicase PcrA	GCF_000183385_1:c450281-450078	GCF_000183385_00769
@@ -2332,13 +2332,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:455472-455696	GCF_000183385_00778
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Diadenylate cyclase	GCF_000183385_1:455795-456373	GCF_000183385_00779
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA integrity scanning protein DisA	GCF_000183385_1:455795-456373	GCF_000183385_00779
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:456377-456643	GCF_000183385_00780
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Magnesium transporter MgtE	GCF_000183385_1:456656-457237	GCF_000183385_00781
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:456656-457237	GCF_000183385_00781
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c457536-457342	GCF_000183385_00782
@@ -2401,7 +2401,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Peptide methionine sulfoxide reductase MsrB	GCF_000183385_1:c466358-466194	GCF_000183385_00802
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Endonuclease MutS2	GCF_000183385_1:c467245-466970	GCF_000183385_00803
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c467245-466970	GCF_000183385_00803
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Formamidopyrimidine-DNA glycosylase	GCF_000183385_1:c467477-467229	GCF_000183385_00804
@@ -2419,7 +2419,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c469362-469240	GCF_000183385_00808
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Glucose-6-phosphate isomerase B	GCF_000183385_1:c470098-469427	GCF_000183385_00809
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Glucose-6-phosphate isomerase	GCF_000183385_1:c470098-469427	GCF_000183385_00809
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c470614-470264	GCF_000183385_00810
@@ -2437,7 +2437,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Enolase	GCF_000183385_1:c472462-472277	GCF_000183385_00814
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:472842-473438	GCF_000183385_00815
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMmy1	GCF_000183385_1:472842-473438	GCF_000183385_00815
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:473541-473984	GCF_000183385_00816
@@ -2464,7 +2464,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:476795-476950	GCF_000183385_00823
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE	GCF_000183385_1:477325-477630	GCF_000183385_00824
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:477325-477630	GCF_000183385_00824
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:477729-478286	GCF_000183385_00825
@@ -2479,7 +2479,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:480961-481113	GCF_000183385_00828
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	PTS system glucose-specific EIICBA component	GCF_000183385_1:c481414-481178	GCF_000183385_00829
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c481414-481178	GCF_000183385_00829
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:481993-482130	GCF_000183385_00830
@@ -2500,7 +2500,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:484309-484455	GCF_000183385_00835
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative CtpA-like serine protease	GCF_000183385_1:c487636-485678	GCF_000183385_00836
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c487636-485678	GCF_000183385_00836
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:488445-489668	GCF_000183385_00837
@@ -2551,7 +2551,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:499383-499538	GCF_000183385_00852
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:500012-500230	GCF_000183385_00853
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:500012-500230	GCF_000183385_00853
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:500425-500913	GCF_000183385_00854
@@ -2560,7 +2560,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c501244-501095	GCF_000183385_00855
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:501422-502018	GCF_000183385_00856
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMmy1	GCF_000183385_1:501422-502018	GCF_000183385_00856
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:502121-502564	GCF_000183385_00857
@@ -2617,7 +2617,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ATP synthase subunit b	GCF_000183385_1:512366-512767	GCF_000183385_00874
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ATP synthase subunit delta, sodium ion specific	GCF_000183385_1:512770-513330	GCF_000183385_00875
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ATP synthase subunit delta	GCF_000183385_1:512770-513330	GCF_000183385_00875
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ATP synthase subunit alpha	GCF_000183385_1:513323-514069	GCF_000183385_00876
@@ -2677,7 +2677,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Leucine--tRNA ligase	GCF_000183385_1:c524413-524183	GCF_000183385_00894
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Leucine--tRNA ligase subunit alpha	GCF_000183385_1:c524737-524618	GCF_000183385_00895
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c524737-524618	GCF_000183385_00895
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c525004-524777	GCF_000183385_00896
@@ -2722,7 +2722,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Cell division protein FtsZ	GCF_000183385_1:c532273-531545	GCF_000183385_00909
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Cell division protein FtsZ	GCF_000183385_1:c532456-532331	GCF_000183385_00910
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c532456-532331	GCF_000183385_00910
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c532888-532493	GCF_000183385_00911
@@ -2758,7 +2758,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Modification methylase HpaII	GCF_000183385_1:c538650-538435	GCF_000183385_00921
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Modification methylase HhaI	GCF_000183385_1:c539271-538708	GCF_000183385_00922
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c539271-538708	GCF_000183385_00922
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:539876-540037	GCF_000183385_00923
@@ -2926,16 +2926,16 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c574623-574390	GCF_000183385_00978
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:575244-575441	GCF_000183385_00979
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:575244-575441	GCF_000183385_00979
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:575547-575735	GCF_000183385_00980
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:575547-575735	GCF_000183385_00980
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:575757-576182	GCF_000183385_00981
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:575757-576182	GCF_000183385_00981
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:576294-576524	GCF_000183385_00982
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase IS1634	GCF_000183385_1:576294-576524	GCF_000183385_00982
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c577110-576721	GCF_000183385_00983
@@ -3001,7 +3001,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Alcohol dehydrogenase	GCF_000183385_1:c592039-591164	GCF_000183385_01003
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	L-galactonate-5-dehydrogenase	GCF_000183385_1:c592270-592061	GCF_000183385_01004
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c592270-592061	GCF_000183385_01004
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c593000-592416	GCF_000183385_01005
@@ -3013,7 +3013,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA processing protein DprA	GCF_000183385_1:594583-595314	GCF_000183385_01007
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YbjI	GCF_000183385_1:c595504-595301	GCF_000183385_01008
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c595504-595301	GCF_000183385_01008
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c595738-595523	GCF_000183385_01009
@@ -3091,7 +3091,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Glycerol uptake facilitator protein	GCF_000183385_1:611052-611321	GCF_000183385_01033
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Aspartate--tRNA(Asp/Asn) ligase	GCF_000183385_1:c611644-611501	GCF_000183385_01034
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Aspartate--tRNA(Asp) ligase	GCF_000183385_1:c611644-611501	GCF_000183385_01034
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Aspartate--tRNA ligase	GCF_000183385_1:c611872-611714	GCF_000183385_01035
@@ -3103,7 +3103,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Aspartate--tRNA(Asp/Asn) ligase	GCF_000183385_1:c613018-612659	GCF_000183385_01037
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Histidine--tRNA ligase	GCF_000183385_1:c613653-613273	GCF_000183385_01038
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c613653-613273	GCF_000183385_01038
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Histidine--tRNA ligase	GCF_000183385_1:c614253-613657	GCF_000183385_01039
@@ -3136,7 +3136,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:617813-617971	GCF_000183385_01048
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:618297-619412	GCF_000183385_01049
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:618297-619412	GCF_000183385_01049
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:619422-619565	GCF_000183385_01050
@@ -3145,13 +3145,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:619622-619765	GCF_000183385_01051
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:619775-620845	GCF_000183385_01052
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS3 family transposase ISMmy2	GCF_000183385_1:619775-620845	GCF_000183385_01052
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	30S ribosomal protein S18	GCF_000183385_1:c621890-621564	GCF_000183385_01053
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Single-stranded DNA-binding protein A	GCF_000183385_1:c622308-621910	GCF_000183385_01054
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Single-stranded DNA-binding protein	GCF_000183385_1:c622308-621910	GCF_000183385_01054
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c622538-622350	GCF_000183385_01055
@@ -3205,7 +3205,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c631010-630816	GCF_000183385_01071
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Hemin import ATP-binding protein HmuV	GCF_000183385_1:c632035-631511	GCF_000183385_01072
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c632035-631511	GCF_000183385_01072
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c632259-632038	GCF_000183385_01073
@@ -3301,7 +3301,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Elongation factor Ts	GCF_000183385_1:c646561-646472	GCF_000183385_01103
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	30S ribosomal protein S2	GCF_000183385_1:c647120-646611	GCF_000183385_01104
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c647120-646611	GCF_000183385_01104
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	30S ribosomal protein S2	GCF_000183385_1:c647390-647172	GCF_000183385_01105
@@ -3367,7 +3367,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative NADH oxidase	GCF_000183385_1:c662504-661278	GCF_000183385_01125
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c664007-662937	GCF_000183385_01126
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS3 family transposase ISMmy2	GCF_000183385_1:c664007-662937	GCF_000183385_01126
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c664160-664017	GCF_000183385_01127
@@ -3376,13 +3376,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c664359-664216	GCF_000183385_01128
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c665485-664379	GCF_000183385_01129
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:c665485-664379	GCF_000183385_01129
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c666842-665943	GCF_000183385_01130
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	PTS system glucose-specific EIICBA component	GCF_000183385_1:667017-667316	GCF_000183385_01131
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:667017-667316	GCF_000183385_01131
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c667639-667538	GCF_000183385_01132
@@ -3406,13 +3406,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c671149-670706	GCF_000183385_01138
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c671848-671252	GCF_000183385_01139
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMmy1	GCF_000183385_1:c671848-671252	GCF_000183385_01139
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c672692-672432	GCF_000183385_01141
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Hemolysin C	GCF_000183385_1:c673211-672741	GCF_000183385_01142
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c673211-672741	GCF_000183385_01142
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c673724-673461	GCF_000183385_01143
@@ -3421,7 +3421,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Replicative DNA helicase	GCF_000183385_1:c674218-673724	GCF_000183385_01144
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Replicative DNA helicase	GCF_000183385_1:c675199-674255	GCF_000183385_01145
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c675199-674255	GCF_000183385_01145
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	50S ribosomal protein L9	GCF_000183385_1:c675644-675189	GCF_000183385_01146
@@ -3448,13 +3448,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c679280-679128	GCF_000183385_01153
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c679895-679470	GCF_000183385_01154
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c679895-679470	GCF_000183385_01154
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c680105-679917	GCF_000183385_01155
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c680105-679917	GCF_000183385_01155
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c680408-680211	GCF_000183385_01156
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c680408-680211	GCF_000183385_01156
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c681763-681380	GCF_000183385_01157
@@ -3478,7 +3478,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c684666-684181	GCF_000183385_01163
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	sn-glycerol-3-phosphate import ATP-binding protein UgpC	GCF_000183385_1:c685100-684849	GCF_000183385_01164
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c685100-684849	GCF_000183385_01164
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Thiamine import ATP-binding protein ThiQ	GCF_000183385_1:c685409-685194	GCF_000183385_01165
@@ -3508,7 +3508,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c688707-688564	GCF_000183385_01173
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YcsE	GCF_000183385_1:c689139-688741	GCF_000183385_01174
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	HMP-PP phosphatase	GCF_000183385_1:c689139-688741	GCF_000183385_01174
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	tRNA pseudouridine synthase B	GCF_000183385_1:c689599-689225	GCF_000183385_01175
@@ -3583,7 +3583,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	CTP synthase	GCF_000183385_1:c702264-701428	GCF_000183385_01203
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c705313-704243	GCF_000183385_01212
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS3 family transposase ISMmy2	GCF_000183385_1:c705313-704243	GCF_000183385_01212
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c705466-705323	GCF_000183385_01213
@@ -3613,7 +3613,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:709943-710206	GCF_000183385_01221
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Tyrosine recombinase XerC	GCF_000183385_1:c710764-710537	GCF_000183385_01222
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Tyrosine recombinase XerD	GCF_000183385_1:c710764-710537	GCF_000183385_01222
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c711334-711002	GCF_000183385_01223
@@ -3643,7 +3643,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	ATP-dependent zinc metalloprotease FtsH	GCF_000183385_1:c716838-715795	GCF_000183385_01231
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:717306-717902	GCF_000183385_01232
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMmy1	GCF_000183385_1:717306-717902	GCF_000183385_01232
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:718005-718448	GCF_000183385_01233
@@ -3679,10 +3679,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Guanylate kinase	GCF_000183385_1:c725841-725254	GCF_000183385_01243
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:726300-727415	GCF_000183385_01244
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:726300-727415	GCF_000183385_01244
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:727425-727655	GCF_000183385_01245
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:727425-727655	GCF_000183385_01245
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:727859-728035	GCF_000183385_01246
@@ -3718,7 +3718,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:734075-734311	GCF_000183385_01256
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative thiol peroxidase	GCF_000183385_1:c734834-734562	GCF_000183385_01257
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Thiol peroxidase	GCF_000183385_1:c734834-734562	GCF_000183385_01257
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c735166-735008	GCF_000183385_01258
@@ -3802,7 +3802,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c750319-750170	GCF_000183385_01285
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c751976-750858	GCF_000183385_01287
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:c751976-750858	GCF_000183385_01287
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c752150-751986	GCF_000183385_01288
@@ -3835,16 +3835,16 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YitU	GCF_000183385_1:c755234-755064	GCF_000183385_01297
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c755618-755388	GCF_000183385_01298
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase IS1634	GCF_000183385_1:c755618-755388	GCF_000183385_01298
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c756155-755730	GCF_000183385_01299
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c756155-755730	GCF_000183385_01299
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c756365-756177	GCF_000183385_01300
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c756365-756177	GCF_000183385_01300
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c756668-756471	GCF_000183385_01301
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:c756668-756471	GCF_000183385_01301
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c756977-756849	GCF_000183385_01302
@@ -3925,7 +3925,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG	GCF_000183385_1:c769839-769627	GCF_000183385_01327
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c771180-770062	GCF_000183385_01328
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:c771180-770062	GCF_000183385_01328
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c771312-771190	GCF_000183385_01329
@@ -3982,19 +3982,19 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:783632-784426	GCF_000183385_01346
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA polymerase III subunit alpha	GCF_000183385_1:785008-787926	GCF_000183385_01347
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Error-prone DNA polymerase	GCF_000183385_1:785008-787926	GCF_000183385_01347
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA polymerase I	GCF_000183385_1:787943-788860	GCF_000183385_01348
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:789642-789839	GCF_000183385_01349
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:789642-789839	GCF_000183385_01349
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:789945-790133	GCF_000183385_01350
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:789945-790133	GCF_000183385_01350
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:790155-790580	GCF_000183385_01351
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:790155-790580	GCF_000183385_01351
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:790770-790922	GCF_000183385_01352
@@ -4009,7 +4009,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:792304-792486	GCF_000183385_01355
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	2',3'-cyclic-nucleotide 2'-phosphodiesterase/3'-nucleotidase	GCF_000183385_1:c792725-792411	GCF_000183385_01356
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c792725-792411	GCF_000183385_01356
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c793088-792834	GCF_000183385_01357
@@ -4102,7 +4102,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c807281-807132	GCF_000183385_01388
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative ABC transporter ATP-binding protein	GCF_000183385_1:c807518-807306	GCF_000183385_01389
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c807518-807306	GCF_000183385_01389
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c807776-807609	GCF_000183385_01390
@@ -4138,7 +4138,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:812739-812894	GCF_000183385_01400
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c814159-813071	GCF_000183385_01401
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS3 family transposase ISMmy2	GCF_000183385_1:c814159-813071	GCF_000183385_01401
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c814312-814169	GCF_000183385_01402
@@ -4243,10 +4243,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:836455-836619	GCF_000183385_01435
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:836712-837659	GCF_000183385_01436
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Protein YhgF	GCF_000183385_1:836712-837659	GCF_000183385_01436
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	30S ribosomal protein S1	GCF_000183385_1:837744-838862	GCF_000183385_01437
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Protein YhgF	GCF_000183385_1:837744-838862	GCF_000183385_01437
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Chaperone protein ClpB	GCF_000183385_1:839018-840001	GCF_000183385_01438
@@ -4273,7 +4273,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:844579-844872	GCF_000183385_01445
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Modification methylase FokI	GCF_000183385_1:844854-845681	GCF_000183385_01446
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1595 family transposase ISCco4	GCF_000183385_1:844854-845681	GCF_000183385_01446
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:845682-845795	GCF_000183385_01447
@@ -4318,7 +4318,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	HTH-type transcriptional regulator RpiR	GCF_000183385_1:853118-853951	GCF_000183385_01460
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	L-ribulose-5-phosphate 4-epimerase	GCF_000183385_1:c854606-854490	GCF_000183385_01461
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c854606-854490	GCF_000183385_01461
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	L-ribulose-5-phosphate 4-epimerase UlaF	GCF_000183385_1:c855221-854715	GCF_000183385_01462
@@ -4345,10 +4345,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c857810-857616	GCF_000183385_01469
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ascorbate-specific PTS system EIIC component	GCF_000183385_1:c858374-857832	GCF_000183385_01470
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c858374-857832	GCF_000183385_01470
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ascorbate-specific PTS system EIIC component	GCF_000183385_1:c858647-858405	GCF_000183385_01471
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c858647-858405	GCF_000183385_01471
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c858893-858726	GCF_000183385_01472
@@ -4357,16 +4357,16 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c859265-858975	GCF_000183385_01473
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phosphotriesterase homology protein	GCF_000183385_1:c860195-859476	GCF_000183385_01474
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phospho-furanose lactonase	GCF_000183385_1:c860195-859476	GCF_000183385_01474
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c860537-860205	GCF_000183385_01475
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phospho-furanose lactonase	GCF_000183385_1:c860537-860205	GCF_000183385_01475
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:860883-861038	GCF_000183385_01476
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Pyridoxal phosphate phosphatase YbhA	GCF_000183385_1:861042-861263	GCF_000183385_01477
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:861042-861263	GCF_000183385_01477
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:861384-861530	GCF_000183385_01478
@@ -4393,7 +4393,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:864691-864867	GCF_000183385_01485
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Adenosine monophosphate-protein transferase SoFic	GCF_000183385_1:864941-865786	GCF_000183385_01486
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:864941-865786	GCF_000183385_01486
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:865850-866221	GCF_000183385_01487
@@ -4402,7 +4402,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:866286-866519	GCF_000183385_01488
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Modification methylase HindIII	GCF_000183385_1:867188-867709	GCF_000183385_01489
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:867188-867709	GCF_000183385_01489
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:867719-868387	GCF_000183385_01490
@@ -4411,7 +4411,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:868397-868585	GCF_000183385_01491
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c869687-868719	GCF_000183385_01492
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS3 family transposase ISMmy2	GCF_000183385_1:c869687-868719	GCF_000183385_01492
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c869840-869697	GCF_000183385_01493
@@ -4507,13 +4507,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c884371-884186	GCF_000183385_01523
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	23S rRNA (uracil-C(5))-methyltransferase RlmCD	GCF_000183385_1:c884983-884612	GCF_000183385_01524
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	putative RNA methyltransferase	GCF_000183385_1:c884983-884612	GCF_000183385_01524
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c885211-885026	GCF_000183385_01525
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Chromosomal replication initiator protein DnaA	GCF_000183385_1:c885682-885239	GCF_000183385_01526
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c885682-885239	GCF_000183385_01526
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c885850-885713	GCF_000183385_01527
@@ -4537,13 +4537,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:888624-888746	GCF_000183385_01534
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:888756-889874	GCF_000183385_01535
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:888756-889874	GCF_000183385_01535
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:890096-890344	GCF_000183385_01536
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA adenine methyltransferase YhdJ	GCF_000183385_1:891111-891623	GCF_000183385_01537
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:891111-891623	GCF_000183385_01537
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c892001-891843	GCF_000183385_01538
@@ -4609,10 +4609,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribonuclease J2	GCF_000183385_1:c903412-901739	GCF_000183385_01558
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Chromosome partition protein Smc	GCF_000183385_1:c904321-903659	GCF_000183385_01559
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c904321-903659	GCF_000183385_01559
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribosomal RNA small subunit methyltransferase I	GCF_000183385_1:c904625-904458	GCF_000183385_01560
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c904625-904458	GCF_000183385_01560
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribosomal RNA small subunit methyltransferase I	GCF_000183385_1:c904973-904659	GCF_000183385_01561
@@ -4621,7 +4621,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c905331-905176	GCF_000183385_01562
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA polymerase III subunit gamma/tau	GCF_000183385_1:c906078-905575	GCF_000183385_01563
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c906078-905575	GCF_000183385_01563
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Thymidylate kinase	GCF_000183385_1:c906725-906093	GCF_000183385_01564
@@ -4636,10 +4636,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Nucleoid-associated protein	GCF_000183385_1:c907620-907330	GCF_000183385_01567
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA polymerase III subunit tau	GCF_000183385_1:c909487-907637	GCF_000183385_01568
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Holliday junction ATP-dependent DNA helicase RuvB	GCF_000183385_1:c909487-907637	GCF_000183385_01568
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c910844-909726	GCF_000183385_01569
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:c910844-909726	GCF_000183385_01569
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c910976-910854	GCF_000183385_01570
@@ -4654,10 +4654,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	2,3-bisphosphoglycerate-independent phosphoglycerate mutase	GCF_000183385_1:912067-913563	GCF_000183385_01573
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	HMP-PP phosphatase	GCF_000183385_1:913566-913976	GCF_000183385_01574
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:913566-913976	GCF_000183385_01574
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Sugar phosphatase YidA	GCF_000183385_1:914196-914465	GCF_000183385_01575
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:914196-914465	GCF_000183385_01575
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:915009-915323	GCF_000183385_01576
@@ -4693,7 +4693,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c921160-920978	GCF_000183385_01587
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Transcription termination/antitermination protein NusA	GCF_000183385_1:c922208-921144	GCF_000183385_01588
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c922208-921144	GCF_000183385_01588
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c922610-922236	GCF_000183385_01589
@@ -4711,16 +4711,16 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	cytosol aminopeptidase	GCF_000183385_1:c924247-924020	GCF_000183385_01593
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Cytosol aminopeptidase	GCF_000183385_1:c925390-924296	GCF_000183385_01594
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	cytosol aminopeptidase	GCF_000183385_1:c925390-924296	GCF_000183385_01594
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:925933-927048	GCF_000183385_01595
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:925933-927048	GCF_000183385_01595
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:927058-927288	GCF_000183385_01596
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov2	GCF_000183385_1:927058-927288	GCF_000183385_01596
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:927408-928526	GCF_000183385_01597
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS30 family transposase ISMbov1	GCF_000183385_1:927408-928526	GCF_000183385_01597
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:928920-929663	GCF_000183385_01598
@@ -4798,10 +4798,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:946867-947475	GCF_000183385_01622
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IgA FC receptor	GCF_000183385_1:c948126-947791	GCF_000183385_01623
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c948126-947791	GCF_000183385_01623
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Tyrosine recombinase XerC	GCF_000183385_1:948412-949161	GCF_000183385_01624
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Tyrosine recombinase XerD	GCF_000183385_1:948412-949161	GCF_000183385_01624
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribonuclease J 1	GCF_000183385_1:949560-949967	GCF_000183385_01626
@@ -4837,7 +4837,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c955804-955478	GCF_000183385_01636
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B	GCF_000183385_1:c956065-955922	GCF_000183385_01637
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c956065-955922	GCF_000183385_01637
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B	GCF_000183385_1:c956332-956096	GCF_000183385_01638
@@ -4858,7 +4858,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c959391-959077	GCF_000183385_01643
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribosomal large subunit pseudouridine synthase C	GCF_000183385_1:c959814-959407	GCF_000183385_01644
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c959814-959407	GCF_000183385_01644
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Segregation and condensation protein B	GCF_000183385_1:c960404-959826	GCF_000183385_01645
@@ -4879,7 +4879,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	GTPase Der	GCF_000183385_1:c962955-962743	GCF_000183385_01650
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	GTPase Der	GCF_000183385_1:c963429-963304	GCF_000183385_01651
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c963429-963304	GCF_000183385_01651
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	GTPase Der	GCF_000183385_1:c963696-963553	GCF_000183385_01652
@@ -4897,31 +4897,31 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Ribosome-binding factor A	GCF_000183385_1:966555-966800	GCF_000183385_01657
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:967448-967645	GCF_000183385_01658
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:967448-967645	GCF_000183385_01658
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:967751-967939	GCF_000183385_01659
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:967751-967939	GCF_000183385_01659
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:967961-968386	GCF_000183385_01660
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase ISMbov3	GCF_000183385_1:967961-968386	GCF_000183385_01660
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:968498-968728	GCF_000183385_01661
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS1634 family transposase IS1634	GCF_000183385_1:968498-968728	GCF_000183385_01661
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Tyrosine--tRNA ligase	GCF_000183385_1:c969338-969045	GCF_000183385_01663
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c969338-969045	GCF_000183385_01663
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Tyrosine--tRNA ligase	GCF_000183385_1:c970280-969582	GCF_000183385_01664
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phenylalanine--tRNA ligase beta subunit	GCF_000183385_1:c970479-970291	GCF_000183385_01665
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c970479-970291	GCF_000183385_01665
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Phenylalanine--tRNA ligase beta subunit	GCF_000183385_1:c970926-970483	GCF_000183385_01666
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c970926-970483	GCF_000183385_01666
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DegV domain-containing protein	GCF_000183385_1:970955-971320	GCF_000183385_01667
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:970955-971320	GCF_000183385_01667
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:971537-971707	GCF_000183385_01668
@@ -4957,7 +4957,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c976230-975979	GCF_000183385_01679
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA topoisomerase 4 subunit B	GCF_000183385_1:976465-976623	GCF_000183385_01680
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA gyrase subunit B	GCF_000183385_1:976465-976623	GCF_000183385_01680
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	DNA gyrase subunit B	GCF_000183385_1:976654-978270	GCF_000183385_01681
@@ -4966,13 +4966,13 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:978555-978644	GCF_000183385_01682
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Thioredoxin C-1	GCF_000183385_1:978660-978779	GCF_000183385_01683
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:978660-978779	GCF_000183385_01683
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	SsrA-binding protein	GCF_000183385_1:979111-979368	GCF_000183385_01684
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c980430-979462	GCF_000183385_01685
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS3 family transposase ISMmy2	GCF_000183385_1:c980430-979462	GCF_000183385_01685
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c981984-981778	GCF_000183385_01686
@@ -4981,7 +4981,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c982731-982267	GCF_000183385_01687
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Catabolite control protein A	GCF_000183385_1:c983085-982744	GCF_000183385_01688
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c983085-982744	GCF_000183385_01688
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:983281-983391	GCF_000183385_01689
@@ -4993,7 +4993,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:983855-983998	GCF_000183385_01692
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:984008-985078	GCF_000183385_01693
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	IS3 family transposase ISMmy2	GCF_000183385_1:984008-985078	GCF_000183385_01693
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c985414-985217	GCF_000183385_01694
@@ -5005,10 +5005,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Magnesium-transporting ATPase, P-type 1	GCF_000183385_1:c987010-985706	GCF_000183385_01696
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Magnesium-transporting ATPase, P-type 1	GCF_000183385_1:c987925-987023	GCF_000183385_01697
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c987925-987023	GCF_000183385_01697
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Macrolide export ATP-binding/permease protein MacB	GCF_000183385_1:c989133-988045	GCF_000183385_01698
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Vitamin B12 import ATP-binding protein BtuD	GCF_000183385_1:c989133-988045	GCF_000183385_01698
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	hypothetical protein	GCF_000183385_1:c989805-989254	GCF_000183385_01699
@@ -5193,10 +5193,9 @@ tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:tRNA	S
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:tRNA	Leu	GCF_000183385_1:983684-983767	GCF_000183385_01691
 
-DiscRep_ALL:SUSPECT_PRODUCT_NAMES::6 product_names contain suspect phrase or characters
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::5 product_names contain suspect phrase or characters
 DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
-DiscRep_SUB:SUSPECT_PRODUCT_NAMES::6 features contains three or more numbers together that may be identifiers more appropriate in note
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Type I restriction enzyme EcoR124II R protein	GCF_000183385_1:276920-277444	GCF_000183385_00479
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::5 features contains three or more numbers together that may be identifiers more appropriate in note
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Putative ABC transporter ATP-binding protein MG187	GCF_000183385_1:c345976-345488	GCF_000183385_00591
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Putative ABC transporter ATP-binding protein MG187	GCF_000183385_1:c346558-346043	GCF_000183385_00592
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	Putative ABC transporter ATP-binding protein MG187	GCF_000183385_1:c347416-347147	GCF_000183385_00594
@@ -5206,7 +5205,7 @@ tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:CDS	pu
 DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
 
 DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
-tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:NCBI:GCF_000183385_1:Annotated using prokka 1.12 from https://github.com/tseemann/prokka
+tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:NCBI:GCF_000183385_1:Annotated using prokka 1.13.3 from https://github.com/tseemann/prokka
 
 DiscRep_ALL:SHORT_PROT_SEQUENCES::215 protein sequences are shorter than 50 aa.
 tests/bulk_prokka/output/GCF_000183385.1_ASM18338v1_genomic/GCF_000183385:NCBI:GCF_000183385_00003 (length 47)

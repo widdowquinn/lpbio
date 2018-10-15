@@ -2,17 +2,17 @@
 1	933	CDS
 			gene	dnaA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P35888
+			inference	protein motif:HAMAP:MF_00377
 			locus_tag	GCF_000219375_00005
 			product	Chromosomal replication initiator protein DnaA
 			protein_id	gnl|BGI|GCF_000219375_00005
 1535	2353	CDS
-			EC_number	2.7.7.7
+			db_xref	COG:COG0592
 			gene	dnaN
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P05649
 			locus_tag	GCF_000219375_00010
-			product	DNA polymerase III subunit beta
+			product	Beta sliding clamp
 			protein_id	gnl|BGI|GCF_000219375_00010
 2501	2644	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -34,8 +34,9 @@
 			product	tRNA-Gln(ttg)
 4448	3378	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_00035
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_00035
 4601	4458	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -49,8 +50,9 @@
 			protein_id	gnl|BGI|GCF_000219375_00045
 5923	4808	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov2
 			locus_tag	GCF_000219375_00050
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov2
 			protein_id	gnl|BGI|GCF_000219375_00050
 6180	6317	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -58,11 +60,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00055
 6393	6677	CDS
-			EC_number	3.1.1.10
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P07383
 			locus_tag	GCF_000219375_00060
-			product	Tropinesterase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00060
 6711	6899	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -118,14 +118,18 @@
 			product	Lipoate--protein ligase 2
 			protein_id	gnl|BGI|GCF_000219375_00105
 11765	11346	CDS
+			EC_number	2.4.2.-
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0DN71
 			locus_tag	GCF_000219375_00110
-			product	hypothetical protein
+			product	Protein ADP-ribosyltransferase
 			protein_id	gnl|BGI|GCF_000219375_00110
 11999	11784	CDS
+			EC_number	2.4.2.-
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0DN71
 			locus_tag	GCF_000219375_00115
-			product	hypothetical protein
+			product	Protein ADP-ribosyltransferase
 			protein_id	gnl|BGI|GCF_000219375_00115
 12345	12058	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -139,12 +143,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00125
 13330	12785	CDS
-			EC_number	1.14.13.107
-			gene	limB
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9EUT9
 			locus_tag	GCF_000219375_00130
-			product	Limonene 1,2-monooxygenase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00130
 13674	14060	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -173,6 +174,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00155
 16463	18067	CDS
 			EC_number	3.6.3.17
+			db_xref	COG:COG1129
 			gene	rbsA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P04983
@@ -241,6 +243,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00220
 24993	24802	CDS
 			EC_number	4.2.1.70
+			db_xref	COG:COG2313
 			gene	psuG_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P33025
@@ -249,6 +252,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00225
 25707	25066	CDS
 			EC_number	4.2.1.70
+			db_xref	COG:COG2313
 			gene	psuG_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P33025
@@ -257,35 +261,27 @@
 			protein_id	gnl|BGI|GCF_000219375_00230
 26306	25710	CDS
 			EC_number	2.7.1.83
-			gene	psuK_1
+			db_xref	COG:COG0524
+			gene	psuK
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P30235
 			locus_tag	GCF_000219375_00235
 			product	Pseudouridine kinase
 			protein_id	gnl|BGI|GCF_000219375_00235
 26609	26409	CDS
-			EC_number	2.7.1.83
-			gene	psuK_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P30235
 			locus_tag	GCF_000219375_00240
-			product	Pseudouridine kinase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00240
 26773	26997	CDS
-			EC_number	3.1.3.-
-			gene	ywpJ_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P94592
 			locus_tag	GCF_000219375_00245
-			product	Phosphatase YwpJ
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00245
 27277	27603	CDS
-			EC_number	3.1.3.-
-			gene	ywpJ_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P94592
 			locus_tag	GCF_000219375_00250
-			product	Phosphatase YwpJ
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00250
 27637	28506	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -303,11 +299,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00265
 29673	30635	CDS
-			gene	natA
+			EC_number	3.6.3.33
+			gene	btuD_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P46903
+			inference	protein motif:HAMAP:MF_01005
 			locus_tag	GCF_000219375_00270
-			product	ABC transporter ATP-binding protein NatA
+			product	Vitamin B12 import ATP-binding protein BtuD
 			protein_id	gnl|BGI|GCF_000219375_00270
 30742	31089	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -335,11 +332,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00295
 34315	33071	CDS
-			gene	oppF_1
+			EC_number	3.6.3.33
+			gene	btuD_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P24137
+			inference	protein motif:HAMAP:MF_01005
 			locus_tag	GCF_000219375_00300
-			product	Oligopeptide transport ATP-binding protein OppF
+			product	Vitamin B12 import ATP-binding protein BtuD
 			protein_id	gnl|BGI|GCF_000219375_00300
 34541	34308	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -347,6 +345,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00305
 34877	34644	CDS
+			db_xref	COG:COG0444
 			gene	oppD_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P24136
@@ -354,6 +353,7 @@
 			product	Oligopeptide transport ATP-binding protein OppD
 			protein_id	gnl|BGI|GCF_000219375_00310
 35354	34893	CDS
+			db_xref	COG:COG0444
 			gene	oppD_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P24136
@@ -367,9 +367,8 @@
 			protein_id	gnl|BGI|GCF_000219375_00320
 36204	35935	CDS
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P9WFZ9
 			locus_tag	GCF_000219375_00325
-			product	Putative peptide transport permease protein
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00325
 36224	36451	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -387,7 +386,8 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00340
 37864	37214	CDS
-			gene	dppB_1
+			db_xref	COG:COG0601
+			gene	dppB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P26903
 			locus_tag	GCF_000219375_00345
@@ -529,9 +529,11 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00480
 52293	52454	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_00485
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_00485
 52724	53206	CDS
 			EC_number	6.1.1.16
@@ -542,12 +544,9 @@
 			product	Cysteine--tRNA ligase
 			protein_id	gnl|BGI|GCF_000219375_00490
 53453	53887	CDS
-			EC_number	6.1.1.5
-			gene	ileS_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_02002
 			locus_tag	GCF_000219375_00495
-			product	Isoleucine--tRNA ligase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00495
 54012	54479	CDS
 			EC_number	2.1.1.-
@@ -616,6 +615,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00550
 60339	61061	CDS
 			EC_number	2.7.4.22
+			db_xref	COG:COG0528
 			gene	pyrH
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97R83
@@ -623,6 +623,7 @@
 			product	Uridylate kinase
 			protein_id	gnl|BGI|GCF_000219375_00555
 61061	61612	CDS
+			db_xref	COG:COG0233
 			gene	frr
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q81WL1
@@ -662,6 +663,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00590
 65602	64814	CDS
 			EC_number	2.1.1.182
+			db_xref	COG:COG0030
 			gene	rsmA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q83AC2
@@ -670,6 +672,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00595
 66356	65595	CDS
 			EC_number	3.1.-.-
+			db_xref	COG:COG0084
 			gene	ycfH
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0AFQ7
@@ -678,6 +681,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00600
 67190	66450	CDS
 			EC_number	3.6.5.-
+			db_xref	COG:COG0486
 			gene	mnmE_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9WYA4
@@ -699,14 +703,15 @@
 			protein_id	gnl|BGI|GCF_000219375_00615
 69079	68609	CDS
 			EC_number	1.2.1.12
-			gene	gap
+			gene	gapA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q5XDW3
+			inference	similar to AA sequence:UniProtKB:P75358
 			locus_tag	GCF_000219375_00620
 			product	Glyceraldehyde-3-phosphate dehydrogenase
 			protein_id	gnl|BGI|GCF_000219375_00620
 69547	69290	CDS
 			EC_number	1.2.1.12
+			db_xref	COG:COG0057
 			gene	gap1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q4MQ58
@@ -723,6 +728,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00630
 70974	70093	CDS
 			EC_number	6.1.1.11
+			db_xref	COG:COG0172
 			gene	serS_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O66647
@@ -736,6 +742,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00640
 72039	71317	CDS
 			EC_number	2.4.-.-
+			db_xref	COG:COG0463
 			gene	epsH
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P71057
@@ -743,6 +750,7 @@
 			product	Putative glycosyltransferase EpsH
 			protein_id	gnl|BGI|GCF_000219375_00645
 72350	72499	CDS
+			db_xref	COG:COG0230
 			gene	rpmH
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9RSH2
@@ -768,6 +776,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00665
 74302	74607	CDS
+			db_xref	COG:COG0706
 			gene	yidC2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9KDP2
@@ -776,6 +785,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00670
 75171	75875	CDS
 			EC_number	6.3.1.20
+			db_xref	COG:COG0095
 			gene	lplJ
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O07608
@@ -783,12 +793,12 @@
 			product	Lipoate-protein ligase LplJ
 			protein_id	gnl|BGI|GCF_000219375_00675
 76155	76568	CDS
-			EC_number	3.-.-.-
-			gene	ydjP
+			EC_number	4.2.99.20
+			gene	menH
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O34592
+			inference	protein motif:HAMAP:MF_01660
 			locus_tag	GCF_000219375_00680
-			product	AB hydrolase superfamily protein YdjP
+			product	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
 			protein_id	gnl|BGI|GCF_000219375_00680
 76569	76976	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -805,6 +815,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00690
 78213	78746	CDS
 			EC_number	6.3.1.1
+			db_xref	COG:COG2502
 			gene	asnA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P00963
@@ -833,12 +844,13 @@
 			EC_number	2.7.7.7
 			gene	polC_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P63982
+			inference	protein motif:HAMAP:MF_00356
 			locus_tag	GCF_000219375_00715
 			product	DNA polymerase III PolC-type
 			protein_id	gnl|BGI|GCF_000219375_00715
 81298	81573	CDS
 			EC_number	2.7.7.7
+			db_xref	COG:COG2176
 			gene	polC_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P13267
@@ -847,6 +859,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00720
 81589	82191	CDS
 			EC_number	2.7.7.7
+			db_xref	COG:COG2176
 			gene	polC_4
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9ZHF6
@@ -855,6 +868,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00725
 82279	82527	CDS
 			EC_number	2.7.7.7
+			db_xref	COG:COG2176
 			gene	polC_5
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P13267
@@ -863,6 +877,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00730
 82603	82809	CDS
 			EC_number	2.7.7.7
+			db_xref	COG:COG2176
 			gene	polC_6
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P13267
@@ -871,6 +886,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00735
 82837	83298	CDS
 			EC_number	2.7.7.7
+			db_xref	COG:COG2176
 			gene	polC_7
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P13267
@@ -886,6 +902,7 @@
 			locus_tag	GCF_000219375_00750
 			product	tRNA-Arg(cct)
 83704	84927	CDS
+			db_xref	COG:COG2256
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P9WQN1
 			locus_tag	GCF_000219375_00755
@@ -893,6 +910,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00755
 85709	85882	CDS
 			EC_number	6.1.1.20
+			db_xref	COG:COG0016
 			gene	pheS
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q4L5E3
@@ -901,6 +919,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00760
 85872	86198	CDS
 			EC_number	3.2.2.27
+			db_xref	COG:COG0692
 			gene	ung
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39615
@@ -919,7 +938,7 @@
 			EC_number	6.1.1.20
 			gene	pheT_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q5XCX3
+			inference	protein motif:HAMAP:MF_00283
 			locus_tag	GCF_000219375_00775
 			product	Phenylalanine--tRNA ligase beta subunit
 			protein_id	gnl|BGI|GCF_000219375_00775
@@ -941,6 +960,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00785
 88729	89478	CDS
 			EC_number	2.1.2.1
+			db_xref	COG:COG0112
 			gene	glyA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P24531
@@ -949,6 +969,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00790
 89506	89847	CDS
 			EC_number	2.1.2.1
+			db_xref	COG:COG0112
 			gene	glyA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5HE87
@@ -970,6 +991,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00805
 90968	91324	CDS
 			EC_number	2.8.1.7
+			db_xref	COG:COG0520
 			gene	sufS
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O32164
@@ -986,6 +1008,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00815
 92118	92546	CDS
 			EC_number	2.-.-.-
+			db_xref	COG:COG0822
 			gene	sufU
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O32163
@@ -1017,12 +1040,13 @@
 			EC_number	2.7.7.18
 			gene	nadD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P54455
+			inference	protein motif:HAMAP:MF_00244
 			locus_tag	GCF_000219375_00840
-			product	Nicotinate-nucleotide adenylyltransferase
+			product	nicotinate-nucleotide adenylyltransferase
 			protein_id	gnl|BGI|GCF_000219375_00840
 94871	95638	CDS
 			EC_number	5.4.99.22
+			db_xref	COG:COG1187
 			gene	rluB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P35159
@@ -1068,6 +1092,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00875
 97686	97988	CDS
 			EC_number	4.1.2.13
+			db_xref	COG:COG0191
 			gene	fba_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A4S2
@@ -1075,14 +1100,12 @@
 			product	Fructose-bisphosphate aldolase
 			protein_id	gnl|BGI|GCF_000219375_00880
 98069	98605	CDS
-			EC_number	3.1.31.1
-			gene	nucH
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P43270
 			locus_tag	GCF_000219375_00885
-			product	Thermonuclease
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00885
 98758	99228	CDS
+			db_xref	COG:COG0080
 			gene	rplK
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:A0QS45
@@ -1128,6 +1151,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00925
 102752	103060	CDS
 			EC_number	2.1.1.207
+			db_xref	COG:COG0219
 			gene	trmL_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q74Y93
@@ -1138,17 +1162,17 @@
 			EC_number	2.1.1.207
 			gene	trmL_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P44868
+			inference	protein motif:HAMAP:MF_01885
 			locus_tag	GCF_000219375_00935
 			product	tRNA (cytidine(34)-2'-O)-methyltransferase
 			protein_id	gnl|BGI|GCF_000219375_00935
 103270	104001	CDS
-			EC_number	2.1.1.34
-			gene	trmH
+			EC_number	2.1.1.185
+			gene	rlmB
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q72GI1
+			inference	protein motif:HAMAP:MF_01887
 			locus_tag	GCF_000219375_00940
-			product	tRNA (guanosine(18)-2'-O)-methyltransferase
+			product	23S rRNA (guanosine-2'-O-)-methyltransferase RlmB
 			protein_id	gnl|BGI|GCF_000219375_00940
 104009	104242	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1156,25 +1180,19 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00945
 104293	104511	CDS
-			gene	rbgA_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O31743
 			locus_tag	GCF_000219375_00950
-			product	Ribosome biogenesis GTPase A
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00950
 104635	104739	CDS
-			gene	engB_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00321
 			locus_tag	GCF_000219375_00955
-			product	GTP-binding protein EngB
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00955
 104764	105069	CDS
-			gene	rbgA_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O31743
 			locus_tag	GCF_000219375_00960
-			product	Ribosome biogenesis GTPase A
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00960
 105217	105375	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1188,6 +1206,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00970
 105864	106619	CDS
 			EC_number	2.7.11.-
+			db_xref	COG:COG1493
 			gene	hprK
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9RE09
@@ -1195,12 +1214,9 @@
 			product	HPr kinase/phosphorylase
 			protein_id	gnl|BGI|GCF_000219375_00975
 106972	107091	CDS
-			EC_number	2.4.99.-
-			gene	lgt
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01147
 			locus_tag	GCF_000219375_00980
-			product	Prolipoprotein diacylglyceryl transferase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_00980
 107356	107535	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1209,6 +1225,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00985
 107597	107755	CDS
 			EC_number	1.8.1.9
+			db_xref	COG:COG0492
 			gene	trxB_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P80880
@@ -1217,6 +1234,7 @@
 			protein_id	gnl|BGI|GCF_000219375_00990
 107813	108520	CDS
 			EC_number	1.8.1.9
+			db_xref	COG:COG0492
 			gene	trxB_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P80880
@@ -1235,25 +1253,25 @@
 			protein_id	gnl|BGI|GCF_000219375_01005
 109930	110097	CDS
 			EC_number	1.2.4.1
-			gene	pdhA
+			gene	pdhA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P21873
 			locus_tag	GCF_000219375_01010
 			product	Pyruvate dehydrogenase E1 component subunit alpha
 			protein_id	gnl|BGI|GCF_000219375_01010
 110200	110316	CDS
-			EC_number	1.1.1.-
-			gene	acoA
+			EC_number	1.2.4.1
+			gene	pdhA_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O31404
+			inference	similar to AA sequence:UniProtKB:P75390
 			locus_tag	GCF_000219375_01015
-			product	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha
+			product	Pyruvate dehydrogenase E1 component subunit alpha
 			protein_id	gnl|BGI|GCF_000219375_01015
 110662	110829	CDS
 			EC_number	1.2.4.1
 			gene	pdhB_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P35488
+			inference	similar to AA sequence:UniProtKB:P75391
 			locus_tag	GCF_000219375_01020
 			product	Pyruvate dehydrogenase E1 component subunit beta
 			protein_id	gnl|BGI|GCF_000219375_01020
@@ -1261,7 +1279,7 @@
 			EC_number	1.2.4.1
 			gene	pdhB_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P35488
+			inference	similar to AA sequence:UniProtKB:P75391
 			locus_tag	GCF_000219375_01025
 			product	Pyruvate dehydrogenase E1 component subunit beta
 			protein_id	gnl|BGI|GCF_000219375_01025
@@ -1276,12 +1294,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01035
 112462	112662	CDS
-			EC_number	2.3.1.61
-			gene	sucB
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P0AFG7
 			locus_tag	GCF_000219375_01040
-			product	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01040
 112745	112894	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1297,14 +1312,16 @@
 			EC_number	1.8.1.4
 			gene	pdhD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P11959
+			inference	similar to AA sequence:UniProtKB:P75393
 			locus_tag	GCF_000219375_01055
 			product	Dihydrolipoyl dehydrogenase
 			protein_id	gnl|BGI|GCF_000219375_01055
 115746	114628	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_01060
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_01060
 115878	115756	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1312,6 +1329,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01065
 116075	116281	CDS
+			db_xref	COG:COG0227
 			gene	rpmB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A7M2
@@ -1319,12 +1337,9 @@
 			product	50S ribosomal protein L28
 			protein_id	gnl|BGI|GCF_000219375_01070
 116881	116336	CDS
-			EC_number	4.2.1.103
-			gene	inhA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q8G9F9
 			locus_tag	GCF_000219375_01075
-			product	Isonitrile hydratase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01075
 117155	117012	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1357,11 +1372,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01105
 121234	121551	CDS
-			gene	oppB_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P08005
 			locus_tag	GCF_000219375_01110
-			product	Oligopeptide transport system permease protein OppB
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01110
 121823	121494	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1369,11 +1382,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01115
 121864	122070	CDS
-			gene	dppB_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P26903
 			locus_tag	GCF_000219375_01120
-			product	Dipeptide transport system permease protein DppB
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01120
 122089	122355	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1391,16 +1402,15 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01135
 123638	123988	CDS
-			gene	sapD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P0AAH4
 			locus_tag	GCF_000219375_01140
-			product	Putrescine export system ATP-binding protein SapD
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01140
 124151	124501	CDS
+			db_xref	COG:COG0444
 			gene	oppD_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P24136
+			inference	similar to AA sequence:UniProtKB:P76027
 			locus_tag	GCF_000219375_01145
 			product	Oligopeptide transport ATP-binding protein OppD
 			protein_id	gnl|BGI|GCF_000219375_01145
@@ -1410,18 +1420,20 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01150
 124776	125186	CDS
-			gene	oppF_2
+			db_xref	COG:COG4608
+			gene	oppF
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P24137
 			locus_tag	GCF_000219375_01155
 			product	Oligopeptide transport ATP-binding protein OppF
 			protein_id	gnl|BGI|GCF_000219375_01155
 125394	127106	CDS
-			gene	oppF_3
+			EC_number	3.6.3.33
+			gene	btuD_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P24137
+			inference	protein motif:HAMAP:MF_01005
 			locus_tag	GCF_000219375_01160
-			product	Oligopeptide transport ATP-binding protein OppF
+			product	Vitamin B12 import ATP-binding protein BtuD
 			protein_id	gnl|BGI|GCF_000219375_01160
 127191	128174	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1478,6 +1490,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01205
 132541	132095	CDS
 			EC_number	5.3.1.-
+			db_xref	COG:COG0698
 			gene	ywlF
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39156
@@ -1485,12 +1498,9 @@
 			product	Putative sugar phosphate isomerase YwlF
 			protein_id	gnl|BGI|GCF_000219375_01210
 132697	133317	CDS
-			EC_number	3.4.22.-
-			gene	lagD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P59852
 			locus_tag	GCF_000219375_01215
-			product	Lactococcin-G-processing and transport ATP-binding protein LagD
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01215
 133603	133776	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1498,11 +1508,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01220
 133945	134754	CDS
-			gene	mcjD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9X2W0
 			locus_tag	GCF_000219375_01225
-			product	Microcin-J25 export ATP-binding/permease protein McjD
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01225
 134876	135118	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -1513,17 +1521,14 @@
 			EC_number	3.1.-.-
 			gene	ybeY
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O67367
+			inference	protein motif:HAMAP:MF_00009
 			locus_tag	GCF_000219375_01235
 			product	Endoribonuclease YbeY
 			protein_id	gnl|BGI|GCF_000219375_01235
 135749	136003	CDS
-			EC_number	3.5.4.5
-			gene	cdd
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P19079
 			locus_tag	GCF_000219375_01240
-			product	Cytidine deaminase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01240
 136015	136887	CDS
 			gene	era
@@ -1541,6 +1546,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01250
 138619	138864	CDS
 			EC_number	6.1.1.15
+			db_xref	COG:COG0442
 			gene	proS_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9RUW4
@@ -1549,6 +1555,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01255
 138898	139524	CDS
 			EC_number	6.1.1.15
+			db_xref	COG:COG0442
 			gene	proS_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9L4Q8
@@ -1679,6 +1686,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01370
 148833	149231	CDS
 			EC_number	3.6.3.31
+			db_xref	COG:COG3842
 			gene	potA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P69874
@@ -1714,6 +1722,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01400
 150646	151065	CDS
+			db_xref	COG:COG1176
 			gene	potB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0AFK4
@@ -1768,7 +1777,7 @@
 155491	155691	CDS
 			gene	rpmF
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P80339
+			inference	protein motif:HAMAP:MF_00340
 			locus_tag	GCF_000219375_01455
 			product	50S ribosomal protein L32
 			protein_id	gnl|BGI|GCF_000219375_01455
@@ -1794,6 +1803,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01475
 157385	157762	CDS
 			EC_number	2.8.1.4
+			db_xref	COG:COG0301
 			gene	thiI_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q81KU0
@@ -1802,6 +1812,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01480
 157775	158521	CDS
 			EC_number	2.8.1.4
+			db_xref	COG:COG0301
 			gene	thiI_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9X220
@@ -1902,6 +1913,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01565
 167912	168772	CDS
+			db_xref	COG:COG0190
 			gene	folD
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q0PA35
@@ -1910,6 +1922,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01570
 168872	169828	CDS
 			EC_number	2.3.1.8
+			db_xref	COG:COG0280
 			gene	pta_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39646
@@ -1918,6 +1931,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01575
 169832	171025	CDS
 			EC_number	2.7.2.1
+			db_xref	COG:COG0282
 			gene	ackA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9WYB1
@@ -1926,14 +1940,16 @@
 			protein_id	gnl|BGI|GCF_000219375_01580
 171037	171459	CDS
 			EC_number	2.7.7.3
+			db_xref	COG:COG0669
 			gene	coaD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O26010
+			inference	similar to AA sequence:UniProtKB:Q8DNE6
 			locus_tag	GCF_000219375_01585
 			product	Phosphopantetheine adenylyltransferase
 			protein_id	gnl|BGI|GCF_000219375_01585
 171564	171728	CDS
-			gene	engB_2
+			db_xref	COG:COG0218
+			gene	engB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9X1H7
 			locus_tag	GCF_000219375_01590
@@ -1958,7 +1974,7 @@
 			EC_number	2.7.1.40
 			gene	pyk
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P34038
+			inference	similar to AA sequence:UniProtKB:P78031
 			locus_tag	GCF_000219375_01610
 			product	Pyruvate kinase
 			protein_id	gnl|BGI|GCF_000219375_01610
@@ -1987,6 +2003,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01625
 179595	178312	CDS
 			EC_number	2.1.1.74
+			db_xref	COG:COG1206
 			gene	trmFO
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39815
@@ -2011,12 +2028,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01645
 182473	182126	CDS
-			EC_number	4.2.99.20
-			gene	menH
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01660
 			locus_tag	GCF_000219375_01650
-			product	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01650
 182589	182750	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -2094,18 +2108,15 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01725
 190248	189865	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	GCF_000219375_01730
+			product	hypothetical protein
+			protein_id	gnl|BGI|GCF_000219375_01730
+190848	190387	CDS
 			EC_number	5.2.1.8
 			gene	tig_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	protein motif:HAMAP:MF_00303
-			locus_tag	GCF_000219375_01730
-			product	Trigger factor
-			protein_id	gnl|BGI|GCF_000219375_01730
-190848	190387	CDS
-			EC_number	5.2.1.8
-			gene	tig_2
-			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P80698
 			locus_tag	GCF_000219375_01735
 			product	Trigger factor
 			protein_id	gnl|BGI|GCF_000219375_01735
@@ -2130,9 +2141,11 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_01755
 195299	194181	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_01760
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_01760
 195431	195309	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -2183,11 +2196,11 @@
 			protein_id	gnl|BGI|GCF_000219375_01800
 203982	201064	CDS
 			EC_number	2.7.7.7
-			gene	dnaE1
+			gene	dnaE2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:B8GWS6
+			inference	protein motif:HAMAP:MF_01902
 			locus_tag	GCF_000219375_01805
-			product	DNA polymerase III subunit alpha
+			product	Error-prone DNA polymerase
 			protein_id	gnl|BGI|GCF_000219375_01805
 205360	204566	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -2257,6 +2270,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01865
 212963	213415	CDS
 			EC_number	2.1.1.177
+			db_xref	COG:COG1576
 			gene	rlmH
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0C1V0
@@ -2305,6 +2319,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01910
 216878	216405	CDS
 			EC_number	2.1.1.171
+			db_xref	COG:COG0742
 			gene	rsmD
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0ADX9
@@ -2313,6 +2328,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01915
 216964	217554	CDS
 			EC_number	3.5.1.88
+			db_xref	COG:COG0242
 			gene	def
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q8DWC2
@@ -2331,6 +2347,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01930
 219105	219227	CDS
 			EC_number	5.99.1.3
+			db_xref	COG:COG0187
 			gene	parE_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:H7C794
@@ -2339,6 +2356,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01935
 219372	220181	CDS
 			EC_number	5.99.1.3
+			db_xref	COG:COG0187
 			gene	parE_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q59961
@@ -2347,6 +2365,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01940
 220590	220754	CDS
 			EC_number	5.99.1.3
+			db_xref	COG:COG0187
 			gene	parE_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:H7C794
@@ -2355,6 +2374,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01945
 220863	220973	CDS
 			EC_number	5.99.1.3
+			db_xref	COG:COG0187
 			gene	parE_4
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:H7C794
@@ -2371,6 +2391,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01955
 221350	222780	CDS
 			EC_number	5.99.1.3
+			db_xref	COG:COG0188
 			gene	parC_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P72525
@@ -2379,14 +2400,15 @@
 			protein_id	gnl|BGI|GCF_000219375_01960
 222886	223620	CDS
 			EC_number	5.99.1.3
-			gene	gyrA_1
+			gene	parC_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q59556
+			inference	protein motif:HAMAP:MF_00937
 			locus_tag	GCF_000219375_01965
-			product	DNA gyrase subunit A
+			product	DNA topoisomerase 4 subunit A
 			protein_id	gnl|BGI|GCF_000219375_01965
 223762	223932	CDS
-			EC_number	3.1.3.-
+			EC_number	3.1.3.104
+			db_xref	COG:COG0561
 			gene	yitU
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P70947
@@ -2410,6 +2432,7 @@
 			protein_id	gnl|BGI|GCF_000219375_01985
 224693	225139	CDS
 			EC_number	3.1.26.4
+			db_xref	COG:COG1039
 			gene	rnhC_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P94541
@@ -2431,7 +2454,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02000
 225813	226571	CDS
 			EC_number	2.1.1.37
-			gene	haeIIIM_1
+			gene	haeIIIM
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P20589
 			locus_tag	GCF_000219375_02005
@@ -2457,6 +2480,7 @@
 			score	1.6e-09
 229008	228346	CDS
 			EC_number	2.1.1.-
+			db_xref	COG:COG0357
 			gene	rsmG
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P25813
@@ -2474,12 +2498,15 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02040
 229468	230373	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_02045
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_02045
 231511	230516	CDS
 			EC_number	2.7.6.1
+			db_xref	COG:COG0462
 			gene	prs
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P14193
@@ -2511,16 +2538,13 @@
 			note	predicted cleavage at residue 24
 			product	putative signal peptide
 235550	235711	CDS
-			EC_number	2.2.1.1
-			gene	tkt_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P75611
 			locus_tag	GCF_000219375_02075
-			product	Transketolase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02075
 235754	236464	CDS
 			EC_number	2.2.1.1
-			gene	tkt_2
+			gene	tkt_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P75611
 			locus_tag	GCF_000219375_02080
@@ -2528,7 +2552,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02080
 236519	237346	CDS
 			EC_number	2.2.1.1
-			gene	tkt_3
+			gene	tkt_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P75611
 			locus_tag	GCF_000219375_02085
@@ -2538,12 +2562,13 @@
 			EC_number	3.6.1.1
 			gene	ppa_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P19514
+			inference	protein motif:HAMAP:MF_00209
 			locus_tag	GCF_000219375_02090
 			product	Inorganic pyrophosphatase
 			protein_id	gnl|BGI|GCF_000219375_02090
 238113	237955	CDS
 			EC_number	3.6.1.1
+			db_xref	COG:COG0221
 			gene	ppa_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9ZCW5
@@ -2551,6 +2576,7 @@
 			product	Inorganic pyrophosphatase
 			protein_id	gnl|BGI|GCF_000219375_02095
 238192	238461	CDS
+			db_xref	COG:COG0268
 			gene	rpsT
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:A0R102
@@ -2607,11 +2633,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02145
 242818	243153	CDS
-			EC_number	3.9.1.-
+			db_xref	COG:COG0537
+			gene	hit
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P44956
+			inference	similar to AA sequence:UniProtKB:O07513
 			locus_tag	GCF_000219375_02150
-			product	Purine nucleoside phosphoramidase
+			product	Protein hit
 			protein_id	gnl|BGI|GCF_000219375_02150
 243176	243664	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -2619,6 +2646,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02155
 244176	244024	CDS
+			db_xref	COG:COG0267
 			gene	rpmG2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2FY22
@@ -2631,12 +2659,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02165
 244642	244914	CDS
-			EC_number	1.11.1.-
+			EC_number	1.11.1.15
 			gene	tpx
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P99146
 			locus_tag	GCF_000219375_02170
-			product	putative thiol peroxidase
+			product	Thiol peroxidase
 			protein_id	gnl|BGI|GCF_000219375_02170
 245401	245165	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -2644,6 +2672,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02175
 245795	245391	CDS
+			db_xref	COG:COG0552
 			gene	ftsY_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P51835
@@ -2651,6 +2680,7 @@
 			product	Signal recognition particle receptor FtsY
 			protein_id	gnl|BGI|GCF_000219375_02180
 246305	245874	CDS
+			db_xref	COG:COG0552
 			gene	ftsY_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P51835
@@ -2690,7 +2720,7 @@
 			EC_number	6.1.1.10
 			gene	metG_4
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P67579
+			inference	protein motif:HAMAP:MF_01228
 			locus_tag	GCF_000219375_02210
 			product	Methionine--tRNA ligase
 			protein_id	gnl|BGI|GCF_000219375_02210
@@ -2698,7 +2728,7 @@
 			EC_number	2.1.1.223
 			gene	yfiC
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P31825
+			inference	protein motif:HAMAP:MF_01872
 			locus_tag	GCF_000219375_02215
 			product	tRNA1(Val) (adenine(37)-N6)-methyltransferase
 			protein_id	gnl|BGI|GCF_000219375_02215
@@ -2706,12 +2736,13 @@
 			EC_number	3.1.13.1
 			gene	rnr_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O32231
+			inference	protein motif:HAMAP:MF_01895
 			locus_tag	GCF_000219375_02220
 			product	Ribonuclease R
 			protein_id	gnl|BGI|GCF_000219375_02220
 251378	249666	CDS
 			EC_number	3.1.13.1
+			db_xref	COG:COG0557
 			gene	rnr_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O32231
@@ -2725,6 +2756,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02230
 251966	252553	CDS
 			EC_number	2.7.4.8
+			db_xref	COG:COG0194
 			gene	gmk
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5HGM3
@@ -2733,6 +2765,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02235
 252559	253233	CDS
 			EC_number	3.1.3.16
+			db_xref	COG:COG0631
 			gene	stp
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q8Y678
@@ -2741,6 +2774,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02240
 253329	254132	CDS
 			EC_number	2.7.11.1
+			db_xref	COG:COG0515
 			gene	prkC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O34507
@@ -2754,6 +2788,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02250
 254339	254752	CDS
 			EC_number	3.6.1.-
+			db_xref	COG:COG1162
 			gene	rsgA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O34530
@@ -2762,6 +2797,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02255
 254798	255184	CDS
 			EC_number	3.6.1.-
+			db_xref	COG:COG1162
 			gene	rsgA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O34530
@@ -2775,6 +2811,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02265
 255288	255833	CDS
 			EC_number	5.1.3.-
+			db_xref	COG:COG0036
 			gene	alsE
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P32719
@@ -2805,7 +2842,7 @@
 			EC_number	3.6.4.12
 			gene	recD2_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9RT63
+			inference	protein motif:HAMAP:MF_01488
 			locus_tag	GCF_000219375_02295
 			product	ATP-dependent RecD-like DNA helicase
 			protein_id	gnl|BGI|GCF_000219375_02295
@@ -2821,14 +2858,15 @@
 			protein_id	gnl|BGI|GCF_000219375_02305
 262129	261533	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy1
 			locus_tag	GCF_000219375_02310
-			product	hypothetical protein
+			product	IS1634 family transposase ISMmy1
 			protein_id	gnl|BGI|GCF_000219375_02310
 262602	263645	CDS
 			EC_number	3.4.24.-
 			gene	ftsH_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P0AAI3
+			inference	protein motif:HAMAP:MF_01458
 			locus_tag	GCF_000219375_02315
 			product	ATP-dependent zinc metalloprotease FtsH
 			protein_id	gnl|BGI|GCF_000219375_02315
@@ -2854,7 +2892,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02335
 266147	268273	CDS
 			EC_number	3.1.21.3
-			gene	hsdR_1
+			gene	hsdR
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P10486
 			locus_tag	GCF_000219375_02340
@@ -2876,12 +2914,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02355
 269586	270290	CDS
-			EC_number	2.1.1.297
-			gene	prmC_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_02126
 			locus_tag	GCF_000219375_02360
-			product	Release factor glutamine methyltransferase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02360
 270330	270929	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -2914,6 +2949,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02390
 274118	274552	CDS
+			db_xref	COG:COG4973
 			gene	xerC_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P44818
@@ -2980,7 +3016,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02455
 279516	279806	CDS
 			EC_number	6.1.1.5
-			gene	ileS_2
+			gene	ileS_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P67509
 			locus_tag	GCF_000219375_02460
@@ -2988,7 +3024,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02460
 279819	280082	CDS
 			EC_number	6.1.1.5
-			gene	ileS_3
+			gene	ileS_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P67509
 			locus_tag	GCF_000219375_02465
@@ -2996,7 +3032,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02465
 280260	280721	CDS
 			EC_number	6.1.1.5
-			gene	ileS_4
+			gene	ileS_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P67509
 			locus_tag	GCF_000219375_02470
@@ -3009,6 +3045,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02475
 281208	281372	CDS
 			EC_number	6.1.1.9
+			db_xref	COG:COG0525
 			gene	valS_4
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P96142
@@ -3017,9 +3054,9 @@
 			protein_id	gnl|BGI|GCF_000219375_02480
 281541	281891	CDS
 			EC_number	6.1.1.5
-			gene	ileS_5
+			gene	ileS_4
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P67509
+			inference	protein motif:HAMAP:MF_02002
 			locus_tag	GCF_000219375_02485
 			product	Isoleucine--tRNA ligase
 			protein_id	gnl|BGI|GCF_000219375_02485
@@ -3105,6 +3142,7 @@
 			product	tRNA-Leu(tag)
 287539	288135	CDS
 			EC_number	3.6.4.12
+			db_xref	COG:COG0632
 			gene	ruvA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P40832
@@ -3113,7 +3151,8 @@
 			protein_id	gnl|BGI|GCF_000219375_02575
 288116	289078	CDS
 			EC_number	3.6.4.12
-			gene	ruvB
+			db_xref	COG:COG2255
+			gene	ruvB_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O32055
 			locus_tag	GCF_000219375_02580
@@ -3141,6 +3180,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02600
 291552	291857	CDS
 			EC_number	5.4.99.25
+			db_xref	COG:COG0130
 			gene	truB_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P9WHP7
@@ -3156,12 +3196,12 @@
 			product	tRNA pseudouridine synthase B
 			protein_id	gnl|BGI|GCF_000219375_02610
 292411	292809	CDS
-			EC_number	3.1.3.-
-			gene	ycsE_1
+			EC_number	3.6.1.-
+			gene	cof_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P42962
+			inference	protein motif:HAMAP:MF_01847
 			locus_tag	GCF_000219375_02615
-			product	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YcsE
+			product	HMP-PP phosphatase
 			protein_id	gnl|BGI|GCF_000219375_02615
 292843	292986	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -3179,6 +3219,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02630
 294263	294529	CDS
+			db_xref	COG:COG0184
 			gene	rpsO
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0ADZ4
@@ -3197,6 +3238,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02645
 295600	295935	CDS
 			EC_number	3.6.3.-
+			db_xref	COG:COG3840
 			gene	thiQ_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P31548
@@ -3210,6 +3252,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02655
 296108	296323	CDS
 			EC_number	3.6.3.-
+			db_xref	COG:COG3840
 			gene	thiQ_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P44986
@@ -3217,12 +3260,9 @@
 			product	Thiamine import ATP-binding protein ThiQ
 			protein_id	gnl|BGI|GCF_000219375_02660
 296417	296668	CDS
-			EC_number	3.6.3.20
-			gene	ugpC
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P10907
 			locus_tag	GCF_000219375_02665
-			product	sn-glycerol-3-phosphate import ATP-binding protein UgpC
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02665
 296851	297336	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -3300,21 +3340,19 @@
 303932	304387	CDS
 			gene	rplI
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9RY49
+			inference	protein motif:HAMAP:MF_00503
 			locus_tag	GCF_000219375_02735
 			product	50S ribosomal protein L9
 			protein_id	gnl|BGI|GCF_000219375_02735
 304377	305321	CDS
-			EC_number	3.6.4.12
-			gene	dnaC_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P37469
 			locus_tag	GCF_000219375_02740
-			product	Replicative DNA helicase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02740
 305358	305852	CDS
 			EC_number	3.6.4.12
-			gene	dnaC_2
+			db_xref	COG:COG0305
+			gene	dnaC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37469
 			locus_tag	GCF_000219375_02745
@@ -3326,11 +3364,11 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02750
 306365	306835	CDS
-			gene	tlyC
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q68W10
+			inference	similar to AA sequence:UniProtKB:P9WFP1
 			locus_tag	GCF_000219375_02755
-			product	Hemolysin C
+			note	UPF0053 protein Rv2366c
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02755
 306884	307144	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -3376,13 +3414,15 @@
 			product	putative signal peptide
 311176	312291	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov2
 			locus_tag	GCF_000219375_02795
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov2
 			protein_id	gnl|BGI|GCF_000219375_02795
 313561	312491	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_02800
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_02800
 313714	313571	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -3512,27 +3552,27 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02910
 327992	328210	CDS
-			gene	rpsB_1
+			db_xref	COG:COG0052
+			gene	rpsB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P21464
 			locus_tag	GCF_000219375_02915
 			product	30S ribosomal protein S2
 			protein_id	gnl|BGI|GCF_000219375_02915
 328262	328771	CDS
-			gene	rpsB_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P9WH39
 			locus_tag	GCF_000219375_02920
-			product	30S ribosomal protein S2
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_02920
 328821	328910	CDS
 			gene	tsf_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P0A6P1
+			inference	protein motif:HAMAP:MF_00050
 			locus_tag	GCF_000219375_02925
 			product	Elongation factor Ts
 			protein_id	gnl|BGI|GCF_000219375_02925
 329061	329717	CDS
+			db_xref	COG:COG0264
 			gene	tsf_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P80700
@@ -3580,18 +3620,21 @@
 			protein_id	gnl|BGI|GCF_000219375_02965
 332685	332455	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:IS1634
 			locus_tag	GCF_000219375_02970
-			product	hypothetical protein
+			product	IS1634 family transposase IS1634
 			protein_id	gnl|BGI|GCF_000219375_02970
 333222	332797	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov3
 			locus_tag	GCF_000219375_02975
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov3
 			protein_id	gnl|BGI|GCF_000219375_02975
 333432	333244	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov3
 			locus_tag	GCF_000219375_02980
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov3
 			protein_id	gnl|BGI|GCF_000219375_02980
 333687	333538	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -3612,6 +3655,7 @@
 			protein_id	gnl|BGI|GCF_000219375_02995
 335216	334617	CDS
 			EC_number	1.6.99.3
+			db_xref	COG:COG0446
 			gene	nox_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37061
@@ -3625,6 +3669,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03005
 335807	335667	CDS
 			EC_number	1.6.99.3
+			db_xref	COG:COG0446
 			gene	nox_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37061
@@ -3637,6 +3682,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03015
 337250	336708	CDS
+			db_xref	COG:COG0568
 			gene	sigA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P06224
@@ -3644,6 +3690,7 @@
 			product	RNA polymerase sigma factor SigA
 			protein_id	gnl|BGI|GCF_000219375_03020
 337520	337278	CDS
+			db_xref	COG:COG0568
 			gene	sigA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P77994
@@ -3662,6 +3709,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03035
 339735	338965	CDS
 			EC_number	2.7.7.-
+			db_xref	COG:COG0358
 			gene	dnaG_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O05338
@@ -3670,9 +3718,10 @@
 			protein_id	gnl|BGI|GCF_000219375_03040
 340170	339934	CDS
 			EC_number	2.7.7.-
+			db_xref	COG:COG0358
 			gene	dnaG_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9X4D0
+			inference	similar to AA sequence:UniProtKB:P05096
 			locus_tag	GCF_000219375_03045
 			product	DNA primase
 			protein_id	gnl|BGI|GCF_000219375_03045
@@ -3737,12 +3786,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03095
 345296	345820	CDS
-			EC_number	3.6.3.-
-			gene	hmuV
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q56993
 			locus_tag	GCF_000219375_03100
-			product	Hemin import ATP-binding protein HmuV
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03100
 346634	346476	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -3767,21 +3813,24 @@
 			product	Protein translocase subunit SecA
 			protein_id	gnl|BGI|GCF_000219375_03120
 349668	348817	CDS
+			db_xref	COG:COG0653
 			gene	secA_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01382
+			inference	similar to AA sequence:UniProtKB:P28366
 			locus_tag	GCF_000219375_03125
 			product	Protein translocase subunit SecA
 			protein_id	gnl|BGI|GCF_000219375_03125
 350895	349669	CDS
+			db_xref	COG:COG0653
 			gene	secA_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01382
+			inference	similar to AA sequence:UniProtKB:P28366
 			locus_tag	GCF_000219375_03130
 			product	Protein translocase subunit SecA
 			protein_id	gnl|BGI|GCF_000219375_03130
 351126	351464	CDS
 			EC_number	1.-.-.-
+			db_xref	COG:COG1063
 			gene	yjmD
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O35045
@@ -3790,6 +3839,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03135
 351477	351881	CDS
 			EC_number	1.1.1.1
+			db_xref	COG:COG1063
 			gene	adh_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q0KDL6
@@ -3803,6 +3853,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03145
 352962	352327	CDS
 			EC_number	5.99.1.2
+			db_xref	COG:COG0550
 			gene	topA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P55991
@@ -3824,6 +3875,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03160
 353751	353512	CDS
 			EC_number	5.99.1.2
+			db_xref	COG:COG0550
 			gene	topA_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P55991
@@ -3834,7 +3886,7 @@
 			EC_number	5.99.1.2
 			gene	topA_4
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P06612
+			inference	protein motif:HAMAP:MF_00952
 			locus_tag	GCF_000219375_03170
 			product	DNA topoisomerase 1
 			protein_id	gnl|BGI|GCF_000219375_03170
@@ -3851,16 +3903,15 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03180
 355024	355422	CDS
-			gene	ssbA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P37455
+			inference	protein motif:HAMAP:MF_00984
 			locus_tag	GCF_000219375_03185
-			product	Single-stranded DNA-binding protein A
+			product	Single-stranded DNA-binding protein
 			protein_id	gnl|BGI|GCF_000219375_03185
 355442	355768	CDS
 			gene	rpsR
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P10806
+			inference	protein motif:HAMAP:MF_00270
 			locus_tag	GCF_000219375_03190
 			product	30S ribosomal protein S18
 			protein_id	gnl|BGI|GCF_000219375_03190
@@ -3875,9 +3926,11 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03200
 358588	357470	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_03205
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_03205
 358720	358598	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -3913,7 +3966,7 @@
 			EC_number	6.1.1.21
 			gene	hisS_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P75069
+			inference	protein motif:HAMAP:MF_00127
 			locus_tag	GCF_000219375_03240
 			product	Histidine--tRNA ligase
 			protein_id	gnl|BGI|GCF_000219375_03240
@@ -3926,15 +3979,13 @@
 			product	Histidine--tRNA ligase
 			protein_id	gnl|BGI|GCF_000219375_03245
 362193	362573	CDS
-			EC_number	6.1.1.21
-			gene	hisS_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00127
 			locus_tag	GCF_000219375_03250
-			product	Histidine--tRNA ligase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03250
 362828	363187	CDS
 			EC_number	6.1.1.23
+			db_xref	COG:COG0173
 			gene	aspS_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O84546
@@ -3943,6 +3994,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03255
 363227	363868	CDS
 			EC_number	6.1.1.12
+			db_xref	COG:COG0173
 			gene	aspS1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5SKD2
@@ -3958,17 +4010,18 @@
 			product	Aspartate--tRNA ligase
 			protein_id	gnl|BGI|GCF_000219375_03265
 364202	364345	CDS
-			EC_number	6.1.1.23
+			EC_number	6.1.1.12
 			gene	aspS_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O84546
+			inference	protein motif:HAMAP:MF_00044
 			locus_tag	GCF_000219375_03270
-			product	Aspartate--tRNA(Asp/Asn) ligase
+			product	Aspartate--tRNA(Asp) ligase
 			protein_id	gnl|BGI|GCF_000219375_03270
 365520	364450	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_03275
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_03275
 365673	365530	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -3976,6 +4029,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03280
 366140	365871	CDS
+			db_xref	COG:COG0580
 			gene	glpF
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P18156
@@ -3989,6 +4043,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03290
 366979	366716	CDS
 			EC_number	2.7.1.30
+			db_xref	COG:COG0554
 			gene	glpK_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O34154
@@ -4078,11 +4133,13 @@
 			protein_id	gnl|BGI|GCF_000219375_03355
 373179	374825	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q7A5Z4
 			locus_tag	GCF_000219375_03360
-			product	hypothetical protein
+			product	putative protein
 			protein_id	gnl|BGI|GCF_000219375_03360
 374832	375299	CDS
 			EC_number	2.3.1.-
+			db_xref	COG:COG0416
 			gene	plsX_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P71018
@@ -4091,6 +4148,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03365
 375330	375686	CDS
 			EC_number	2.3.1.-
+			db_xref	COG:COG0416
 			gene	plsX_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q82ZE8
@@ -4099,6 +4157,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03370
 375817	376503	CDS
 			EC_number	3.1.26.3
+			db_xref	COG:COG0571
 			gene	rnc
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P51833
@@ -4106,6 +4165,7 @@
 			product	Ribonuclease 3
 			protein_id	gnl|BGI|GCF_000219375_03375
 376577	376714	CDS
+			db_xref	COG:COG1196
 			gene	smc_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P41508
@@ -4113,6 +4173,7 @@
 			product	Chromosome partition protein Smc
 			protein_id	gnl|BGI|GCF_000219375_03380
 376757	379555	CDS
+			db_xref	COG:COG1196
 			gene	smc_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P41508
@@ -4130,8 +4191,8 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03395
 381022	381435	CDS
-			EC_number	3.1.3.-
-			gene	ycsE_2
+			EC_number	3.1.3.104
+			gene	ycsE
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P42962
 			locus_tag	GCF_000219375_03400
@@ -4143,14 +4204,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03405
 381703	381891	CDS
-			EC_number	3.1.3.-
-			gene	ybjI
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P75809
 			locus_tag	GCF_000219375_03410
-			product	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YbjI
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03410
 382609	381878	CDS
+			db_xref	COG:COG0758
 			gene	dprA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39813
@@ -4241,6 +4300,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03490
 395431	395688	CDS
 			EC_number	3.4.11.-
+			db_xref	COG:COG1363
 			gene	ypdE
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P77585
@@ -4297,9 +4357,11 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03540
 400211	399093	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_03545
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_03545
 400343	400221	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -4332,12 +4394,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03575
 403462	403671	CDS
-			EC_number	1.1.1.-
-			gene	lgoD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P39400
 			locus_tag	GCF_000219375_03580
-			product	L-galactonate-5-dehydrogenase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_03580
 403693	404568	CDS
 			EC_number	1.1.1.1
@@ -4392,9 +4451,11 @@
 			note	predicted cleavage at residue 25
 			product	putative signal peptide
 410753	409848	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_03630
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_03630
 410965	410744	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -4450,13 +4511,15 @@
 			protein_id	gnl|BGI|GCF_000219375_03675
 414699	414469	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov2
 			locus_tag	GCF_000219375_03680
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov2
 			protein_id	gnl|BGI|GCF_000219375_03680
 415824	414709	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov2
 			locus_tag	GCF_000219375_03685
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov2
 			protein_id	gnl|BGI|GCF_000219375_03685
 416034	416291	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -4490,6 +4553,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03715
 419425	418697	CDS
 			EC_number	2.4.2.1
+			db_xref	COG:COG0813
 			gene	deoD_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O34925
@@ -4498,6 +4562,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03720
 419595	419711	CDS
 			EC_number	2.8.1.13
+			db_xref	COG:COG0482
 			gene	mnmA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P25745
@@ -4540,6 +4605,7 @@
 			protein_id	gnl|BGI|GCF_000219375_03750
 423365	423805	CDS
 			EC_number	3.1.-.-
+			db_xref	COG:COG0816
 			gene	yrrK
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O34634
@@ -4826,6 +4892,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04020
 455669	456160	CDS
+			db_xref	COG:COG0782
 			gene	greA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P80240
@@ -4834,6 +4901,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04025
 456354	456701	CDS
 			EC_number	2.4.2.8
+			db_xref	COG:COG0634
 			gene	hpt
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A9M2
@@ -4855,6 +4923,7 @@
 			locus_tag	GCF_000219375_04045
 			product	tRNA-Trp(cca)
 457682	457485	CDS
+			db_xref	COG:COG0012
 			gene	ychF_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P44681
@@ -4862,6 +4931,7 @@
 			product	Ribosome-binding ATPase YchF
 			protein_id	gnl|BGI|GCF_000219375_04050
 458588	457812	CDS
+			db_xref	COG:COG0012
 			gene	ychF_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37518
@@ -4913,7 +4983,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04090
 465185	465748	CDS
 			EC_number	2.1.1.37
-			gene	hhaIM_1
+			gene	hhaIM
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P05102
 			locus_tag	GCF_000219375_04095
@@ -4933,6 +5003,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04105
 467226	466753	CDS
+			db_xref	COG:COG0168
 			gene	ktrB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O32081
@@ -5005,6 +5076,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04175
 473498	474166	CDS
+			db_xref	COG:COG0569
 			gene	ktrA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O32080
@@ -5037,14 +5109,13 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04200
 477001	477126	CDS
-			gene	ftsZ_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00909
 			locus_tag	GCF_000219375_04205
-			product	Cell division protein FtsZ
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04205
 477184	477912	CDS
-			gene	ftsZ_2
+			db_xref	COG:COG0206
+			gene	ftsZ
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O08398
 			locus_tag	GCF_000219375_04210
@@ -5062,6 +5133,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04220
 479152	479544	CDS
 			EC_number	2.1.1.193
+			db_xref	COG:COG1385
 			gene	rsmE
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P54461
@@ -5070,6 +5142,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04225
 479692	480405	CDS
 			EC_number	3.4.24.-
+			db_xref	COG:COG3590
 			gene	pepO_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q07744
@@ -5078,6 +5151,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04230
 480406	480675	CDS
 			EC_number	3.4.24.-
+			db_xref	COG:COG3590
 			gene	pepO_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q07744
@@ -5086,6 +5160,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04235
 480898	481107	CDS
 			EC_number	3.4.24.-
+			db_xref	COG:COG3590
 			gene	pepO_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q07744
@@ -5094,6 +5169,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04240
 481153	481323	CDS
 			EC_number	3.4.24.-
+			db_xref	COG:COG3590
 			gene	pepO_4
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q07744
@@ -5130,16 +5206,13 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04270
 484720	484839	CDS
-			EC_number	6.1.1.4
-			gene	leuS_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O66680
 			locus_tag	GCF_000219375_04275
-			product	Leucine--tRNA ligase subunit alpha
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04275
 485044	485274	CDS
 			EC_number	6.1.1.4
-			gene	leuS_2
+			gene	leuS
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P67513
 			locus_tag	GCF_000219375_04280
@@ -5180,6 +5253,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04310
 487692	488549	CDS
 			EC_number	3.4.21.53
+			db_xref	COG:COG0466
 			gene	lon1_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37945
@@ -5188,6 +5262,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04315
 488601	489002	CDS
 			EC_number	3.4.21.53
+			db_xref	COG:COG0466
 			gene	lon1_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P36773
@@ -5196,9 +5271,10 @@
 			protein_id	gnl|BGI|GCF_000219375_04320
 489175	489693	CDS
 			EC_number	2.3.1.-
+			db_xref	COG:COG0344
 			gene	plsY
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q45064
+			inference	similar to AA sequence:UniProtKB:O66905
 			locus_tag	GCF_000219375_04325
 			product	Glycerol-3-phosphate acyltransferase
 			protein_id	gnl|BGI|GCF_000219375_04325
@@ -5220,12 +5296,13 @@
 492160	491747	CDS
 			gene	atpC
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P37812
+			inference	protein motif:HAMAP:MF_00530
 			locus_tag	GCF_000219375_04345
 			product	ATP synthase epsilon chain
 			protein_id	gnl|BGI|GCF_000219375_04345
 493639	492176	CDS
 			EC_number	3.6.3.14
+			db_xref	COG:COG0055
 			gene	atpD_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2RFX9
@@ -5233,6 +5310,7 @@
 			product	ATP synthase subunit beta
 			protein_id	gnl|BGI|GCF_000219375_04350
 494555	493692	CDS
+			db_xref	COG:COG0224
 			gene	atpG
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O05432
@@ -5241,6 +5319,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04355
 495387	494548	CDS
 			EC_number	3.6.3.14
+			db_xref	COG:COG0056
 			gene	atpA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2RFX7
@@ -5249,6 +5328,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04360
 496134	495388	CDS
 			EC_number	3.6.3.14
+			db_xref	COG:COG0056
 			gene	atpA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q07405
@@ -5256,13 +5336,14 @@
 			product	ATP synthase subunit alpha
 			protein_id	gnl|BGI|GCF_000219375_04365
 496687	496127	CDS
-			gene	atpH
+			gene	atpD_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P29708
+			inference	protein motif:HAMAP:MF_01416
 			locus_tag	GCF_000219375_04370
-			product	ATP synthase subunit delta, sodium ion specific
+			product	ATP synthase subunit delta
 			protein_id	gnl|BGI|GCF_000219375_04370
 497091	496690	CDS
+			db_xref	COG:COG0711
 			gene	atpF
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37814
@@ -5277,11 +5358,9 @@
 			product	ATP synthase subunit c, sodium ion specific
 			protein_id	gnl|BGI|GCF_000219375_04380
 498193	497942	CDS
-			gene	atpB
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01393
 			locus_tag	GCF_000219375_04385
-			product	ATP synthase subunit a
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04385
 498766	498614	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -5318,9 +5397,11 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04415
 502301	503206	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_04420
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_04420
 503458	503934	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -5343,6 +5424,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04435
 505383	505204	CDS
 			EC_number	6.1.1.3
+			db_xref	COG:COG0441
 			gene	thrS_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97PI4
@@ -5351,6 +5433,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04440
 505800	505510	CDS
 			EC_number	6.1.1.3
+			db_xref	COG:COG0441
 			gene	thrS_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97PI4
@@ -5375,6 +5458,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04455
 507656	507096	CDS
 			EC_number	6.1.1.2
+			db_xref	COG:COG0180
 			gene	trpS_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P21656
@@ -5383,6 +5467,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04460
 507956	507678	CDS
 			EC_number	6.1.1.2
+			db_xref	COG:COG0180
 			gene	trpS_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q8ZJF2
@@ -5441,8 +5526,9 @@
 			protein_id	gnl|BGI|GCF_000219375_04515
 513575	514171	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy1
 			locus_tag	GCF_000219375_04520
-			product	hypothetical protein
+			product	IS1634 family transposase ISMmy1
 			protein_id	gnl|BGI|GCF_000219375_04520
 514274	514717	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -5518,11 +5604,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04585
 523217	525175	CDS
-			EC_number	3.4.21.-
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q7A5M9
 			locus_tag	GCF_000219375_04590
-			product	putative CtpA-like serine protease
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04590
 523217	523288	sig_peptide
 			inference	ab initio prediction:SignalP:4.1
@@ -5567,12 +5651,9 @@
 			note	predicted cleavage at residue 20
 			product	putative signal peptide
 529370	529606	CDS
-			EC_number	2.7.1.199
-			gene	ptsG
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P20166
 			locus_tag	GCF_000219375_04625
-			product	PTS system glucose-specific EIICBA component
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04625
 529823	529671	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -5586,6 +5667,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04635
 532496	531567	CDS
 			EC_number	2.3.1.234
+			db_xref	COG:COG0533
 			gene	tsaD
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O05518
@@ -5598,13 +5680,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04645
 533459	533154	CDS
-			gene	tsaE
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O05515
 			locus_tag	GCF_000219375_04650
-			product	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04650
 534201	533653	CDS
+			db_xref	COG:COG0050
 			gene	tuf_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P22679
@@ -5612,6 +5693,7 @@
 			product	Elongation factor Tu
 			protein_id	gnl|BGI|GCF_000219375_04655
 534843	534241	CDS
+			db_xref	COG:COG0050
 			gene	tuf_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P22679
@@ -5620,6 +5702,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04660
 535240	535425	CDS
 			EC_number	4.2.1.11
+			db_xref	COG:COG0148
 			gene	eno_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:A0R3B8
@@ -5628,6 +5711,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04665
 535444	536199	CDS
 			EC_number	4.2.1.11
+			db_xref	COG:COG0148
 			gene	eno2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q042F4
@@ -5636,6 +5720,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04670
 536215	536604	CDS
 			EC_number	4.2.1.11
+			db_xref	COG:COG0148
 			gene	eno_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2G028
@@ -5654,11 +5739,12 @@
 			protein_id	gnl|BGI|GCF_000219375_04685
 537604	538275	CDS
 			EC_number	5.3.1.9
-			gene	pgiB
+			db_xref	COG:COG0166
+			gene	pgi_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P13376
+			inference	similar to AA sequence:UniProtKB:Q81K75
 			locus_tag	GCF_000219375_04690
-			product	Glucose-6-phosphate isomerase B
+			product	Glucose-6-phosphate isomerase
 			protein_id	gnl|BGI|GCF_000219375_04690
 538340	538462	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -5667,7 +5753,8 @@
 			protein_id	gnl|BGI|GCF_000219375_04695
 538589	539164	CDS
 			EC_number	5.3.1.9
-			gene	pgi_1
+			db_xref	COG:COG0166
+			gene	pgi_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5HHC2
 			locus_tag	GCF_000219375_04700
@@ -5675,7 +5762,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04700
 539243	539632	CDS
 			EC_number	5.3.1.9
-			gene	pgi_2
+			gene	pgi_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P99078
 			locus_tag	GCF_000219375_04705
@@ -5683,6 +5770,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04705
 539634	540194	CDS
 			EC_number	3.2.2.23
+			db_xref	COG:COG0266
 			gene	mutM_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P42371
@@ -5691,6 +5779,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04710
 540225	540473	CDS
 			EC_number	3.2.2.23
+			db_xref	COG:COG0266
 			gene	mutM_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P42371
@@ -5698,12 +5787,9 @@
 			product	Formamidopyrimidine-DNA glycosylase
 			protein_id	gnl|BGI|GCF_000219375_04715
 540457	540732	CDS
-			EC_number	3.1.-.-
-			gene	mutS2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00092
 			locus_tag	GCF_000219375_04720
-			product	Endonuclease MutS2
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04720
 541344	541508	CDS
 			EC_number	1.8.4.12
@@ -5715,6 +5801,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04725
 541542	541751	CDS
 			EC_number	1.8.4.12
+			db_xref	COG:COG0229
 			gene	msrB_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A088
@@ -5756,6 +5843,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04760
 544673	545662	CDS
+			db_xref	COG:COG1132
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P9WQJ1
 			locus_tag	GCF_000219375_04765
@@ -5767,6 +5855,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04770
 545904	546449	CDS
+			db_xref	COG:COG1132
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P9WQJ3
 			locus_tag	GCF_000219375_04775
@@ -5779,6 +5868,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04780
 546798	546971	CDS
 			EC_number	3.6.3.-
+			db_xref	COG:COG1132
 			gene	yheH
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O07549
@@ -5802,6 +5892,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04800
 548911	549210	CDS
+			db_xref	COG:COG0231
 			gene	efp_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:A3DDQ3
@@ -5832,9 +5923,8 @@
 			protein_id	gnl|BGI|GCF_000219375_04825
 551046	550465	CDS
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q5SMG8
 			locus_tag	GCF_000219375_04830
-			product	Magnesium transporter MgtE
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_04830
 551325	551059	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -5843,11 +5933,11 @@
 			protein_id	gnl|BGI|GCF_000219375_04835
 551907	551329	CDS
 			EC_number	2.7.7.85
-			gene	dacA
+			gene	disA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q8Y5E4
+			inference	protein motif:HAMAP:MF_01438
 			locus_tag	GCF_000219375_04840
-			product	Diadenylate cyclase
+			product	DNA integrity scanning protein DisA
 			protein_id	gnl|BGI|GCF_000219375_04840
 552230	552006	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -5871,6 +5961,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04860
 553778	554203	CDS
 			EC_number	6.1.1.22
+			db_xref	COG:COG0017
 			gene	asnS_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A8M0
@@ -5879,6 +5970,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04865
 554204	554719	CDS
 			EC_number	6.1.1.22
+			db_xref	COG:COG0017
 			gene	asnS_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A8M0
@@ -5897,6 +5989,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04880
 556572	557045	CDS
 			EC_number	3.6.4.12
+			db_xref	COG:COG0210
 			gene	pcrA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q53727
@@ -5905,6 +5998,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04885
 557262	557624	CDS
 			EC_number	3.6.4.12
+			db_xref	COG:COG0210
 			gene	pcrA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O34580
@@ -5921,6 +6015,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04895
 558285	558776	CDS
 			EC_number	3.6.4.12
+			db_xref	COG:COG0210
 			gene	uvrD
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q02322
@@ -5994,7 +6089,8 @@
 			product	putative signal peptide
 566405	565026	CDS
 			EC_number	3.6.3.14
-			gene	atpD_2
+			db_xref	COG:COG0055
+			gene	atpD_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5KUJ3
 			locus_tag	GCF_000219375_04965
@@ -6007,6 +6103,7 @@
 			protein_id	gnl|BGI|GCF_000219375_04970
 567979	566675	CDS
 			EC_number	3.6.3.14
+			db_xref	COG:COG0056
 			gene	atpA_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0ABB0
@@ -6101,9 +6198,8 @@
 			protein_id	gnl|BGI|GCF_000219375_05055
 575595	575161	CDS
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9PRA0
 			locus_tag	GCF_000219375_05060
-			product	Membrane-associated lipoprotein
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05060
 576243	575635	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -6193,6 +6289,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05135
 586905	586009	CDS
 			EC_number	6.5.1.2
+			db_xref	COG:COG0272
 			gene	ligA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9AIU7
@@ -6223,16 +6320,14 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05160
 589492	589635	CDS
-			EC_number	5.4.2.7
-			gene	deoB_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q818Z9
 			locus_tag	GCF_000219375_05165
-			product	Phosphopentomutase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05165
 589762	589995	CDS
 			EC_number	5.4.2.7
-			gene	deoB_2
+			db_xref	COG:COG1015
+			gene	deoB_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q818Z9
 			locus_tag	GCF_000219375_05170
@@ -6240,7 +6335,8 @@
 			protein_id	gnl|BGI|GCF_000219375_05170
 590161	590679	CDS
 			EC_number	5.4.2.7
-			gene	deoB_3
+			db_xref	COG:COG1015
+			gene	deoB_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q8DQD0
 			locus_tag	GCF_000219375_05175
@@ -6268,12 +6364,9 @@
 			note	predicted cleavage at residue 23
 			product	putative signal peptide
 593880	593356	CDS
-			EC_number	2.1.1.37
-			gene	banIM
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P19888
 			locus_tag	GCF_000219375_05195
-			product	Modification methylase BanI
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05195
 594303	594139	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -6281,12 +6374,10 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05200
 594795	594415	CDS
-			EC_number	2.1.1.37
-			gene	hhaIM_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P05102
+			inference	similar to AA sequence:ISfinder:ISCco3
 			locus_tag	GCF_000219375_05205
-			product	Modification methylase HhaI
+			product	IS1595 family transposase ISCco3
 			protein_id	gnl|BGI|GCF_000219375_05205
 595033	594887	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -6309,6 +6400,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05225
 597861	598199	CDS
+			db_xref	COG:COG0102
 			gene	rplM
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2FW38
@@ -6316,6 +6408,7 @@
 			product	50S ribosomal protein L13
 			protein_id	gnl|BGI|GCF_000219375_05230
 598201	598608	CDS
+			db_xref	COG:COG0103
 			gene	rpsI
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P21470
@@ -6333,6 +6426,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05245
 599225	600055	CDS
 			EC_number	2.7.7.9
+			db_xref	COG:COG1210
 			gene	gtaB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2G1T6
@@ -6345,6 +6439,7 @@
 			product	tRNA-Ser(gct)
 600430	600978	CDS
 			EC_number	3.6.3.8
+			db_xref	COG:COG0474
 			gene	yoaB_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9CFU9
@@ -6353,6 +6448,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05260
 601354	601872	CDS
 			EC_number	3.6.3.8
+			db_xref	COG:COG0474
 			gene	yoaB_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9CFU9
@@ -6361,6 +6457,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05265
 601978	602160	CDS
 			EC_number	3.6.3.8
+			db_xref	COG:COG0474
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q8Y8Q5
 			locus_tag	GCF_000219375_05270
@@ -6368,6 +6465,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05270
 602275	602730	CDS
 			EC_number	3.6.3.8
+			db_xref	COG:COG0474
 			gene	yloB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O34431
@@ -6400,12 +6498,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05300
 605277	605981	CDS
-			EC_number	3.6.3.-
-			gene	yxlF
+			db_xref	COG:COG1131
+			gene	yadG
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P94374
+			inference	similar to AA sequence:UniProtKB:P36879
 			locus_tag	GCF_000219375_05305
-			product	putative ABC transporter ATP-binding protein YxlF
+			product	putative ABC transporter ATP-binding protein YadG
 			protein_id	gnl|BGI|GCF_000219375_05305
 605959	606339	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -6447,16 +6545,13 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05340
 609354	609013	CDS
-			EC_number	5.4.2.2
-			gene	pgcA_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q2FVC1
 			locus_tag	GCF_000219375_05345
-			product	Phosphoglucomutase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05345
 610458	609601	CDS
 			EC_number	5.4.2.2
-			gene	pgcA_2
+			gene	pgcA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P18159
 			locus_tag	GCF_000219375_05350
@@ -6491,7 +6586,6 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05375
 612925	613197	CDS
-			EC_number	2.7.11.-
 			gene	ptsH
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P75061
@@ -6499,7 +6593,8 @@
 			product	Phosphocarrier protein HPr
 			protein_id	gnl|BGI|GCF_000219375_05380
 613224	614159	CDS
-			gene	oppB_2
+			db_xref	COG:COG0601
+			gene	oppB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0AFH2
 			locus_tag	GCF_000219375_05385
@@ -6511,11 +6606,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05390
 614343	614999	CDS
-			gene	gsiD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P75799
 			locus_tag	GCF_000219375_05395
-			product	Glutathione transport system permease protein GsiD
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05395
 615109	614915	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -6558,7 +6651,9 @@
 			protein_id	gnl|BGI|GCF_000219375_05430
 617534	618322	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q97P99
 			locus_tag	GCF_000219375_05435
+			note	UPF0348 protein SP_1742
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05435
 618783	618508	CDS
@@ -6586,6 +6681,7 @@
 			product	50S ribosomal protein L35
 			protein_id	gnl|BGI|GCF_000219375_05455
 620690	620833	CDS
+			db_xref	COG:COG0292
 			gene	rplT
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2FXQ1
@@ -6667,6 +6763,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05530
 627117	627875	CDS
 			EC_number	3.6.5.-
+			db_xref	COG:COG0481
 			gene	lepA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2FXY7
@@ -6695,6 +6792,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05555
 629714	630124	CDS
 			EC_number	1.5.1.39
+			db_xref	COG:COG0778
 			gene	nfrA2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P94424
@@ -6723,18 +6821,21 @@
 			protein_id	gnl|BGI|GCF_000219375_05580
 631738	631508	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:IS1634
 			locus_tag	GCF_000219375_05585
-			product	hypothetical protein
+			product	IS1634 family transposase IS1634
 			protein_id	gnl|BGI|GCF_000219375_05585
 632275	631850	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov3
 			locus_tag	GCF_000219375_05590
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov3
 			protein_id	gnl|BGI|GCF_000219375_05590
 632485	632297	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov3
 			locus_tag	GCF_000219375_05595
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov3
 			protein_id	gnl|BGI|GCF_000219375_05595
 632740	632591	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -6757,12 +6858,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05615
 634748	635500	CDS
-			EC_number	2.4.1.-
-			gene	icaA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q5HKQ0
 			locus_tag	GCF_000219375_05620
-			product	Poly-beta-1,6-N-acetyl-D-glucosamine synthase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05620
 635706	635596	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -6783,16 +6881,13 @@
 			product	Arginine--tRNA ligase
 			protein_id	gnl|BGI|GCF_000219375_05635
 637104	636955	CDS
-			EC_number	6.1.1.19
-			gene	argS_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q99W05
 			locus_tag	GCF_000219375_05640
-			product	Arginine--tRNA ligase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05640
 637794	637282	CDS
 			EC_number	6.1.1.19
-			gene	argS_3
+			gene	argS_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q99W05
 			locus_tag	GCF_000219375_05645
@@ -6820,6 +6915,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05665
 640210	639800	CDS
 			EC_number	1.1.1.27
+			db_xref	COG:COG0039
 			gene	ldh1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q81EP4
@@ -6828,6 +6924,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05670
 640797	640561	CDS
 			EC_number	2.3.1.12
+			db_xref	COG:COG0508
 			gene	pdhC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P35489
@@ -6846,12 +6943,13 @@
 			EC_number	2.7.2.1
 			gene	ackA_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P37877
+			inference	protein motif:HAMAP:MF_00020
 			locus_tag	GCF_000219375_05685
 			product	Acetate kinase
 			protein_id	gnl|BGI|GCF_000219375_05685
 642684	643310	CDS
 			EC_number	2.7.2.15
+			db_xref	COG:COG0282
 			gene	pduW
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P74879
@@ -6924,15 +7022,13 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05755
 649873	650667	CDS
-			EC_number	3.6.1.-
-			gene	cof_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01847
 			locus_tag	GCF_000219375_05760
-			product	HMP-PP phosphatase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05760
 650711	651484	CDS
 			EC_number	3.1.21.2
+			db_xref	COG:COG0648
 			gene	nfo
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5KX27
@@ -6955,6 +7051,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05780
 653734	655362	CDS
+			db_xref	COG:COG0322
 			gene	uvrC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5KWH6
@@ -7043,11 +7140,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05855
 662234	662659	CDS
-			gene	araP
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P94529
 			locus_tag	GCF_000219375_05860
-			product	L-arabinose transport system permease protein AraP
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05860
 663054	663350	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7087,12 +7182,9 @@
 			product	GTPase Obg
 			protein_id	gnl|BGI|GCF_000219375_05890
 667068	666871	CDS
-			EC_number	3.1.3.23
-			gene	yidA_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P0A8Y5
 			locus_tag	GCF_000219375_05895
-			product	Sugar phosphatase YidA
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05895
 667290	667111	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7106,6 +7198,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05905
 667981	668682	CDS
 			EC_number	2.4.2.1
+			db_xref	COG:COG0813
 			gene	deoD_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0ABP9
@@ -7114,6 +7207,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05910
 668701	669687	CDS
 			EC_number	2.4.2.2
+			db_xref	COG:COG0213
 			gene	pdp_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5HE64
@@ -7137,20 +7231,14 @@
 			product	Deoxyribose-phosphate aldolase 1
 			protein_id	gnl|BGI|GCF_000219375_05925
 670883	670719	CDS
-			EC_number	5.3.1.1
-			gene	tpiA_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q5SJR1
 			locus_tag	GCF_000219375_05930
-			product	Triosephosphate isomerase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05930
 671468	670965	CDS
-			EC_number	5.3.1.1
-			gene	tpiA_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P27876
 			locus_tag	GCF_000219375_05935
-			product	Triosephosphate isomerase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05935
 671620	672198	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7167,6 +7255,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_05945
 673228	672836	CDS
+			db_xref	COG:COG0619
 			gene	ecfT_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q03PY7
@@ -7176,12 +7265,13 @@
 673621	673418	CDS
 			gene	ecfT_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:A2RI03
+			inference	protein motif:HAMAP:MF_01461
 			locus_tag	GCF_000219375_05955
 			product	Energy-coupling factor transporter transmembrane protein EcfT
 			protein_id	gnl|BGI|GCF_000219375_05955
 674006	673611	CDS
 			EC_number	3.6.3.-
+			db_xref	COG:COG1122
 			gene	ecfA2_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q03PY6
@@ -7198,6 +7288,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05965
 675337	674540	CDS
 			EC_number	3.6.3.-
+			db_xref	COG:COG1122
 			gene	ecfA1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q1GBJ0
@@ -7205,6 +7296,7 @@
 			product	Energy-coupling factor transporter ATP-binding protein EcfA1
 			protein_id	gnl|BGI|GCF_000219375_05970
 675823	675512	CDS
+			db_xref	COG:COG0203
 			gene	rplQ
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P20277
@@ -7213,6 +7305,7 @@
 			protein_id	gnl|BGI|GCF_000219375_05975
 676887	675979	CDS
 			EC_number	2.7.7.6
+			db_xref	COG:COG0202
 			gene	rpoA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P66709
@@ -7222,11 +7315,12 @@
 677308	677183	CDS
 			gene	rpsK
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q2FW31
+			inference	protein motif:HAMAP:MF_01310
 			locus_tag	GCF_000219375_05985
 			product	30S ribosomal protein S11
 			protein_id	gnl|BGI|GCF_000219375_05985
 677699	677328	CDS
+			db_xref	COG:COG0099
 			gene	rpsM
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P20282
@@ -7234,6 +7328,7 @@
 			product	30S ribosomal protein S13
 			protein_id	gnl|BGI|GCF_000219375_05990
 677819	677706	CDS
+			db_xref	COG:COG0257
 			gene	rpmJ
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A7Q6
@@ -7241,6 +7336,7 @@
 			product	50S ribosomal protein L36
 			protein_id	gnl|BGI|GCF_000219375_05995
 678053	677835	CDS
+			db_xref	COG:COG0361
 			gene	infA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2FW28
@@ -7249,6 +7345,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06000
 678809	678156	CDS
 			EC_number	3.4.11.18
+			db_xref	COG:COG0024
 			gene	map
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P19994
@@ -7280,7 +7377,7 @@
 680838	680314	CDS
 			gene	secY_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01465
+			inference	similar to AA sequence:UniProtKB:Q7A468
 			locus_tag	GCF_000219375_06025
 			product	Protein translocase subunit SecY
 			protein_id	gnl|BGI|GCF_000219375_06025
@@ -7304,8 +7401,9 @@
 			protein_id	gnl|BGI|GCF_000219375_06045
 688464	687394	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_06050
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_06050
 688617	688474	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7313,12 +7411,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06055
 689744	689094	CDS
-			EC_number	3.1.3.-
-			gene	ywpJ_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P94592
 			locus_tag	GCF_000219375_06060
-			product	Phosphatase YwpJ
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06060
 689885	690106	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7333,6 +7428,7 @@
 			product	50S ribosomal protein L15
 			protein_id	gnl|BGI|GCF_000219375_06070
 690789	690328	CDS
+			db_xref	COG:COG0098
 			gene	rpsE
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P21467
@@ -7345,6 +7441,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06080
 691376	691026	CDS
+			db_xref	COG:COG0256
 			gene	rplR
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P46899
@@ -7359,6 +7456,7 @@
 			product	50S ribosomal protein L6
 			protein_id	gnl|BGI|GCF_000219375_06090
 692345	691953	CDS
+			db_xref	COG:COG0096
 			gene	rpsH
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P9WH27
@@ -7387,6 +7485,7 @@
 			product	50S ribosomal protein L5
 			protein_id	gnl|BGI|GCF_000219375_06110
 693409	693083	CDS
+			db_xref	COG:COG0198
 			gene	rplX
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P60744
@@ -7394,6 +7493,7 @@
 			product	50S ribosomal protein L24
 			protein_id	gnl|BGI|GCF_000219375_06115
 693790	693422	CDS
+			db_xref	COG:COG0093
 			gene	rplN
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P12875
@@ -7401,6 +7501,7 @@
 			product	50S ribosomal protein L14
 			protein_id	gnl|BGI|GCF_000219375_06120
 694060	693794	CDS
+			db_xref	COG:COG0186
 			gene	rpsQ
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P12874
@@ -7408,9 +7509,10 @@
 			product	30S ribosomal protein S17
 			protein_id	gnl|BGI|GCF_000219375_06125
 694508	694401	CDS
+			db_xref	COG:COG0197
 			gene	rplP_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P0A475
+			inference	similar to AA sequence:UniProtKB:A2RNP8
 			locus_tag	GCF_000219375_06130
 			product	50S ribosomal protein L16
 			protein_id	gnl|BGI|GCF_000219375_06130
@@ -7422,13 +7524,15 @@
 			product	50S ribosomal protein L16
 			protein_id	gnl|BGI|GCF_000219375_06135
 695005	694718	CDS
+			db_xref	COG:COG0092
 			gene	rpsC
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q2FW12
+			inference	similar to AA sequence:UniProtKB:A2RNP9
 			locus_tag	GCF_000219375_06140
 			product	30S ribosomal protein S3
 			protein_id	gnl|BGI|GCF_000219375_06140
 695679	695335	CDS
+			db_xref	COG:COG0091
 			gene	rplV
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P42060
@@ -7436,11 +7540,9 @@
 			product	50S ribosomal protein L22
 			protein_id	gnl|BGI|GCF_000219375_06145
 695960	695856	CDS
-			gene	rpsS
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q2FW10
 			locus_tag	GCF_000219375_06150
-			product	30S ribosomal protein S19
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06150
 696847	696047	CDS
 			gene	rplB
@@ -7470,20 +7572,20 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06175
 698647	698297	CDS
-			gene	rplC_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P42920
 			locus_tag	GCF_000219375_06180
-			product	50S ribosomal protein L3
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06180
 699127	698759	CDS
-			gene	rplC_2
+			db_xref	COG:COG0087
+			gene	rplC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P42920
 			locus_tag	GCF_000219375_06185
 			product	50S ribosomal protein L3
 			protein_id	gnl|BGI|GCF_000219375_06185
 699486	699181	CDS
+			db_xref	COG:COG0051
 			gene	rpsJ
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P21471
@@ -7491,6 +7593,7 @@
 			product	30S ribosomal protein S10
 			protein_id	gnl|BGI|GCF_000219375_06190
 700103	700378	CDS
+			db_xref	COG:COG0776
 			gene	hup
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P05514
@@ -7499,6 +7602,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06195
 700893	700477	CDS
 			EC_number	3.1.22.-
+			db_xref	COG:COG3331
 			gene	recU
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q5KXY4
@@ -7506,16 +7610,21 @@
 			product	Holliday junction resolvase RecU
 			protein_id	gnl|BGI|GCF_000219375_06200
 701032	701910	CDS
+			db_xref	COG:COG0468
 			gene	recA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00268
+			inference	similar to AA sequence:UniProtKB:P36203
 			locus_tag	GCF_000219375_06205
 			product	Protein RecA
 			protein_id	gnl|BGI|GCF_000219375_06205
 702101	702325	CDS
+			EC_number	3.1.4.16
+			db_xref	COG:COG1692
+			gene	ymdB
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O31775
 			locus_tag	GCF_000219375_06210
-			product	hypothetical protein
+			product	2',3'-cyclic-nucleotide 2'-phosphodiesterase
 			protein_id	gnl|BGI|GCF_000219375_06210
 702614	703027	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7524,6 +7633,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06215
 703642	702965	CDS
 			EC_number	3.4.11.-
+			db_xref	COG:COG1363
 			gene	ysdC_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P94521
@@ -7532,6 +7642,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06220
 704050	703766	CDS
 			EC_number	3.4.11.7
+			db_xref	COG:COG1363
 			gene	pepA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q48677
@@ -7540,6 +7651,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06225
 704298	705008	CDS
 			EC_number	5.4.99.19
+			db_xref	COG:COG1187
 			gene	rsuA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P45124
@@ -7547,13 +7659,15 @@
 			product	Ribosomal small subunit pseudouridine synthase A
 			protein_id	gnl|BGI|GCF_000219375_06230
 705323	705045	CDS
+			db_xref	COG:COG0211
 			gene	rpmA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P05657
+			inference	similar to AA sequence:UniProtKB:A2RLA2
 			locus_tag	GCF_000219375_06235
 			product	50S ribosomal protein L27
 			protein_id	gnl|BGI|GCF_000219375_06235
 705629	705330	CDS
+			db_xref	COG:COG0261
 			gene	rplU
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P26908
@@ -7568,7 +7682,7 @@
 706553	706182	CDS
 			gene	mscL
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P68806
+			inference	protein motif:HAMAP:MF_00115
 			locus_tag	GCF_000219375_06250
 			product	Large-conductance mechanosensitive channel
 			protein_id	gnl|BGI|GCF_000219375_06250
@@ -7587,7 +7701,7 @@
 708808	708191	CDS
 			gene	hrcA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q5EF74
+			inference	protein motif:HAMAP:MF_00081
 			locus_tag	GCF_000219375_06265
 			product	Heat-inducible transcription repressor HrcA
 			protein_id	gnl|BGI|GCF_000219375_06265
@@ -7599,9 +7713,10 @@
 			product	50S ribosomal protein L31
 			protein_id	gnl|BGI|GCF_000219375_06270
 709808	709317	CDS
+			db_xref	COG:COG0522
 			gene	rpsD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:A0QSL7
+			inference	similar to AA sequence:UniProtKB:A2RI10
 			locus_tag	GCF_000219375_06275
 			product	30S ribosomal protein S4
 			protein_id	gnl|BGI|GCF_000219375_06275
@@ -7617,7 +7732,8 @@
 			protein_id	gnl|BGI|GCF_000219375_06285
 714406	711647	CDS
 			EC_number	5.99.1.3
-			gene	gyrA_2
+			db_xref	COG:COG0188
+			gene	gyrA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P20831
 			locus_tag	GCF_000219375_06290
@@ -7714,12 +7830,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06375
 723347	722937	CDS
-			EC_number	3.1.21.3
-			gene	hsdR_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q7A801
 			locus_tag	GCF_000219375_06380
-			product	Type-1 restriction enzyme R protein
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06380
 723872	723711	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7727,12 +7840,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06385
 724475	723951	CDS
-			EC_number	3.1.21.3
-			gene	hsdR_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P10486
 			locus_tag	GCF_000219375_06390
-			product	Type I restriction enzyme EcoR124II R protein
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06390
 725203	724853	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7760,11 +7870,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06415
 727469	726864	CDS
-			EC_number	2.1.1.72
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q89Z59
 			locus_tag	GCF_000219375_06420
-			product	putative type I restriction enzymeP M protein
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06420
 728039	727635	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7773,13 +7881,15 @@
 			protein_id	gnl|BGI|GCF_000219375_06425
 729062	730177	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov2
 			locus_tag	GCF_000219375_06430
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov2
 			protein_id	gnl|BGI|GCF_000219375_06430
 730187	730417	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov2
 			locus_tag	GCF_000219375_06435
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov2
 			protein_id	gnl|BGI|GCF_000219375_06435
 730631	731146	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7803,17 +7913,16 @@
 			protein_id	gnl|BGI|GCF_000219375_06455
 733499	732945	CDS
 			EC_number	6.3.3.2
+			db_xref	COG:COG0212
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P44905
 			locus_tag	GCF_000219375_06460
 			product	5-formyltetrahydrofolate cyclo-ligase
 			protein_id	gnl|BGI|GCF_000219375_06460
 735442	733508	CDS
-			EC_number	3.4.21.-
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q7A5M9
 			locus_tag	GCF_000219375_06465
-			product	putative CtpA-like serine protease
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06465
 735442	735371	sig_peptide
 			inference	ab initio prediction:SignalP:4.1
@@ -7853,6 +7962,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06490
 738540	738656	CDS
 			EC_number	6.1.1.17
+			db_xref	COG:COG0008
 			gene	gltX_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97NG1
@@ -7865,12 +7975,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06500
 738933	739184	CDS
-			EC_number	6.1.1.17
-			gene	gltX_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P99170
 			locus_tag	GCF_000219375_06505
-			product	Glutamate--tRNA ligase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06505
 739181	739588	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -7892,6 +7999,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06520
 740991	740161	CDS
 			EC_number	2.5.1.6
+			db_xref	COG:COG0192
 			gene	metK_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A817
@@ -7904,6 +8012,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06530
 743548	742190	CDS
+			db_xref	COG:COG0541
 			gene	ffh
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q01442
@@ -7932,6 +8041,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06555
 746093	746506	CDS
 			EC_number	2.7.2.3
+			db_xref	COG:COG0126
 			gene	pgk_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q04LZ5
@@ -8000,12 +8110,12 @@
 			product	putative cytosol aminopeptidase
 			protein_id	gnl|BGI|GCF_000219375_06610
 751322	750462	CDS
-			EC_number	3.4.11.1
+			EC_number	3.4.11.10
 			gene	pepA_4
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O86436
+			inference	protein motif:HAMAP:MF_00181
 			locus_tag	GCF_000219375_06615
-			product	Cytosol aminopeptidase
+			product	cytosol aminopeptidase
 			protein_id	gnl|BGI|GCF_000219375_06615
 751665	751453	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8038,12 +8148,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06645
 754400	754086	CDS
-			EC_number	3.1.3.6
-			gene	cpdB
+			db_xref	COG:COG0737
+			gene	ushA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P08331
+			inference	similar to AA sequence:UniProtKB:P07024
 			locus_tag	GCF_000219375_06650
-			product	2',3'-cyclic-nucleotide 2'-phosphodiesterase/3'-nucleotidase
+			product	Protein UshA
 			protein_id	gnl|BGI|GCF_000219375_06650
 754763	754509	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8055,6 +8165,7 @@
 			note	predicted cleavage at residue 23
 			product	putative signal peptide
 755384	754929	CDS
+			db_xref	COG:COG0480
 			gene	fusA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P80868
@@ -8062,6 +8173,7 @@
 			product	Elongation factor G
 			protein_id	gnl|BGI|GCF_000219375_06660
 756614	755496	CDS
+			db_xref	COG:COG0480
 			gene	fusA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P80868
@@ -8069,6 +8181,7 @@
 			product	Elongation factor G
 			protein_id	gnl|BGI|GCF_000219375_06665
 757022	756867	CDS
+			db_xref	COG:COG0480
 			gene	fusA_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P80868
@@ -8076,6 +8189,7 @@
 			product	Elongation factor G
 			protein_id	gnl|BGI|GCF_000219375_06670
 757177	757055	CDS
+			db_xref	COG:COG0049
 			gene	rpsG_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P48940
@@ -8090,6 +8204,7 @@
 			product	30S ribosomal protein S7
 			protein_id	gnl|BGI|GCF_000219375_06680
 757966	757553	CDS
+			db_xref	COG:COG0048
 			gene	rpsL
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P21472
@@ -8103,13 +8218,14 @@
 			protein_id	gnl|BGI|GCF_000219375_06690
 758884	759504	CDS
 			EC_number	5.2.1.8
-			gene	tig_3
+			gene	tig_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	protein motif:HAMAP:MF_00303
 			locus_tag	GCF_000219375_06695
 			product	Trigger factor
 			protein_id	gnl|BGI|GCF_000219375_06695
 759542	759928	CDS
+			db_xref	COG:COG0488
 			gene	ybiT_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A9U3
@@ -8117,6 +8233,7 @@
 			product	putative ABC transporter ATP-binding protein YbiT
 			protein_id	gnl|BGI|GCF_000219375_06700
 759998	760120	CDS
+			db_xref	COG:COG0488
 			gene	ybiT_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A9U3
@@ -8124,6 +8241,7 @@
 			product	putative ABC transporter ATP-binding protein YbiT
 			protein_id	gnl|BGI|GCF_000219375_06705
 760292	760468	CDS
+			db_xref	COG:COG0488
 			gene	ybiT_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A9U3
@@ -8131,6 +8249,7 @@
 			product	putative ABC transporter ATP-binding protein YbiT
 			protein_id	gnl|BGI|GCF_000219375_06710
 760499	760756	CDS
+			db_xref	COG:COG0488
 			gene	ybiT_4
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A9U3
@@ -8138,6 +8257,7 @@
 			product	putative ABC transporter ATP-binding protein YbiT
 			protein_id	gnl|BGI|GCF_000219375_06715
 760817	761155	CDS
+			db_xref	COG:COG0488
 			gene	ybiT_5
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A9U3
@@ -8202,12 +8322,14 @@
 			locus_tag	GCF_000219375_06775
 			product	tRNA-Lys(ttt)
 767159	766164	CDS
+			db_xref	COG:COG1132
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9WYC4
 			locus_tag	GCF_000219375_06780
 			product	putative ABC transporter ATP-binding protein
 			protein_id	gnl|BGI|GCF_000219375_06780
 767759	767184	CDS
+			db_xref	COG:COG1132
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9WYC4
 			locus_tag	GCF_000219375_06785
@@ -8219,6 +8341,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06790
 768405	768007	CDS
+			db_xref	COG:COG1132
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P9WQJ1
 			locus_tag	GCF_000219375_06795
@@ -8226,6 +8349,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06795
 768855	768436	CDS
 			EC_number	3.6.3.44
+			db_xref	COG:COG1132
 			gene	mdlB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0AAG5
@@ -8239,9 +8363,8 @@
 			protein_id	gnl|BGI|GCF_000219375_06805
 769266	769054	CDS
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9WYC4
 			locus_tag	GCF_000219375_06810
-			product	putative ABC transporter ATP-binding protein
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_06810
 769524	769357	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8265,6 +8388,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06830
 772727	772014	CDS
 			EC_number	3.4.11.-
+			db_xref	COG:COG1363
 			gene	ysdC_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P94521
@@ -8273,6 +8397,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06835
 773102	772818	CDS
 			EC_number	3.4.11.7
+			db_xref	COG:COG1363
 			gene	pepA_5
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q48677
@@ -8286,8 +8411,9 @@
 			protein_id	gnl|BGI|GCF_000219375_06845
 773358	774428	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_06850
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_06850
 774765	774914	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8353,12 +8479,13 @@
 			EC_number	2.7.7.6
 			gene	rpoC_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P37871
+			inference	protein motif:HAMAP:MF_01322
 			locus_tag	GCF_000219375_06915
 			product	DNA-directed RNA polymerase subunit beta'
 			protein_id	gnl|BGI|GCF_000219375_06915
 784293	783529	CDS
 			EC_number	2.7.7.6
+			db_xref	COG:COG0086
 			gene	rpoC_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37871
@@ -8367,6 +8494,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06920
 784563	784366	CDS
 			EC_number	2.7.7.6
+			db_xref	COG:COG0085
 			gene	rpoBC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O25806
@@ -8377,7 +8505,7 @@
 			EC_number	2.7.7.6
 			gene	rpoC_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P37871
+			inference	protein motif:HAMAP:MF_01322
 			locus_tag	GCF_000219375_06930
 			product	DNA-directed RNA polymerase subunit beta'
 			protein_id	gnl|BGI|GCF_000219375_06930
@@ -8385,12 +8513,13 @@
 			EC_number	2.7.7.6
 			gene	rpoC_4
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P37871
+			inference	protein motif:HAMAP:MF_01322
 			locus_tag	GCF_000219375_06935
 			product	DNA-directed RNA polymerase subunit beta'
 			protein_id	gnl|BGI|GCF_000219375_06935
 787330	787076	CDS
 			EC_number	2.7.7.6
+			db_xref	COG:COG0085
 			gene	rpoB_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37870
@@ -8407,6 +8536,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06945
 790453	790151	CDS
 			EC_number	2.7.7.6
+			db_xref	COG:COG0085
 			gene	rpoB_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9L0L0
@@ -8428,6 +8558,7 @@
 			note	predicted cleavage at residue 20
 			product	putative signal peptide
 792313	791942	CDS
+			db_xref	COG:COG0222
 			gene	rplL
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0A7K2
@@ -8460,6 +8591,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06980
 794461	794210	CDS
 			EC_number	6.1.1.6
+			db_xref	COG:COG1190
 			gene	lysS_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97RS9
@@ -8468,6 +8600,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06985
 794965	794486	CDS
 			EC_number	6.1.1.6
+			db_xref	COG:COG1190
 			gene	lysS_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97RS9
@@ -8484,6 +8617,7 @@
 			protein_id	gnl|BGI|GCF_000219375_06995
 795532	795206	CDS
 			EC_number	6.1.1.6
+			db_xref	COG:COG1190
 			gene	lysS_5
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97RS9
@@ -8501,16 +8635,20 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07010
 796621	797568	CDS
+			db_xref	COG:COG2183
+			gene	yhgF_1
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P46837
 			locus_tag	GCF_000219375_07015
-			product	hypothetical protein
+			product	Protein YhgF
 			protein_id	gnl|BGI|GCF_000219375_07015
 797653	798771	CDS
-			gene	ypfD
+			db_xref	COG:COG2183
+			gene	yhgF_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P38494
+			inference	similar to AA sequence:UniProtKB:P46837
 			locus_tag	GCF_000219375_07020
-			product	30S ribosomal protein S1 
+			product	Protein YhgF
 			protein_id	gnl|BGI|GCF_000219375_07020
 798927	799910	CDS
 			gene	clpB_1
@@ -8538,8 +8676,9 @@
 			protein_id	gnl|BGI|GCF_000219375_07040
 803429	802416	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_07045
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_07045
 803582	803439	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8558,7 +8697,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07060
 805090	805515	CDS
 			EC_number	2.1.1.72
-			gene	fokIM_1
+			gene	fokIM
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P14871
 			locus_tag	GCF_000219375_07065
@@ -8570,14 +8709,13 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07070
 805824	806651	CDS
-			EC_number	2.1.1.72
-			gene	fokIM_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P14871
+			inference	similar to AA sequence:ISfinder:ISCco4
 			locus_tag	GCF_000219375_07075
-			product	Modification methylase FokI
+			product	IS1595 family transposase ISCco4
 			protein_id	gnl|BGI|GCF_000219375_07075
 806903	807070	CDS
+			db_xref	COG:COG0228
 			gene	rpsP
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P21474
@@ -8593,6 +8731,7 @@
 			product	tRNA (guanine-N(1)-)-methyltransferase
 			protein_id	gnl|BGI|GCF_000219375_07085
 807870	808220	CDS
+			db_xref	COG:COG0335
 			gene	rplS
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O31742
@@ -8606,6 +8745,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07095
 809215	808688	CDS
 			EC_number	2.1.2.9
+			db_xref	COG:COG0223
 			gene	fmt
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q81WH2
@@ -8647,6 +8787,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07130
 813088	812552	CDS
 			EC_number	2.7.3.9
+			db_xref	COG:COG1080
 			gene	ptsI_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P08838
@@ -8655,6 +8796,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07135
 814042	813137	CDS
 			EC_number	2.7.3.9
+			db_xref	COG:COG1080
 			gene	ptsI_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P08838
@@ -8662,6 +8804,7 @@
 			product	Phosphoenolpyruvate-protein phosphotransferase
 			protein_id	gnl|BGI|GCF_000219375_07140
 814087	814920	CDS
+			db_xref	COG:COG1737
 			gene	rpiR
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0ACS7
@@ -8669,15 +8812,13 @@
 			product	HTH-type transcriptional regulator RpiR
 			protein_id	gnl|BGI|GCF_000219375_07145
 815575	815459	CDS
-			EC_number	5.1.3.4
-			gene	araD
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00989
 			locus_tag	GCF_000219375_07150
-			product	L-ribulose-5-phosphate 4-epimerase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07150
 816190	815684	CDS
 			EC_number	5.1.3.4
+			db_xref	COG:COG0235
 			gene	ulaF
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39306
@@ -8686,6 +8827,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07155
 816842	816486	CDS
 			EC_number	5.1.3.22
+			db_xref	COG:COG3623
 			gene	ulaE_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39305
@@ -8696,12 +8838,13 @@
 			EC_number	5.1.3.22
 			gene	ulaE_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P39305
+			inference	protein motif:HAMAP:MF_01951
 			locus_tag	GCF_000219375_07165
 			product	L-ribulose-5-phosphate 3-epimerase UlaE
 			protein_id	gnl|BGI|GCF_000219375_07165
 817218	817057	CDS
 			EC_number	4.1.1.85
+			db_xref	COG:COG0269
 			gene	ulaD_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39304
@@ -8710,6 +8853,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07170
 817704	817345	CDS
 			EC_number	4.1.1.85
+			db_xref	COG:COG0269
 			gene	ulaD_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P39304
@@ -8717,7 +8861,7 @@
 			product	3-keto-L-gulonate-6-phosphate decarboxylase UlaD
 			protein_id	gnl|BGI|GCF_000219375_07175
 818202	817714	CDS
-			EC_number	2.7.1.194
+			db_xref	COG:COG1762
 			gene	ulaC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P69820
@@ -8738,18 +8882,14 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07190
 819277	818801	CDS
-			gene	ulaA_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P39301
 			locus_tag	GCF_000219375_07195
-			product	Ascorbate-specific PTS system EIIC component
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07195
 819616	819374	CDS
-			gene	ulaA_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P39301
 			locus_tag	GCF_000219375_07200
-			product	Ascorbate-specific PTS system EIIC component
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07200
 819862	819695	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8757,23 +8897,23 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07205
 820234	819881	CDS
-			gene	ulaA_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P39301
 			locus_tag	GCF_000219375_07210
-			product	Ascorbate-specific PTS system EIIC component
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07210
 821164	820445	CDS
-			gene	php
+			EC_number	3.1.1.25
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P45548
+			inference	similar to AA sequence:UniProtKB:A5IZ80
 			locus_tag	GCF_000219375_07215
-			product	Phosphotriesterase homology protein
+			product	Phospho-furanose lactonase
 			protein_id	gnl|BGI|GCF_000219375_07215
 821506	821174	CDS
+			EC_number	3.1.1.25
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:A5IZ80
 			locus_tag	GCF_000219375_07220
-			product	hypothetical protein
+			product	Phospho-furanose lactonase
 			protein_id	gnl|BGI|GCF_000219375_07220
 821852	822007	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8781,12 +8921,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07225
 822011	822232	CDS
-			EC_number	3.1.3.74
-			gene	ybhA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P21829
 			locus_tag	GCF_000219375_07230
-			product	Pyridoxal phosphate phosphatase YbhA
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07230
 822353	822499	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8804,20 +8941,14 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07245
 823215	824030	CDS
-			EC_number	2.1.1.37
-			gene	haeIIIM_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P20589
 			locus_tag	GCF_000219375_07250
-			product	Modification methylase HaeIII
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07250
 824151	824465	CDS
-			EC_number	2.1.1.37
-			gene	aplIM
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:D4ZX35
 			locus_tag	GCF_000219375_07255
-			product	Modification methylase AplI
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07255
 824647	824402	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8826,7 +8957,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07260
 824823	824996	CDS
 			EC_number	2.1.1.72
-			gene	dpnA_1
+			gene	dpnA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P09358
 			locus_tag	GCF_000219375_07265
@@ -8876,12 +9007,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07300
 829886	830731	CDS
-			EC_number	2.7.7.-
-			gene	fic
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q8E9K5
 			locus_tag	GCF_000219375_07305
-			product	Adenosine monophosphate-protein transferase SoFic
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07305
 830795	831205	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8899,12 +9027,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07320
 832218	832634	CDS
-			EC_number	2.1.1.72
-			gene	dpnA_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P09358
 			locus_tag	GCF_000219375_07325
-			product	Modification methylase DpnIIB
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07325
 832703	832846	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8923,8 +9048,9 @@
 			protein_id	gnl|BGI|GCF_000219375_07340
 833527	833931	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_07345
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_07345
 834178	833978	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -8993,6 +9119,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07405
 840458	840129	CDS
 			EC_number	3.6.3.-
+			db_xref	COG:COG3840
 			gene	thiQ_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P31548
@@ -9030,6 +9157,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07440
 845208	844552	CDS
+			db_xref	COG:COG0217
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O67517
 			locus_tag	GCF_000219375_07445
@@ -9042,6 +9170,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07450
 845966	845490	CDS
 			EC_number	6.3.1.5
+			db_xref	COG:COG0171
 			gene	nadE
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9PPB0
@@ -9080,7 +9209,8 @@
 			protein_id	gnl|BGI|GCF_000219375_07485
 848575	848090	CDS
 			EC_number	2.1.1.189
-			gene	rlmCD_1
+			db_xref	COG:COG2265
+			gene	rlmCD
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O31503
 			locus_tag	GCF_000219375_07490
@@ -9092,12 +9222,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07495
 849412	849041	CDS
-			EC_number	2.1.1.189
-			gene	rlmCD_2
+			EC_number	2.1.1.-
+			db_xref	COG:COG2265
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O31503
+			inference	similar to AA sequence:UniProtKB:Q97R12
 			locus_tag	GCF_000219375_07500
-			product	23S rRNA (uracil-C(5))-methyltransferase RlmCD
+			product	putative RNA methyltransferase
 			protein_id	gnl|BGI|GCF_000219375_07500
 849640	849455	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9133,6 +9263,7 @@
 			product	Dephospho-CoA kinase
 			protein_id	gnl|BGI|GCF_000219375_07530
 852375	851995	CDS
+			db_xref	COG:COG1739
 			gene	yigZ
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P27862
@@ -9200,6 +9331,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07595
 859396	858773	CDS
 			EC_number	3.1.26.4
+			db_xref	COG:COG0164
 			gene	rnhB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O31744
@@ -9213,6 +9345,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07605
 861444	860527	CDS
 			EC_number	5.4.99.23
+			db_xref	COG:COG0564
 			gene	rluD
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P65836
@@ -9238,7 +9371,7 @@
 			EC_number	2.1.1.33
 			gene	trmB
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O34522
+			inference	protein motif:HAMAP:MF_01057
 			locus_tag	GCF_000219375_07630
 			product	tRNA (guanine-N(7)-)-methyltransferase
 			protein_id	gnl|BGI|GCF_000219375_07630
@@ -9264,6 +9397,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07650
 866318	864645	CDS
 			EC_number	3.1.-.-
+			db_xref	COG:COG0595
 			gene	rnjB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:O31760
@@ -9271,27 +9405,23 @@
 			product	Ribonuclease J2
 			protein_id	gnl|BGI|GCF_000219375_07655
 867232	866504	CDS
-			gene	smc_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01894
 			locus_tag	GCF_000219375_07660
-			product	Chromosome partition protein Smc
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07660
 867232	867149	sig_peptide
 			inference	ab initio prediction:SignalP:4.1
 			note	predicted cleavage at residue 28
 			product	putative signal peptide
 867535	867368	CDS
-			EC_number	2.1.1.198
-			gene	rsmI_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_01877
 			locus_tag	GCF_000219375_07665
-			product	Ribosomal RNA small subunit methyltransferase I
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07665
 867883	867569	CDS
 			EC_number	2.1.1.198
-			gene	rsmI_2
+			db_xref	COG:COG0313
+			gene	rsmI
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P67087
 			locus_tag	GCF_000219375_07670
@@ -9303,12 +9433,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07675
 868988	868485	CDS
-			EC_number	2.7.7.7
-			gene	dnaX_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P9WNT9
 			locus_tag	GCF_000219375_07680
-			product	DNA polymerase III subunit gamma/tau
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07680
 869635	869003	CDS
 			EC_number	2.7.4.9
@@ -9319,6 +9446,7 @@
 			product	Thymidylate kinase
 			protein_id	gnl|BGI|GCF_000219375_07685
 870001	869651	CDS
+			db_xref	COG:COG0353
 			gene	recR_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0CB76
@@ -9333,18 +9461,19 @@
 			product	Recombination protein RecR
 			protein_id	gnl|BGI|GCF_000219375_07695
 870531	870241	CDS
+			db_xref	COG:COG0718
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:A3DHB8
 			locus_tag	GCF_000219375_07700
 			product	Nucleoid-associated protein
 			protein_id	gnl|BGI|GCF_000219375_07700
 872398	870548	CDS
-			EC_number	2.7.7.7
-			gene	dnaX_2
+			EC_number	3.6.4.12
+			gene	ruvB_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P06710
+			inference	protein motif:HAMAP:MF_00016
 			locus_tag	GCF_000219375_07705
-			product	DNA polymerase III subunit tau
+			product	Holliday junction ATP-dependent DNA helicase RuvB
 			protein_id	gnl|BGI|GCF_000219375_07705
 872647	873033	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9360,7 +9489,7 @@
 			EC_number	5.4.2.12
 			gene	gpmI
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9X519
+			inference	similar to AA sequence:UniProtKB:P75167
 			locus_tag	GCF_000219375_07720
 			product	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
 			protein_id	gnl|BGI|GCF_000219375_07720
@@ -9373,12 +9502,9 @@
 			product	HMP-PP phosphatase
 			protein_id	gnl|BGI|GCF_000219375_07725
 875571	875840	CDS
-			EC_number	3.1.3.23
-			gene	yidA_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P0A8Y5
 			locus_tag	GCF_000219375_07730
-			product	Sugar phosphatase YidA
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07730
 876383	876697	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9421,6 +9547,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07770
 880421	879909	CDS
 			EC_number	2.4.2.7
+			db_xref	COG:COG0503
 			gene	apt
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P63544
@@ -9440,11 +9567,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07785
 883584	882520	CDS
-			gene	nusA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P32727
 			locus_tag	GCF_000219375_07790
-			product	Transcription termination/antitermination protein NusA
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07790
 883986	883612	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9468,6 +9593,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07805
 885320	885087	CDS
 			EC_number	2.7.1.21
+			db_xref	COG:COG1435
 			gene	tdk_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97F65
@@ -9483,12 +9609,12 @@
 			product	cytosol aminopeptidase
 			protein_id	gnl|BGI|GCF_000219375_07815
 886766	885672	CDS
-			EC_number	3.4.11.1
+			EC_number	3.4.11.10
 			gene	pepA_7
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O86436
+			inference	protein motif:HAMAP:MF_00181
 			locus_tag	GCF_000219375_07820
-			product	Cytosol aminopeptidase
+			product	cytosol aminopeptidase
 			protein_id	gnl|BGI|GCF_000219375_07820
 886977	887099	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9501,9 +9627,11 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07830
 887321	888226	CDS
+			db_xref	COG:COG2826
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov1
 			locus_tag	GCF_000219375_07835
-			product	hypothetical protein
+			product	IS30 family transposase ISMbov1
 			protein_id	gnl|BGI|GCF_000219375_07835
 888620	889363	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9528,6 +9656,7 @@
 			product	tRNA-Lys(ctt)
 891368	891775	CDS
 			EC_number	3.1.-.-
+			db_xref	COG:COG0595
 			gene	rnj1_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2FZG9
@@ -9536,6 +9665,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07860
 891839	892936	CDS
 			EC_number	3.1.-.-
+			db_xref	COG:COG0595
 			gene	rnj1_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q2FZG9
@@ -9588,16 +9718,13 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07910
 897872	897729	CDS
-			EC_number	6.3.5.-
-			gene	gatB_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00121
 			locus_tag	GCF_000219375_07915
-			product	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07915
 898139	897903	CDS
 			EC_number	6.3.5.-
-			gene	gatB_2
+			gene	gatB_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	protein motif:HAMAP:MF_00121
 			locus_tag	GCF_000219375_07920
@@ -9605,7 +9732,8 @@
 			protein_id	gnl|BGI|GCF_000219375_07920
 899150	898266	CDS
 			EC_number	6.3.5.-
-			gene	gatB_3
+			db_xref	COG:COG0064
+			gene	gatB_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q97SE7
 			locus_tag	GCF_000219375_07925
@@ -9613,6 +9741,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07925
 899553	899257	CDS
 			EC_number	6.3.5.7
+			db_xref	COG:COG0154
 			gene	gatA_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9X0Z9
@@ -9621,6 +9750,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07930
 900456	899563	CDS
 			EC_number	6.3.5.7
+			db_xref	COG:COG0154
 			gene	gatA_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q9LCX3
@@ -9638,14 +9768,12 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07945
 901621	901214	CDS
-			EC_number	5.4.99.24
-			gene	rluC
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P0AA39
 			locus_tag	GCF_000219375_07950
-			product	Ribosomal large subunit pseudouridine synthase C
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07950
 902211	901633	CDS
+			db_xref	COG:COG1386
 			gene	scpB
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P35155
@@ -9653,6 +9781,7 @@
 			product	Segregation and condensation protein B
 			protein_id	gnl|BGI|GCF_000219375_07955
 902962	902201	CDS
+			db_xref	COG:COG1354
 			gene	scpA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P35154
@@ -9661,6 +9790,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07960
 903524	902955	CDS
 			EC_number	2.3.1.51
+			db_xref	COG:COG0204
 			gene	plsC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P26647
@@ -9673,6 +9803,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07970
 904414	904193	CDS
+			db_xref	COG:COG1160
 			gene	der_1
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P50743
@@ -9680,6 +9811,7 @@
 			product	GTPase Der
 			protein_id	gnl|BGI|GCF_000219375_07975
 904762	904550	CDS
+			db_xref	COG:COG1160
 			gene	der_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P50743
@@ -9687,14 +9819,12 @@
 			product	GTPase Der
 			protein_id	gnl|BGI|GCF_000219375_07980
 905236	905111	CDS
-			gene	der_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00195
 			locus_tag	GCF_000219375_07985
-			product	GTPase Der
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_07985
 905503	905360	CDS
-			gene	der_4
+			gene	der_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P64060
 			locus_tag	GCF_000219375_07990
@@ -9702,6 +9832,7 @@
 			protein_id	gnl|BGI|GCF_000219375_07990
 906171	905506	CDS
 			EC_number	2.7.4.25
+			db_xref	COG:COG0283
 			gene	cmk
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P38493
@@ -9714,6 +9845,7 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08000
 908124	907147	CDS
+			db_xref	COG:COG0484
 			gene	dnaJ
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P30725
@@ -9727,7 +9859,7 @@
 908363	908608	CDS
 			gene	rbfA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P45141
+			inference	protein motif:HAMAP:MF_00003
 			locus_tag	GCF_000219375_08015
 			product	Ribosome-binding factor A
 			protein_id	gnl|BGI|GCF_000219375_08015
@@ -9736,12 +9868,9 @@
 			locus_tag	GCF_000219375_08020
 			product	tRNA-Thr(cgt)
 909171	908878	CDS
-			EC_number	6.1.1.1
-			gene	tyrS_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_02006
 			locus_tag	GCF_000219375_08025
-			product	Tyrosine--tRNA ligase
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08025
 909528	909415	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9750,33 +9879,26 @@
 			protein_id	gnl|BGI|GCF_000219375_08030
 910113	909553	CDS
 			EC_number	6.1.1.1
-			gene	tyrS_2
+			gene	tyrS
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P00952
 			locus_tag	GCF_000219375_08035
 			product	Tyrosine--tRNA ligase
 			protein_id	gnl|BGI|GCF_000219375_08035
 910312	910124	CDS
-			EC_number	6.1.1.20
-			gene	pheT_5
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00283
 			locus_tag	GCF_000219375_08040
-			product	Phenylalanine--tRNA ligase beta subunit
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08040
 910726	910316	CDS
-			EC_number	6.1.1.20
-			gene	pheT_6
 			inference	ab initio prediction:Prodigal:2.6
-			inference	protein motif:HAMAP:MF_00283
 			locus_tag	GCF_000219375_08045
-			product	Phenylalanine--tRNA ligase beta subunit
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08045
 910788	911153	CDS
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P67371
 			locus_tag	GCF_000219375_08050
-			product	DegV domain-containing protein
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08050
 911370	911540	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9793,6 +9915,7 @@
 			locus_tag	GCF_000219375_08065
 			product	tRNA-SeC(tca)
 912084	911851	CDS
+			db_xref	COG:COG0236
 			gene	acpM
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:A0R0B3
@@ -9801,13 +9924,14 @@
 			protein_id	gnl|BGI|GCF_000219375_08070
 912846	912304	CDS
 			EC_number	2.1.1.297
-			gene	prmC_2
+			gene	prmC
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:B0B9D1
 			locus_tag	GCF_000219375_08075
 			product	Release factor glutamine methyltransferase
 			protein_id	gnl|BGI|GCF_000219375_08075
 913910	912846	CDS
+			db_xref	COG:COG0216
 			gene	prfA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q8DU64
@@ -9816,6 +9940,7 @@
 			protein_id	gnl|BGI|GCF_000219375_08080
 914191	914048	CDS
 			EC_number	2.7.7.-
+			db_xref	COG:COG2184
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q7DDR9
 			locus_tag	GCF_000219375_08085
@@ -9823,6 +9948,7 @@
 			protein_id	gnl|BGI|GCF_000219375_08085
 914452	914225	CDS
 			EC_number	2.7.7.-
+			db_xref	COG:COG2184
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q7DDR9
 			locus_tag	GCF_000219375_08090
@@ -9875,27 +10001,24 @@
 			protein_id	gnl|BGI|GCF_000219375_08135
 919221	919379	CDS
 			EC_number	5.99.1.3
-			gene	parE_5
+			gene	gyrB_1
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:H7C794
+			inference	protein motif:HAMAP:MF_01898
 			locus_tag	GCF_000219375_08140
-			product	DNA topoisomerase 4 subunit B
+			product	DNA gyrase subunit B
 			protein_id	gnl|BGI|GCF_000219375_08140
 919410	921026	CDS
 			EC_number	5.99.1.3
-			gene	gyrB_1
+			gene	gyrB_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P22447
 			locus_tag	GCF_000219375_08145
 			product	DNA gyrase subunit B
 			protein_id	gnl|BGI|GCF_000219375_08145
 921099	921188	CDS
-			EC_number	5.99.1.3
-			gene	gyrB_2
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P22447
 			locus_tag	GCF_000219375_08150
-			product	DNA gyrase subunit B
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08150
 921311	921400	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9904,14 +10027,13 @@
 			protein_id	gnl|BGI|GCF_000219375_08155
 921416	921535	CDS
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P00275
 			locus_tag	GCF_000219375_08160
-			product	Thioredoxin C-1
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08160
 921867	922124	CDS
 			gene	smpB
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:O66640
+			inference	protein motif:HAMAP:MF_00023
 			locus_tag	GCF_000219375_08165
 			product	SsrA-binding protein
 			protein_id	gnl|BGI|GCF_000219375_08165
@@ -9922,8 +10044,9 @@
 			protein_id	gnl|BGI|GCF_000219375_08170
 923240	922272	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_08175
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_08175
 923479	923607	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9937,18 +10060,21 @@
 			protein_id	gnl|BGI|GCF_000219375_08185
 924091	924279	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov3
 			locus_tag	GCF_000219375_08190
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov3
 			protein_id	gnl|BGI|GCF_000219375_08190
 924301	924726	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMbov3
 			locus_tag	GCF_000219375_08195
-			product	hypothetical protein
+			product	IS1634 family transposase ISMbov3
 			protein_id	gnl|BGI|GCF_000219375_08195
 924838	925068	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:IS1634
 			locus_tag	GCF_000219375_08200
-			product	hypothetical protein
+			product	IS1634 family transposase IS1634
 			protein_id	gnl|BGI|GCF_000219375_08200
 925289	925128	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -9975,11 +10101,9 @@
 			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08220
 927783	927442	CDS
-			gene	ccpA
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P99175
 			locus_tag	GCF_000219375_08225
-			product	Catabolite control protein A
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08225
 927979	928089	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -10002,8 +10126,9 @@
 			protein_id	gnl|BGI|GCF_000219375_08245
 928706	929776	CDS
 			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:ISfinder:ISMmy2
 			locus_tag	GCF_000219375_08250
-			product	hypothetical protein
+			product	IS3 family transposase ISMmy2
 			protein_id	gnl|BGI|GCF_000219375_08250
 930112	929915	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -10017,6 +10142,7 @@
 			protein_id	gnl|BGI|GCF_000219375_08260
 931708	930404	CDS
 			EC_number	3.6.3.2
+			db_xref	COG:COG0474
 			gene	mgtA
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P0ABB8
@@ -10024,20 +10150,17 @@
 			product	Magnesium-transporting ATPase, P-type 1
 			protein_id	gnl|BGI|GCF_000219375_08265
 932623	931721	CDS
-			EC_number	3.6.3.2
-			gene	mgtB
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P22036
 			locus_tag	GCF_000219375_08270
-			product	Magnesium-transporting ATPase, P-type 1
+			product	hypothetical protein
 			protein_id	gnl|BGI|GCF_000219375_08270
 933832	932744	CDS
-			EC_number	3.6.3.-
-			gene	macB
+			EC_number	3.6.3.33
+			gene	btuD_4
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:P75831
+			inference	protein motif:HAMAP:MF_01005
 			locus_tag	GCF_000219375_08275
-			product	Macrolide export ATP-binding/permease protein MacB
+			product	Vitamin B12 import ATP-binding protein BtuD
 			protein_id	gnl|BGI|GCF_000219375_08275
 934504	933953	CDS
 			inference	ab initio prediction:Prodigal:2.6
@@ -10107,6 +10230,7 @@
 			protein_id	gnl|BGI|GCF_000219375_08340
 942504	942142	CDS
 			EC_number	3.4.24.-
+			db_xref	COG:COG0465
 			gene	ftsH_2
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37476
@@ -10115,6 +10239,7 @@
 			protein_id	gnl|BGI|GCF_000219375_08345
 943638	942508	CDS
 			EC_number	3.4.24.-
+			db_xref	COG:COG0465
 			gene	ftsH_3
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37476
@@ -10128,6 +10253,7 @@
 			protein_id	gnl|BGI|GCF_000219375_08355
 945102	944458	CDS
 			EC_number	6.3.4.19
+			db_xref	COG:COG0037
 			gene	tilS
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:P37563
@@ -10136,6 +10262,7 @@
 			protein_id	gnl|BGI|GCF_000219375_08360
 945668	945102	CDS
 			EC_number	3.1.1.29
+			db_xref	COG:COG0193
 			gene	pth
 			inference	ab initio prediction:Prodigal:2.6
 			inference	similar to AA sequence:UniProtKB:Q6YP15
@@ -10146,7 +10273,7 @@
 			EC_number	3.6.4.12
 			gene	recD2_3
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9RT63
+			inference	protein motif:HAMAP:MF_01488
 			locus_tag	GCF_000219375_08370
 			product	ATP-dependent RecD-like DNA helicase
 			protein_id	gnl|BGI|GCF_000219375_08370
@@ -10154,7 +10281,7 @@
 			EC_number	3.6.4.12
 			gene	recD2_4
 			inference	ab initio prediction:Prodigal:2.6
-			inference	similar to AA sequence:UniProtKB:Q9RT63
+			inference	protein motif:HAMAP:MF_01488
 			locus_tag	GCF_000219375_08375
 			product	ATP-dependent RecD-like DNA helicase
 			protein_id	gnl|BGI|GCF_000219375_08375

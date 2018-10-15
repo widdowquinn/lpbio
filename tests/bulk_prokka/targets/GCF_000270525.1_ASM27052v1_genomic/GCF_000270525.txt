@@ -4,5 +4,5 @@ bases: 991702
 tRNA: 34
 CDS: 1690
 sig_peptide: 65
-tmRNA: 1
 rRNA: 6
+tmRNA: 1

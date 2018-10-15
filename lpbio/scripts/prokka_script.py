@@ -152,7 +152,7 @@ def build_prokka_cmd(fname, args, config=None, logger=None):
     if config is not None:
         if stem not in config:
             logger.warning(
-                "Attempted to process filestem %s, but not found in config file (skipping)",
+                "Tried to process filestem %s, but not found in config file (skipping)",
                 stem,
             )
         else:

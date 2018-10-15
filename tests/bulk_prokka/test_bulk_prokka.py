@@ -97,7 +97,6 @@ CONFDATA = {
         "strain": "PG45",
         "plasmid": "",
         "gcode": "11",
-        "gram": "neg",
     },
     "GCF_000219375.1_ASM21937v1_genomic": {
         "prefix": "GCF_000219375",
@@ -111,7 +110,6 @@ CONFDATA = {
         "strain": "Hubei-1",
         "plasmid": "",
         "gcode": "11",
-        "gram": "neg",
     },
     "GCF_000270525.1_ASM27052v1_genomic": {
         "prefix": "GCF_000270525",
@@ -125,7 +123,6 @@ CONFDATA = {
         "strain": "HB0801",
         "plasmid": "",
         "gcode": "11",
-        "gram": "neg",
     },
 }
 PROKKA_CMD = " ".join(
@@ -144,7 +141,6 @@ PROKKA_CMD = " ".join(
         "--species bovis",
         "--strain PG45",
         "--gcode 11",
-        "--gram neg",
         "tests/bulk_prokka/input/GCF_000183385.1_ASM18338v1_genomic.fna",
     ]
 )
