@@ -6,6 +6,8 @@ jobs/
 stdout/
 stderr/
 output/
+*~
+*#
 
 # Test output
 tests/bulk_prokka/output
