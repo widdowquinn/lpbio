@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """Job class for SGE-like scheduler interactions"""
 
-import os
 import shlex
 import subprocess
 import time
