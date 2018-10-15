@@ -33,7 +33,7 @@ def setup():
 
 def test_swarm_wrapper_creation():
     """swarm executable is in $PATH"""
-    cluster = swarm.Swarm("swarm")
+    swarm.Swarm("swarm")
 
 
 def test_swarm_parameters():
@@ -60,7 +60,7 @@ def test_swarm_wrapper_cmd():
 def test_swarm_wrapper_exec_notexist():
     """error thrown when swarm executable does not exist"""
     with pytest.raises(LPBioNotExecutableError) as e_info:
-        cluster = swarm.Swarm(os.path.join(".", "swarm"))
+        swarm.Swarm(os.path.join(".", "swarm"))
 
 
 def test_swarm_wrapper_run():
@@ -68,7 +68,7 @@ def test_swarm_wrapper_run():
     cluster = swarm.Swarm("swarm")
 
     parameters = swarm.SwarmParameters(t=1, d=1)
-    result = cluster.run(INFILE, OUTDIR, parameters)
+    cluster.run(INFILE, OUTDIR, parameters)
 
 
 def test_swarm_output_parse():
