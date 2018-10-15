@@ -14,11 +14,25 @@ matrix:
 
 # command to install dependencies
 install:
-  - "pip install -r requirements.txt"
-  - "pip install codecov"
-
-# we need the delta filter command, so must install in-place
-  - "pip install -e ."
+  - sudo apt-get update
+  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
+      wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
+    else
+      wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+    fi
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  - conda config --add channels defaults
+  - conda config --add channels bioconda
+  - conda config --add channels conda-forge
+  - conda info -a
+  - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION swarm prokka
+  - source activate test-environment
+  - pip install codecov
+  - pip install -e .
 
 # command to run tests
 # Use --nocapture with nosetests to get extra verbose output for debugging on Travis
