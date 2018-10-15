@@ -24,12 +24,13 @@ install:
   - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION swarm prokka
   - source activate test-environment
   - pip install codecov
+  - pip install pytest pytest-cov
   - pip install -e .
 
 # command to run tests
 # Use --nocapture with nosetests to get extra verbose output for debugging on Travis
 script:
-  - nosetests -v --with-coverage --cover-package=lpbio
+  - pytest --cov=./
 
 before_install:
   - cd $HOME
