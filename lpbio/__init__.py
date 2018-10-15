@@ -11,6 +11,7 @@ name = "lpbio"
 
 import os
 import shlex
+import shutil
 
 from subprocess import check_output, CalledProcessError
 
@@ -32,7 +33,7 @@ def is_exe(filename):
         return True
     else:
         try:
-            exefile = check_output(["which", filename]).strip()
+            exefile = shutil.which(filename)
         except CalledProcessError:
             raise LPBioNotExecutableError("{0} does not exist".format(filename))
     return os.path.isfile(exefile) and os.access(exefile, os.X_OK)
