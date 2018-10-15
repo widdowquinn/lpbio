@@ -51,7 +51,5 @@ class Job:
         while self.finished:
             time.sleep(interval)
             interval = min(2 * interval, 60)
-            args = ["qstat", "-j", "self.name", ">", os.path.join(os.sep, "dev", "null")]
+            args = ["qstat", "-j", "self.name"]
             self.finished = subprocess.Popen(args, stdout=subprocess.PIPE)
-            #self.finished = os.system("qstat -j %s > /dev/null" % (self.name))
-            #print(self.finished)

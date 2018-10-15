@@ -3,6 +3,7 @@
 
 import os
 import shlex
+import subprocess
 import time
 
 # Base unit of time (s) to wait between polling SGE
@@ -101,7 +102,10 @@ class JobGroup:
 
     def wait(self, interval=SGE_WAIT):
         """Wait for a defined period, then poll SGE for job status."""
-        while not self.finished:
+        self.finished = True  # is empty string when job completes
+        while self.finished:
             time.sleep(interval)
             interval = min(2 * interval, 60)
-            self.finished = os.system("qstat -j %s > /dev/null" % (self.name))
+            args = ["qstat", "-j", "self.name"]
+            self.finished = subprocess.Popen(args, stdout=subprocess.PIPE)
+
