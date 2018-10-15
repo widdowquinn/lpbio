@@ -34,7 +34,7 @@ def build_cmd(infname, outfname, parameters):
         if v is not None
     ]
     cmd = ["swarm", *params, "-o", shlex.quote(outfname), shlex.quote(infname)]
-    return " ".join(cmd)
+    return cmd
 
 
 class Swarm(object):
@@ -64,10 +64,10 @@ class Swarm(object):
             return self._cmd
         pipe = subprocess.run(
             self._cmd,
-            shell=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             check=True,
+            shell=False,
         )
         results = SwarmRun(self._cmd, self._outfname, pipe.stdout, pipe.stderr)
         return results

@@ -46,13 +46,13 @@ def test_swarm_cmd():
     """swarm module returns correct form of cmd-line"""
     parameters = swarm.SwarmParameters(t=1, d=1)
     cmd = swarm.build_cmd(INFILE, OUTFILE, parameters)
-    assert cmd == "swarm -t 1 -d 1 -o {} {}".format(OUTFILE, INFILE)
+    assert cmd == ["swarm", "-t 1", "-d 1", "-o", OUTFILE, INFILE]
 
 
 def test_swarm_wrapper_cmd():
     """swarm wrapper returns correct form of cmd-line"""
     cluster = swarm.Swarm("swarm")
-    target = " ".join(["swarm -t 1 -d 1", "-o {0}".format(OUTFILE), INFILE])
+    target = ["swarm", "-t 1", "-d 1", "-o", OUTFILE, INFILE]
     parameters = swarm.SwarmParameters(t=1, d=1)
     assert cluster.run(INFILE, OUTDIR, parameters, dry_run=True) == target
 
