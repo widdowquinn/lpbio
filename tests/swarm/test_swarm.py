@@ -10,18 +10,6 @@ import pytest
 
 from lpbio import swarm, LPBioNotExecutableError
 
-# Input/output paths
-TESTDIR = os.path.join("tests", "swarm")
-INDIR = os.path.join(TESTDIR, "input")
-INFILE = os.path.join(INDIR, "swarm_coded_with_abundance.fasta")
-OUTDIR = os.path.join(TESTDIR, "outputs")
-os.makedirs(OUTDIR, exist_ok=True)
-OUTFILE = os.path.join(OUTDIR, "swarm.out")
-
-# Target paths
-TARGETDIR = os.path.join(TESTDIR, "targets")
-TARGETFILE = os.path.join(TARGETDIR, "swarm.out")
-
 
 class TestSwarm(unittest.TestCase):
 
@@ -29,11 +17,23 @@ class TestSwarm(unittest.TestCase):
 
     def setUp(self):
         """Set up test fixtures"""
+        # Input/output paths
+        self.testdir = os.path.join("tests", "swarm")
+        self.indir = os.path.join(self.testdir, "input")
+        self.infile = os.path.join(self.indir, "swarm_coded_with_abundance.fasta")
+        self.outdir = os.path.join(self.testdir, "outputs")
+        self.outfile = os.path.join(self.outdir, "swarm.out")
+
+        # Target paths
+        self.targetdir = os.path.join(self.testdir, "targets")
+        self.targetfile = os.path.join(self.targetdir, "swarm.out")
+
+        # remove and recreate the output directory
         try:
-            shutil.rmtree(OUTDIR)
+            shutil.rmtree(self.outdir)
         except FileNotFoundError:
             pass
-        os.makedirs(OUTDIR, exist_ok=True)
+        os.makedirs(self.outdir, exist_ok=True)
 
     def test_swarm_wrapper_creation(self):
         """swarm executable is in $PATH"""
@@ -47,15 +47,19 @@ class TestSwarm(unittest.TestCase):
     def test_swarm_cmd(self):
         """swarm module returns correct form of cmd-line"""
         parameters = swarm.SwarmParameters(t=1, d=1)
-        cmd = swarm.build_cmd(INFILE, OUTFILE, parameters)
-        self.assertEqual(cmd, ["swarm", "-t 1", "-d 1", "-o", OUTFILE, INFILE])
+        cmd = swarm.build_cmd(self.infile, self.outfile, parameters)
+        self.assertEqual(
+            cmd, ["swarm", "-t 1", "-d 1", "-o", self.outfile, self.infile]
+        )
 
     def test_swarm_wrapper_cmd(self):
         """swarm wrapper returns correct form of cmd-line"""
         cluster = swarm.Swarm("swarm")
-        target = ["swarm", "-t 1", "-d 1", "-o", OUTFILE, INFILE]
+        target = ["swarm", "-t 1", "-d 1", "-o", self.outfile, self.infile]
         parameters = swarm.SwarmParameters(t=1, d=1)
-        self.assertEqual(cluster.run(INFILE, OUTDIR, parameters, dry_run=True), target)
+        self.assertEqual(
+            cluster.run(self.infile, self.outdir, parameters, dry_run=True), target
+        )
 
     def test_swarm_wrapper_exec_notexist(self):
         """error thrown when swarm executable does not exist"""
@@ -67,16 +71,16 @@ class TestSwarm(unittest.TestCase):
         cluster = swarm.Swarm("swarm")
 
         parameters = swarm.SwarmParameters(t=1, d=1)
-        cluster.run(INFILE, OUTDIR, parameters)
+        cluster.run(self.infile, self.outdir, parameters)
 
     def test_swarm_output_parse(self):
         """Swarm runs and output parses correctly"""
         cluster = swarm.Swarm("swarm")
 
         parameters = swarm.SwarmParameters(t=1, d=1)
-        result = cluster.run(INFILE, OUTDIR, parameters)
+        result = cluster.run(self.infile, self.outdir, parameters)
 
         parser = swarm.SwarmParser()
-        target = parser.read(TARGETFILE)
+        target = parser.read(self.targetfile)
         swarms = parser.read(result.outfilename)
         self.assertEqual(target, swarms)
