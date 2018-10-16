@@ -30,7 +30,6 @@ def get_prokka_version(prokka_exe):
     output is database-dependent and we're comparing output to determine correct operation
     """
     args = [shlex.quote(prokka_exe), "--version"]
-    print(args)
     pipe = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     return pipe.stderr.strip().split()[-1].decode("utf-8")
 
