@@ -214,6 +214,6 @@ class TestBulkProkka(unittest.TestCase):
     )
     def test_script_run_sge(self):
         """Run script with SGE"""
-        retval = prokka_script.run_prokka(AS_SCRIPT_SGE, NULL_LOGGER)
+        retval = prokka_script.run_prokka(AS_SCRIPT_SGE, NULL_LOGGER, wait=True)
         self.assertEqual(retval, 0)
         self.check_outputs()
