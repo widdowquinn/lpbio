@@ -3,7 +3,9 @@
 
 import logging
 import os
+import shlex
 import shutil
+import subprocess
 import unittest
 
 from argparse import Namespace
@@ -18,15 +20,29 @@ from lpbio.scripts import prokka_script  # noqa: E0401
 NULL_LOGGER = logging.getLogger("test_bulk_prokka.py null logger")
 
 # Globals for namespaces
+PROKKA_EXE = "prokka"
+
+
+def get_prokka_version(prokka_exe):
+    """Returns string describing the PROKKA version number
+
+    PROKKA databases vary between minor versions, so tests may fail where
+    output is database-dependent and we're comparing output to determine correct operation
+    """
+    args = [shlex.quote(prokka_exe), "--version"]
+    print(args)
+    pipe = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    return pipe.stderr.strip().split()[-1].decode("utf-8")
+
+
 TESTDIR = os.path.join("tests", "bulk_prokka")
 INDIR = os.path.join(TESTDIR, "input")
 OUTDIR = os.path.join(TESTDIR, "output")
-TARGETDIR = os.path.join(TESTDIR, "targets")
+TARGETDIR = os.path.join(TESTDIR, "targets", get_prokka_version(PROKKA_EXE))
 FAKE_INDIR = os.path.join(TESTDIR, "nodir")  # Path should not exist
 EXTENSIONS = {".fas", ".fasta", ".fna", ".fa"}
 EXTENSIONS_STR = "fas,fna,fasta,fa"
 CONFIG_FNAME = os.path.join(TESTDIR, "prokka_conf.tab")
-PROKKA_EXE = "prokka"
 MINCONTIGLEN = 200
 COMPLIANT = False
 METAGENOME = False
