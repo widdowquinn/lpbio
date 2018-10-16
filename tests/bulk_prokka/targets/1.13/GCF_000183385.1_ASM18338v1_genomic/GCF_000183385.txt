@@ -1,0 +1,7 @@
+organism: Mycoplasma bovis PG45 
+contigs: 1
+bases: 1003404
+CDS: 1678
+rRNA: 6
+tRNA: 34
+tmRNA: 1

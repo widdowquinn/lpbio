@@ -1,0 +1,7 @@
+organism: Mycoplasma bovis Hubei-1 
+contigs: 1
+bases: 948121
+CDS: 1636
+rRNA: 4
+tRNA: 34
+tmRNA: 1

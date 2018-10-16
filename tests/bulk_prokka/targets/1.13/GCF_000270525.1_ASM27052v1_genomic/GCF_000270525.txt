@@ -1,0 +1,7 @@
+organism: Mycoplasma bovis HB0801 
+contigs: 1
+bases: 991702
+rRNA: 6
+tRNA: 34
+CDS: 1690
+tmRNA: 1
