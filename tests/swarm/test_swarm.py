@@ -35,6 +35,7 @@ class TestSwarm(unittest.TestCase):
             pass
         os.makedirs(self.outdir, exist_ok=True)
 
+    @staticmethod
     def test_swarm_wrapper_creation(self):
         """swarm executable is in $PATH"""
         swarm.Swarm("swarm")
@@ -61,11 +62,13 @@ class TestSwarm(unittest.TestCase):
             cluster.run(self.infile, self.outdir, parameters, dry_run=True), target
         )
 
+    @staticmethod
     def test_swarm_wrapper_exec_notexist(self):
         """error thrown when swarm executable does not exist"""
         with pytest.raises(LPBioNotExecutableError):
             swarm.Swarm(os.path.join(".", "swarm"))
 
+    @staticmethod
     def test_swarm_wrapper_run(self):
         """swarm clusters test data"""
         cluster = swarm.Swarm("swarm")

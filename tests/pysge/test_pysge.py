@@ -14,10 +14,12 @@ class TestPysge(unittest.TestCase):
 
     """Class collecting tests for pysge"""
 
+    @staticmethod
     def test_create_job(self):
         """Create Job for SGE-like scheduler"""
         pysge.Job(name="test_job", command="echo {}".format(time.asctime()))
 
+    @staticmethod
     def test_create_job_dependencies(self):
         """Create Job with dependencies for SGE-like scheduler"""
         job = pysge.Job(
@@ -31,11 +33,13 @@ class TestPysge(unittest.TestCase):
         ]
         [job.add_dependency(depjob) for depjob in depjobs]
 
+    @staticmethod
     def test_create_jobgroup(self):
         """Create parameter-sweep JobGroup for SGE-like scheduler"""
         args = {"arg1": ["a", "b", "c"]}
         pysge.JobGroup(name="test_jobgroup", command="echo", arguments=args)
 
+    @staticmethod
     def test_create_jobgroup_dependencies(self):
         """Create parameter-sweep JobGroup with dependencies for SGE-like scheduler"""
         args = {"arg1": ["a", "b", "c"]}
