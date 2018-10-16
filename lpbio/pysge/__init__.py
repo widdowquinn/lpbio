@@ -182,7 +182,7 @@ def submit_jobs(root_dir, jobs, sgeargs=None):
             waiting.remove(job)
 
 
-def build_and_submit_jobs(jobs, root_dir=os.curdir, sgeargs=None):
+def build_and_submit_jobs(jobs, root_dir=os.curdir, sgeargs=None, wait=False):
     """Submit passed iterable of Job objects to SGE.
 
     SGE's output is placed in root_dir
@@ -191,6 +191,7 @@ def build_and_submit_jobs(jobs, root_dir=os.curdir, sgeargs=None):
     - jobs       List of Job objects, describing each job to be submitted
     - root_dir   Root directory for SGE and job output
     - sgeargs    Additional arguments to qsub
+    - wait       If True, wait for submitted jobs to complete before returning
     """
     # If the passed set of jobs is not a list, turn it into one. This makes the
     # use of a single JobGroup a little more intutitive
@@ -201,3 +202,6 @@ def build_and_submit_jobs(jobs, root_dir=os.curdir, sgeargs=None):
     build_directories(root_dir)  # build all necessary directories
     build_job_scripts(root_dir, jobs)  # build job scripts
     submit_jobs(root_dir, jobs, sgeargs)  # submit the jobs to SGE
+    if wait:
+        for job in jobs:
+            job.wait()

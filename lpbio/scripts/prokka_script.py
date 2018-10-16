@@ -196,13 +196,16 @@ def run_multiprocessing(cmdlist, args, logger):
     return results
 
 
-def run_sge(cmdlist, args, logger):
-    """Run the commands in the list with SGE"""
+def run_sge(cmdlist, args, logger, wait=False):
+    """Run the commands in the list with SGE
+
+    Use wait=True if you want to wait for the SGE run to complete before continuing
+    """
     logger.debug("Converting command-lines to Job objects")
     joblist = []
     for idx, cline in enumerate(cmdlist):
         joblist.append(pysge.Job(name="prokka_job_{}".format(idx), command=cline))
-    pysge.build_and_submit_jobs(joblist)
+    pysge.build_and_submit_jobs(joblist, wait=wait)
 
 
 def run_main(argv=None, logger=None):
@@ -215,8 +218,11 @@ def run_main(argv=None, logger=None):
     return run_prokka(args, logger)
 
 
-def run_prokka(args, logger=None):
-    """Run bulk_prokka script"""
+def run_prokka(args, logger=None, wait=False):
+    """Run bulk_prokka script
+
+    Use wait=True if you want to wait for the output to complete before continuing
+    """
     # Set up logging
     time0 = time.time()
     if logger is None:
@@ -273,7 +279,7 @@ def run_prokka(args, logger=None):
         # To extract more information on each run, use
         # [result.get() for result in results]
     if args.scheduler == "SGE":
-        run_sge(cmdlist, args, logger)
+        run_sge(cmdlist, args, logger, wait)
     logger.info("Submission complete")
 
     # Report on clean exit
