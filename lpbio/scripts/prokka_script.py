@@ -48,7 +48,7 @@ import subprocess
 import sys
 import time
 
-import pysge
+from lpbio import pysge
 
 from .. import __version__
 from .logger import build_logger

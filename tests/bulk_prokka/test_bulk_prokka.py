@@ -10,7 +10,7 @@ from argparse import Namespace
 
 import pytest  # noqa: E0401
 
-import pysge
+from lpbio import pysge
 
 from lpbio.scripts import prokka_script  # noqa: E0401
 

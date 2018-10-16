@@ -7,7 +7,7 @@ import unittest
 
 import pytest
 
-import pysge
+from lpbio import pysge
 
 
 class TestPysge(unittest.TestCase):
