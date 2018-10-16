@@ -4,6 +4,7 @@
 import logging
 import os
 import shutil
+import unittest
 
 from argparse import Namespace
 
@@ -166,54 +167,53 @@ OUTFILES = {
 }
 
 
-def check_outputs():
-    """Test whether the output files are the same, when run."""
-    for key, fnames in OUTFILES.items():
-        tdir = os.path.join(TARGETDIR, key)
-        odir = os.path.join(OUTDIR, key)
-        for fname in fnames:
-            with open(os.path.join(odir, fname), "r") as ofh:
-                with open(os.path.join(tdir, fname), "r") as tfh:
-                    assert ofh.read() == tfh.read()
+class TestBulkProkka(unittest.TestCase):
 
+    """Class collecting tests for bulk_prokka script."""
 
-def test_identify_inputs():
-    """Input directory exists and contains files"""
-    # Correctly reads valid files
-    infiles = prokka_script.identify_inputs(VALID_INDIR, NULL_LOGGER)
-    assert sorted(infiles) == sorted(INFILENAMES)
-    # Correctly returns empty if no input found
-    infiles = prokka_script.identify_inputs(MISSING_INDIR, NULL_LOGGER)
-    assert not infiles
+    def check_outputs(self):
+        """Test whether the output files are the same, when run."""
+        for key, fnames in OUTFILES.items():
+            tdir = os.path.join(TARGETDIR, key)
+            odir = os.path.join(OUTDIR, key)
+            for fname in fnames:
+                with open(os.path.join(odir, fname), "r") as ofh:
+                    with open(os.path.join(tdir, fname), "r") as tfh:
+                        self.assertEqual(ofh.read(), tfh.read())
 
+    def test_identify_inputs(self):
+        """Input directory exists and contains files"""
+        # Correctly reads valid files
+        infiles = prokka_script.identify_inputs(VALID_INDIR, NULL_LOGGER)
+        self.assertEqual(sorted(infiles), sorted(INFILENAMES))
+        # Correctly returns empty if no input found
+        infiles = prokka_script.identify_inputs(MISSING_INDIR, NULL_LOGGER)
+        self.assertFalse(infiles)
 
-def test_config_load():
-    """Loads and parses bulk_prokka config file"""
-    confdata = prokka_script.load_bulk_prokka_config(CONFIG_FNAME, NULL_LOGGER)
-    assert confdata == CONFDATA
+    def test_config_load(self):
+        """Loads and parses bulk_prokka config file"""
+        confdata = prokka_script.load_bulk_prokka_config(CONFIG_FNAME, NULL_LOGGER)
+        self.assertEqual(confdata, CONFDATA)
 
+    def test_build_prokka_cmd(self):
+        """Builds PROKKA command from args and config data"""
+        cmd = prokka_script.build_prokka_cmd(
+            INFILENAMES[0], VALID_INDIR, CONFDATA, NULL_LOGGER
+        )
+        self.assertEqual(cmd, PROKKA_CMD)
 
-def test_build_prokka_cmd():
-    """Builds PROKKA command from args and config data"""
-    cmd = prokka_script.build_prokka_cmd(
-        INFILENAMES[0], VALID_INDIR, CONFDATA, NULL_LOGGER
+    def test_script_run_mp(self):
+        """Runs script with multiprocessing"""
+        retval = prokka_script.run_prokka(AS_SCRIPT_MP, NULL_LOGGER)
+        self.assertEqual(retval, 0)
+        self.check_outputs()
+
+    @pytest.mark.skipif(
+        shutil.which(pysge.QSUB_DEFAULT) is None,
+        reason="qsub executable ({}) could not be found".format(pysge.QSUB_DEFAULT),
     )
-    assert cmd == PROKKA_CMD
-
-
-def test_script_run_mp():
-    """Run script with multiprocessing"""
-    retval = prokka_script.run_prokka(AS_SCRIPT_MP, NULL_LOGGER)
-    assert retval == 0
-    check_outputs()
-
-
-@pytest.mark.skipif(
-    shutil.which(pysge.QSUB_DEFAULT) is None,
-    reason="qsub executable ({}) could not be found".format(pysge.QSUB_DEFAULT),
-)
-def test_script_run_sge():
-    """Run script with SGE"""
-    retval = prokka_script.run_prokka(AS_SCRIPT_SGE, NULL_LOGGER)
-    assert retval == 0
-    check_outputs()
+    def test_script_run_sge(self):
+        """Run script with SGE"""
+        retval = prokka_script.run_prokka(AS_SCRIPT_SGE, NULL_LOGGER)
+        self.assertEqual(retval, 0)
+        self.check_outputs()
