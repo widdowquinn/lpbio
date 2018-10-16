@@ -101,9 +101,7 @@ class JobGroup:
 
     def wait(self, interval=SGE_WAIT):
         """Wait for a defined period, then poll SGE for job status."""
-        self.finished = True  # is empty string when job completes
-        while self.finished:
+        args = ["qstat", "-j", self.name]
+        while len(subprocess.Popen(args, stdout=subprocess.PIPE)):
             time.sleep(interval)
             interval = min(2 * interval, 60)
-            args = ["qstat", "-j", "self.name"]
-            self.finished = subprocess.Popen(args, stdout=subprocess.PIPE)

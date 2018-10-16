@@ -279,6 +279,10 @@ def run_prokka(args, logger=None, wait=False):
         # To extract more information on each run, use
         # [result.get() for result in results]
     if args.scheduler == "SGE":
+        if wait:
+            logger.info(
+                "Wait parameter set to True: waiting for SGE jobs to complete before proceeding"
+            )
         run_sge(cmdlist, args, logger, wait)
     logger.info("Submission complete")
 
