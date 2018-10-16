@@ -161,13 +161,14 @@ class SwarmResult(object):
 class SwarmParser(object):
     """Parser for Swarm cluster output"""
 
-    def __init__(self):
-        pass
-
-    def read(self, fname):
+    @classmethod
+    def read(SwarmParser, fname):
         """Parses the passed Swarm output file into a SwarmResult"""
         result = SwarmResult(fname)
         with open(fname, "r") as swarms:
             for swarm in swarms:
                 result.add_swarm(swarm.strip().split())
         return result
+
+    def __init__(self):
+        pass
