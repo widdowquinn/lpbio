@@ -156,7 +156,7 @@ def build_prokka_cmd(fname, args, config=None, logger=None):
                 stem,
             )
         else:
-            for key in config[stem]:
+            for key in sorted(config[stem]):
                 cmd = add_prokka_arg(cmd, key, config[stem][key], logger)
 
     if args.compliant:  # Force Genbankk/ENA/DDJB compliance
