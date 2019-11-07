@@ -1,0 +1,5 @@
+bandit
+black
+pylint
+pytest
+pytest-cov
