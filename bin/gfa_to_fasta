@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# -*- coding: utf-8 -*-
+#
+# gfa_to_fasta
+#
+# Usage: gfa_to_fasta GFA_FILE FASTA_FILE
+#
+# Converts assembly graph format file GFA_FILE edges to FASTA_FILE,
+# a FASTA format file containing the sequences for those edges
+set -o errexit
+
+IFNAME=$1
+OFNAME=$2
+
+# .gfa stores each edge on a line; extract the header ($2) and sequence ($3)
+# and write to FASTA, using fold to wrap sequences
+awk '/^S/{print ">"$2"\n"$3}' ${IFNAME} | fold > ${OFNAME}
