@@ -1,6 +1,9 @@
 # macOS files
 .DS_Store
 
+# VS Code
+.vscode/
+
 # Test and temp directories for development
 jobs/
 stdout/
@@ -10,8 +13,7 @@ output/
 *#
 
 # Test output
-tests/bulk_prokka/output
-tests/swarm/output
+tests/*/output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

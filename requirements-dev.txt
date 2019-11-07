@@ -1,5 +1,9 @@
+autopep8
 bandit
 black
+flake8
+pycodestyle
+pydocstyle
 pylint
 pytest
 pytest-cov

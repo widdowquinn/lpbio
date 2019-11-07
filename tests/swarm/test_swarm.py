@@ -21,7 +21,7 @@ class TestSwarm(unittest.TestCase):
         self.testdir = os.path.join("tests", "swarm")
         self.indir = os.path.join(self.testdir, "input")
         self.infile = os.path.join(self.indir, "swarm_coded_with_abundance.fasta")
-        self.outdir = os.path.join(self.testdir, "outputs")
+        self.outdir = os.path.join(self.testdir, "output")
         self.outfile = os.path.join(self.outdir, "swarm.out")
 
         # Target paths
